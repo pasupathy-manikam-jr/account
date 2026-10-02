@@ -17,6 +17,8 @@ type Customer = {
     contact_person_email: string;
     contact_person_mobile: string | null;
     tax_number: string | null;
+    id_type: string | null;
+    id_number: string | null;
     payment_terms: string | null;
     billing_address: Partial<Record<keyof Address, string | null>>;
     shipping_address: Partial<Record<keyof Address, string | null>> | null;
@@ -72,6 +74,8 @@ export default function EditCustomer({
                         contact_person_mobile:
                             customer.contact_person_mobile ?? '',
                         tax_number: customer.tax_number ?? '',
+                        id_type: customer.id_type ?? '',
+                        id_number: customer.id_number ?? '',
                         payment_terms: customer.payment_terms ?? '',
                         billing_address: toAddress(customer.billing_address),
                         shipping_address: toAddress(customer.shipping_address),

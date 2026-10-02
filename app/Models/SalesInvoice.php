@@ -3,9 +3,12 @@
 namespace App\Models;
 
 use App\Models\Concerns\HasPricedLines;
+use App\Models\Concerns\IssuesEInvoices;
 use App\Support\Ledger;
 use App\Support\LedgerAccounts;
 use App\Support\Money;
+use EInvoiceSdk\Contracts\EInvoiceable;
+use EInvoiceSdk\Enums\DocumentType;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -42,9 +45,9 @@ use Illuminate\Validation\ValidationException;
  * @property-read string|null $display_status
  */
 #[Fillable(['invoice_date', 'due_date', 'customer_id', 'type', 'warehouse_id', 'subtotal', 'discount_amount', 'tax_amount', 'total_amount', 'payment_terms', 'notes'])]
-class SalesInvoice extends Model
+class SalesInvoice extends Model implements EInvoiceable
 {
-    use HasPricedLines;
+    use HasPricedLines, IssuesEInvoices;
 
     public const NUMBER_COLUMN = 'invoice_number';
 
@@ -60,6 +63,22 @@ class SalesInvoice extends Model
     protected $attributes = ['status' => 'draft', 'paid_amount' => '0.00'];
 
     protected $appends = ['balance_amount', 'display_status'];
+
+    /** Posted invoices (any payment state) can be sent to LHDN. */
+    public function canSubmitEInvoice(): bool
+    {
+        return $this->status !== 'draft';
+    }
+
+    protected function einvoiceType(): DocumentType
+    {
+        return DocumentType::Invoice;
+    }
+
+    protected function einvoiceNumber(): string
+    {
+        return (string) $this->invoice_number;
+    }
 
     /**
      * @return BelongsTo<User, $this>

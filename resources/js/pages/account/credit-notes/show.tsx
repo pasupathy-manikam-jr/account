@@ -7,6 +7,8 @@ import {
     RotateCcw,
     User,
 } from 'lucide-react';
+import { EInvoiceCard } from '@/components/einvoice-card';
+import type { EInvoiceSummary } from '@/components/einvoice-card';
 import { PersonCell } from '@/components/person-cell';
 import {
     DocCard,
@@ -29,8 +31,10 @@ import type { CreditNote } from './types';
 
 export default function CreditNoteShow({
     creditNote: n,
+    einvoice,
 }: {
     creditNote: CreditNote;
+    einvoice: EInvoiceSummary;
 }) {
     const { t } = useTranslation();
     const { money, date } = useFormat();
@@ -99,6 +103,13 @@ export default function CreditNoteShow({
                                 <CreditNoteActions note={n} showView={false} />
                             </div>
                         </DocCard>
+                        <EInvoiceCard
+                            einvoice={einvoice}
+                            type="credit-notes"
+                            documentId={n.id}
+                            ready={n.status !== 'draft'}
+                            permission="approve-credit-notes"
+                        />
                         <DocCard icon={User} title="Customer Info">
                             <PersonCell
                                 name={n.customer.name}

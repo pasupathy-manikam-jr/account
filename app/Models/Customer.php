@@ -18,7 +18,9 @@ use Illuminate\Support\Carbon;
  * @property string $contact_person_name
  * @property string $contact_person_email
  * @property string|null $contact_person_mobile
- * @property string|null $tax_number
+ * @property string|null $tax_number LHDN TIN
+ * @property string|null $id_type BRN, NRIC, PASSPORT or ARMY
+ * @property string|null $id_number
  * @property string|null $payment_terms
  * @property array<string, string|null> $billing_address
  * @property array<string, string|null>|null $shipping_address
@@ -29,7 +31,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $updated_at
  * @property-read User $user
  */
-#[Fillable(['user_id', 'company_name', 'contact_person_name', 'contact_person_email', 'contact_person_mobile', 'tax_number', 'payment_terms', 'billing_address', 'shipping_address', 'same_as_billing', 'notes'])]
+#[Fillable(['user_id', 'company_name', 'contact_person_name', 'contact_person_email', 'contact_person_mobile', 'tax_number', 'id_type', 'id_number', 'payment_terms', 'billing_address', 'shipping_address', 'same_as_billing', 'notes'])]
 class Customer extends Model
 {
     public const ADDRESS_FIELDS = ['name', 'address_line_1', 'address_line_2', 'city', 'state', 'country', 'zip_code'];

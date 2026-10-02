@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { ConfirmDialog } from '@/components/confirm-dialog';
 import { FormDialog } from '@/components/form-dialog';
 import InputError from '@/components/input-error';
+import { SelectField } from '@/components/select-field';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -30,6 +31,8 @@ export type SetupField = {
     key: string;
     label: string;
     type?: 'text' | 'color' | 'decimal';
+    /** Renders a select of [value, label] pairs instead of a text box. */
+    options?: [string, string][];
 };
 
 /**
@@ -209,6 +212,21 @@ export function SetupCrud<T extends Row>({
                                         }
                                     />
                                 </div>
+                            ) : field.options ? (
+                                <SelectField
+                                    id={`setup-${field.key}`}
+                                    value={form.data[field.key]}
+                                    placeholder={t('Select')}
+                                    onChange={(e) =>
+                                        form.setData(field.key, e.target.value)
+                                    }
+                                >
+                                    {field.options.map(([value, label]) => (
+                                        <option key={value} value={value}>
+                                            {label}
+                                        </option>
+                                    ))}
+                                </SelectField>
                             ) : (
                                 <Input
                                     id={`setup-${field.key}`}

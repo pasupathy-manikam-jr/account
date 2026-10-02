@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Support\Settings;
+use EInvoiceSdk\Models\EInvoiceSetting;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -29,7 +30,26 @@ class SettingsController extends Controller
             'hasMailPassword' => Settings::get('mail_password') !== null,
             'dateFormats' => self::DATE_FORMATS,
             'timeFormats' => self::TIME_FORMATS,
+            'einvoice' => $this->einvoiceSettings(),
         ]);
+    }
+
+    /**
+     * The MyInvois credentials in use for the company TIN; secrets only report whether they are set.
+     *
+     * @return array<string, mixed>|null
+     */
+    private function einvoiceSettings(): ?array
+    {
+        $setting = rescue(fn () => EInvoiceSetting::where('tin', Settings::get('company_tin'))->where('active', true)->first(), null, report: false);
+
+        return $setting ? [
+            'environment' => $setting->environment->value,
+            'unsigned' => $setting->unsigned,
+            'client_id' => $setting->client_id,
+            'has_client_secret' => $setting->client_secret !== '',
+            'has_certificate' => (bool) $setting->certificate,
+        ] : null;
     }
 
     public function update(Request $request, string $section): RedirectResponse
@@ -72,6 +92,10 @@ class SettingsController extends Controller
                 'company_country' => ['nullable', 'string', 'max:100'],
                 'company_phone' => ['nullable', 'string', 'max:30'],
                 'company_email' => ['nullable', 'email', 'max:255'],
+                'company_tin' => ['nullable', 'string', 'max:20'],
+                'company_id_type' => ['sometimes', Rule::in(['BRN', 'NRIC'])],
+                'company_msic_code' => ['nullable', 'digits:5'],
+                'company_msic_description' => ['nullable', 'string', 'max:255'],
             ],
             'system' => [
                 'date_format' => ['required', Rule::in(self::DATE_FORMATS)],

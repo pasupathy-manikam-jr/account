@@ -1,5 +1,5 @@
-import { Link, useForm } from '@inertiajs/react';
-import { Check, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Link, router, useForm } from '@inertiajs/react';
+import { BadgeCheck, Check, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
 import InputError from '@/components/input-error';
 import { SelectField } from '@/components/select-field';
@@ -12,6 +12,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { useTranslation } from '@/hooks/use-translation';
 import { cn } from '@/lib/utils';
 import account from '@/routes/account';
+import einvoice from '@/routes/einvoice';
 
 export type Address = {
     name: string;
@@ -30,6 +31,8 @@ export type CustomerFormData = {
     contact_person_email: string;
     contact_person_mobile: string;
     tax_number: string;
+    id_type: string;
+    id_number: string;
     payment_terms: string;
     billing_address: Address;
     shipping_address: Address;
@@ -261,10 +264,67 @@ export function CustomerForm({
                         )}
                         {field(
                             'tax_number',
-                            'Tax Number',
+                            'Tax Number (TIN)',
                             false,
-                            'Enter tax number',
+                            'e.g. C20830570210',
+                            'Needed for LHDN e-invoices.',
                         )}
+                        <div className="grid gap-2">
+                            <Label htmlFor="customer-id_type">
+                                {t('ID Type')}
+                            </Label>
+                            <SelectField
+                                id="customer-id_type"
+                                value={form.data.id_type}
+                                onChange={(e) =>
+                                    form.setData('id_type', e.target.value)
+                                }
+                            >
+                                <option value="">{t('None')}</option>
+                                <option value="BRN">
+                                    {t('Business Registration No. (BRN)')}
+                                </option>
+                                <option value="NRIC">
+                                    {t('MyKad / NRIC')}
+                                </option>
+                                <option value="PASSPORT">
+                                    {t('Passport')}
+                                </option>
+                                <option value="ARMY">{t('Army ID')}</option>
+                            </SelectField>
+                            <InputError message={errors.id_type} />
+                        </div>
+                        {field(
+                            'id_number',
+                            'ID Number',
+                            false,
+                            'e.g. 201901000005',
+                        )}
+                        {form.data.tax_number &&
+                            form.data.id_type &&
+                            form.data.id_number && (
+                                <Button
+                                    type="button"
+                                    variant="outline"
+                                    className="justify-self-start"
+                                    onClick={() =>
+                                        router.post(
+                                            einvoice.validateTin().url,
+                                            {
+                                                tin: form.data.tax_number,
+                                                id_type: form.data.id_type,
+                                                id_number: form.data.id_number,
+                                            },
+                                            {
+                                                preserveState: true,
+                                                preserveScroll: true,
+                                            },
+                                        )
+                                    }
+                                >
+                                    <BadgeCheck /> {t('Validate TIN with LHDN')}
+                                </Button>
+                            )}
                         {field(
                             'payment_terms',
                             'Payment Terms',

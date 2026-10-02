@@ -79,6 +79,9 @@ const statusStyles: Record<string, string> = {
     planned: 'border-sky-200 bg-sky-50 text-sky-700',
     ongoing: 'border-blue-200 bg-blue-50 text-blue-700',
     submitted: 'border-amber-200 bg-amber-50 text-amber-700',
+    // LHDN e-invoice.
+    valid: 'border-emerald-200 bg-emerald-50 text-emerald-700',
+    invalid: 'border-red-200 bg-red-50 text-red-700',
     under_investigation: 'border-violet-200 bg-violet-50 text-violet-700',
     resolved: 'border-emerald-200 bg-emerald-50 text-emerald-700',
     dismissed: 'border-gray-200 bg-gray-50 text-gray-600',

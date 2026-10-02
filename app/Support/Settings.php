@@ -26,6 +26,11 @@ class Settings
         'company_country' => 'Malaysia',
         'company_phone' => null,
         'company_email' => null,
+        // LHDN e-invoice identity. The ID number is company_registration_no (SSM no. for BRN, IC no. for NRIC).
+        'company_tin' => null,
+        'company_id_type' => 'BRN',
+        'company_msic_code' => null,
+        'company_msic_description' => null,
         // System.
         'date_format' => 'd M Y',
         'time_format' => 'h:i A',

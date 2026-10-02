@@ -2,6 +2,7 @@ import { Head, useForm, usePage } from '@inertiajs/react';
 import {
     Building2,
     Coins,
+    FileCheck2,
     Mail,
     Save,
     Send,
@@ -24,9 +25,18 @@ import { useTranslation } from '@/hooks/use-translation';
 import { cn } from '@/lib/utils';
 import { companySettings, dashboard } from '@/routes';
 import settingsRoutes from '@/routes/company-settings';
+import einvoiceRoutes from '@/routes/einvoice';
 
 type Values = Record<string, string | null>;
-type Section = 'company' | 'system' | 'currency' | 'email';
+type Section = 'company' | 'system' | 'currency' | 'email' | 'einvoice';
+
+type EInvoiceSettings = {
+    environment: 'sandbox' | 'production';
+    unsigned: boolean;
+    client_id: string;
+    has_client_secret: boolean;
+    has_certificate: boolean;
+} | null;
 
 const SECTIONS: {
     key: Section;
@@ -61,6 +71,13 @@ const SECTIONS: {
         description:
             'The SMTP server used for sending emails. Leave the host empty to use the server default.',
     },
+    {
+        key: 'einvoice',
+        label: 'e-Invoice',
+        icon: FileCheck2,
+        description:
+            'LHDN MyInvois API credentials for the company TIN (set the TIN under Company first). Register an ERP system in the MyInvois portal to get them.',
+    },
 ];
 
 const MALAYSIAN_STATES = [
@@ -87,11 +104,13 @@ export default function CompanySettings({
     hasMailPassword,
     dateFormats,
     timeFormats,
+    einvoice,
 }: {
     values: Values;
     hasMailPassword: boolean;
     dateFormats: string[];
     timeFormats: string[];
+    einvoice: EInvoiceSettings;
 }) {
     const { t } = useTranslation();
     const can = useCan();
@@ -117,6 +136,10 @@ export default function CompanySettings({
                 'company_country',
                 'company_phone',
                 'company_email',
+                'company_tin',
+                'company_id_type',
+                'company_msic_code',
+                'company_msic_description',
             ]),
         ),
         system: useForm(
@@ -143,10 +166,20 @@ export default function CompanySettings({
             ]),
             mail_password: '',
         }),
+        einvoice: useForm<Record<string, string>>({
+            environment: einvoice?.environment ?? 'sandbox',
+            unsigned: einvoice?.unsigned ? '1' : '0',
+            client_id: einvoice?.client_id ?? '',
+            client_secret: '',
+            certificate: '',
+            private_key: '',
+        }),
     };
     const test = useForm({ test_email: '' });
     const form = forms[section];
-    const editable = can(`edit-${section}-settings`);
+    const editable = can(
+        `edit-${section === 'einvoice' ? 'company' : section}-settings`,
+    );
 
     const field = (
         name: string,
@@ -246,9 +279,12 @@ export default function CompanySettings({
                         noValidate
                         onSubmit={(e) => {
                             e.preventDefault();
-                            form.put(settingsRoutes.update(section).url, {
-                                preserveScroll: true,
-                            });
+                            form.put(
+                                section === 'einvoice'
+                                    ? einvoiceRoutes.settings().url
+                                    : settingsRoutes.update(section).url,
+                                { preserveScroll: true },
+                            );
                         }}
                     >
                         <DocCard
@@ -317,6 +353,132 @@ export default function CompanySettings({
                                     {field('company_email', 'Email', {
                                         placeholder: 'akaun@limgroup.com.my',
                                     })}
+                                    <div className="mt-2 border-t pt-4 text-sm font-medium sm:col-span-2">
+                                        {t('LHDN e-Invoice')}
+                                    </div>
+                                    {field(
+                                        'company_tin',
+                                        'Tax Identification No. (TIN)',
+                                        {
+                                            placeholder: 'C20830570210',
+                                        },
+                                    )}
+                                    {choice(
+                                        'company_id_type',
+                                        'Registration No. Type',
+                                        [
+                                            [
+                                                'BRN',
+                                                t(
+                                                    'SSM Business Registration No. (BRN)',
+                                                ),
+                                            ],
+                                            [
+                                                'NRIC',
+                                                t(
+                                                    'MyKad / NRIC (sole proprietor)',
+                                                ),
+                                            ],
+                                        ],
+                                    )}
+                                    {field('company_msic_code', 'MSIC Code', {
+                                        placeholder: '62010',
+                                    })}
+                                    {field(
+                                        'company_msic_description',
+                                        'Business Activity (MSIC)',
+                                        {
+                                            placeholder:
+                                                'Computer programming activities',
+                                        },
+                                    )}
+                                </div>
+                            )}
+
+                            {section === 'einvoice' && (
+                                <div className="grid gap-4 sm:grid-cols-2">
+                                    {choice('environment', 'Environment', [
+                                        ['sandbox', t('Sandbox (testing)')],
+                                        ['production', t('Production (live)')],
+                                    ])}
+                                    {field('client_id', 'Client ID', {
+                                        required: true,
+                                    })}
+                                    {field('client_secret', 'Client Secret', {
+                                        type: 'password',
+                                        placeholder: einvoice?.has_client_secret
+                                            ? t(
+                                                  'Saved. Leave blank to keep it.',
+                                              )
+                                            : '',
+                                    })}
+                                    {form.data.environment === 'sandbox' && (
+                                        <div className="flex items-center gap-2 self-end pb-2">
+                                            <Switch
+                                                id="unsigned"
+                                                disabled={!editable}
+                                                checked={
+                                                    form.data.unsigned === '1'
+                                                }
+                                                onCheckedChange={(on) =>
+                                                    form.setData(
+                                                        'unsigned',
+                                                        on ? '1' : '0',
+                                                    )
+                                                }
+                                            />
+                                            <Label htmlFor="unsigned">
+                                                {t(
+                                                    'Send unsigned (no certificate yet)',
+                                                )}
+                                            </Label>
+                                        </div>
+                                    )}
+                                    {(
+                                        ['certificate', 'private_key'] as const
+                                    ).map((key) => (
+                                        <div
+                                            key={key}
+                                            className="grid gap-2 sm:col-span-2"
+                                        >
+                                            <Label htmlFor={key}>
+                                                {t(
+                                                    key === 'certificate'
+                                                        ? 'Signing Certificate (PEM)'
+                                                        : 'Private Key (PEM)',
+                                                )}
+                                            </Label>
+                                            <Textarea
+                                                id={key}
+                                                disabled={!editable}
+                                                className="font-mono text-xs"
+                                                placeholder={
+                                                    einvoice?.has_certificate
+                                                        ? t(
+                                                              'Saved. Leave blank to keep it.',
+                                                          )
+                                                        : '-----BEGIN ...-----'
+                                                }
+                                                value={form.data[key] ?? ''}
+                                                onChange={(e) =>
+                                                    form.setData(
+                                                        key,
+                                                        e.target.value,
+                                                    )
+                                                }
+                                            />
+                                            <InputError
+                                                message={form.errors[key]}
+                                            />
+                                        </div>
+                                    ))}
+                                    {form.data.environment === 'production' && (
+                                        <p className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-sm text-amber-800 sm:col-span-2">
+                                            {t(
+                                                'Production sends real e-invoices to LHDN and needs a CA-issued organisation certificate. Sandbox documents are kept separately.',
+                                            )}
+                                        </p>
+                                    )}
                                 </div>
                             )}
 

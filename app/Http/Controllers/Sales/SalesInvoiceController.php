@@ -3,13 +3,16 @@
 namespace App\Http\Controllers\Sales;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\EInvoiceController;
 use App\Models\Item;
 use App\Models\SalesInvoice;
 use App\Models\User;
 use App\Models\Warehouse;
+use App\Support\Qr;
 use App\Support\Settings;
 use App\Support\TableQuery;
 use Barryvdh\DomPDF\Facade\Pdf;
+use EInvoiceSdk\Enums\Status;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -75,6 +78,7 @@ class SalesInvoiceController extends Controller
                 'items.item:id,name,sku,description',
             ]),
             'company' => ['name' => Settings::company()],
+            'einvoice' => EInvoiceController::summary($salesInvoice),
         ]);
     }
 
@@ -125,9 +129,19 @@ class SalesInvoiceController extends Controller
     {
         abort_unless($salesInvoice->isVisibleTo($request->user()), 404);
 
-        $salesInvoice->load(['customer:id,name,email', 'customer.customer', 'warehouse:id,name', 'items.item:id,name,sku']);
+        return Pdf::loadView('pdf.document', $this->pdfData($salesInvoice))
+            ->download("{$salesInvoice->invoice_number}.pdf");
+    }
 
-        return Pdf::loadView('pdf.document', [
+    /**
+     * @return array<string, mixed>
+     */
+    public function pdfData(SalesInvoice $salesInvoice): array
+    {
+        $salesInvoice->load(['customer:id,name,email', 'customer.customer', 'warehouse:id,name', 'items.item:id,name,sku', 'einvoice']);
+        $einvoice = $salesInvoice->einvoice?->status === Status::Valid ? $salesInvoice->einvoice : null;
+
+        return [
             'doc' => $salesInvoice,
             'party' => $salesInvoice->customer,
             'partyRecord' => $salesInvoice->customer->customer,
@@ -141,8 +155,9 @@ class SalesInvoiceController extends Controller
                 __('Payment Terms') => $salesInvoice->payment_terms ?: '-',
                 __('Warehouse') => $salesInvoice->warehouse?->name,
             ]),
-        ])
-            ->download("{$salesInvoice->invoice_number}.pdf");
+            'einvoice' => $einvoice,
+            'einvoiceQr' => $einvoice ? Qr::dataUri((string) $einvoice->validationUrl()) : null,
+        ];
     }
 
     /**

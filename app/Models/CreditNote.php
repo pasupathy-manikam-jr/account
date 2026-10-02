@@ -2,9 +2,14 @@
 
 namespace App\Models;
 
+use App\Models\Concerns\IssuesEInvoices;
 use App\Support\Ledger;
 use App\Support\LedgerAccounts;
 use App\Support\Money;
+use EInvoiceSdk\Contracts\EInvoiceable;
+use EInvoiceSdk\Enums\DocumentType;
+use EInvoiceSdk\Enums\Status;
+use EInvoiceSdk\Models\EInvoiceDocument;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -41,13 +46,36 @@ use Illuminate\Validation\ValidationException;
  * @property-read string|null $balance_amount
  */
 #[Fillable(['credit_note_date', 'customer_id', 'invoice_id', 'reason', 'notes'])]
-class CreditNote extends Model
+class CreditNote extends Model implements EInvoiceable
 {
+    use IssuesEInvoices;
+
     public const STATUSES = ['draft', 'approved', 'partial', 'applied'];
 
     protected $attributes = ['status' => 'draft', 'applied_amount' => '0.00'];
 
     protected $appends = ['balance_amount'];
+
+    /** Approved credit notes can go to LHDN once their invoice is a valid e-invoice. */
+    public function canSubmitEInvoice(): bool
+    {
+        return $this->status !== 'draft';
+    }
+
+    protected function einvoiceType(): DocumentType
+    {
+        return DocumentType::CreditNote;
+    }
+
+    protected function einvoiceNumber(): string
+    {
+        return (string) $this->credit_note_number;
+    }
+
+    protected function einvoiceOriginal(): ?EInvoiceDocument
+    {
+        return $this->invoice->einvoiceDocuments()->where('status', Status::Valid)->latest('id')->first();
+    }
 
     /**
      * @return BelongsTo<User, $this>

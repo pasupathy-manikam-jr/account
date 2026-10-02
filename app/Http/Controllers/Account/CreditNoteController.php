@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Account;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\EInvoiceController;
 use App\Http\Controllers\Sales\SalesInvoiceController;
 use App\Models\CreditNote;
 use App\Support\TableQuery;
@@ -51,6 +52,7 @@ class CreditNoteController extends Controller
                 'approver:id,name',
                 'items.item:id,name,sku,description',
             ]),
+            'einvoice' => EInvoiceController::summary($creditNote),
         ]);
     }
 

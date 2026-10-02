@@ -117,6 +117,8 @@ class CustomerController extends Controller
             'contact_person_email' => ['required', 'email', 'max:255'],
             'contact_person_mobile' => ['nullable', 'string', 'regex:/^\+[0-9]{7,15}$/'],
             'tax_number' => ['nullable', 'string', 'max:50'],
+            'id_type' => ['nullable', 'required_with:id_number', Rule::in(['BRN', 'NRIC', 'PASSPORT', 'ARMY'])],
+            'id_number' => ['nullable', 'required_with:id_type', 'string', 'max:30'],
             'payment_terms' => ['nullable', 'string', 'max:50'],
             ...$this->addressRules('billing_address', true),
             ...$this->addressRules('shipping_address', ! $sameAsBilling),

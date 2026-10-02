@@ -11,6 +11,7 @@ use App\Models\Unit;
 use App\Models\Warehouse;
 use App\Support\Money;
 use App\Support\TableQuery;
+use EInvoiceSdk\Codes;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -155,6 +156,7 @@ class ItemController extends Controller
             'units' => Unit::query()->orderBy('unit_name')->get(['id', 'unit_name']),
             'warehouses' => Warehouse::query()->where('is_active', true)->orderBy('name')->get(['id', 'name']),
             'types' => Item::TYPES,
+            'classifications' => Codes::classifications(),
         ];
     }
 
@@ -192,6 +194,7 @@ class ItemController extends Controller
             'sku' => ['required', 'string', 'max:50', Rule::unique('items')->ignore($item)],
             'category_id' => ['required', Rule::exists('item_categories', 'id')],
             'unit_id' => ['required', Rule::exists('units', 'id')],
+            'classification_code' => ['sometimes', 'required', Rule::in(array_keys(Codes::classifications()))],
             'tax_ids' => ['array'],
             'tax_ids.*' => ['integer', 'distinct', Rule::exists('taxes', 'id')],
             'sale_price' => ['required', 'numeric', 'min:0', 'max:9999999999999', 'decimal:0,2'],

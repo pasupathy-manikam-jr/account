@@ -7,9 +7,22 @@ import { useTranslation } from '@/hooks/use-translation';
 import { dashboard } from '@/routes';
 import productService from '@/routes/product-service';
 
-type Tax = { id: number; tax_name: string; rate: string; items_count: number };
+type Tax = {
+    id: number;
+    tax_name: string;
+    rate: string;
+    type_code: string | null;
+    items_count: number;
+};
 
-export default function Taxes({ taxes }: { taxes: Tax[] }) {
+export default function Taxes({
+    taxes,
+    typeCodes,
+}: {
+    taxes: Tax[];
+    /** LHDN e-invoice tax types, code => name */
+    typeCodes: Record<string, string>;
+}) {
     const { t } = useTranslation();
 
     return (
@@ -32,6 +45,11 @@ export default function Taxes({ taxes }: { taxes: Tax[] }) {
                         fields={[
                             { key: 'tax_name', label: 'Tax Name' },
                             { key: 'rate', label: 'Rate (%)', type: 'decimal' },
+                            {
+                                key: 'type_code',
+                                label: 'LHDN Tax Type',
+                                options: Object.entries(typeCodes),
+                            },
                         ]}
                         columns={[
                             {
@@ -45,6 +63,17 @@ export default function Taxes({ taxes }: { taxes: Tax[] }) {
                             {
                                 label: 'Rate (%)',
                                 render: (row) => `${Number(row.rate)}%`,
+                            },
+                            {
+                                label: 'LHDN Tax Type',
+                                render: (row) =>
+                                    row.type_code ? (
+                                        typeCodes[row.type_code]
+                                    ) : (
+                                        <span className="text-destructive">
+                                            {t('Not set')}
+                                        </span>
+                                    ),
                             },
                             {
                                 label: 'Items',

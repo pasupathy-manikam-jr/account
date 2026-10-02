@@ -10,6 +10,8 @@ import {
     User,
     Warehouse,
 } from 'lucide-react';
+import { EInvoiceCard } from '@/components/einvoice-card';
+import type { EInvoiceSummary } from '@/components/einvoice-card';
 import { PersonCell } from '@/components/person-cell';
 import {
     DocCard,
@@ -92,9 +94,11 @@ function AddressBlock({
 export default function InvoiceShow({
     invoice,
     company,
+    einvoice,
 }: {
     invoice: ShownInvoice;
     company: { name: string };
+    einvoice: EInvoiceSummary;
 }) {
     const { t } = useTranslation();
     const { money, date } = useFormat();
@@ -220,6 +224,13 @@ export default function InvoiceShow({
                                 )}
                             </div>
                         </DocCard>
+                        <EInvoiceCard
+                            einvoice={einvoice}
+                            type="sales-invoices"
+                            documentId={invoice.id}
+                            ready={invoice.status !== 'draft'}
+                            permission="post-sales-invoices"
+                        />
                         <DocCard icon={User} title="Customer Info">
                             <PersonCell
                                 name={invoice.customer.name}

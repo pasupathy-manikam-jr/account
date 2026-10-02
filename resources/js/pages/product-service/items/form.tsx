@@ -36,6 +36,7 @@ type Item = {
     type: string;
     category_id: number;
     unit_id: number;
+    classification_code: string;
     sale_price: string;
     purchase_price: string;
     description: string | null;
@@ -53,6 +54,8 @@ type Props = {
     units: { id: number; unit_name: string }[];
     warehouses: Option[];
     types: string[];
+    /** LHDN e-invoice classification code => description */
+    classifications: Record<string, string>;
 };
 
 const STOCKED = ['product', 'part'];
@@ -119,6 +122,7 @@ export default function ItemForm({
     units,
     warehouses,
     types,
+    classifications,
 }: Props) {
     const { t } = useTranslation();
     const { money } = useFormat();
@@ -128,6 +132,7 @@ export default function ItemForm({
         sku: item?.sku ?? '',
         category_id: item ? String(item.category_id) : '',
         unit_id: item ? String(item.unit_id) : '',
+        classification_code: item?.classification_code ?? '022',
         tax_ids: item?.taxes.map((tax) => tax.id) ?? ([] as number[]),
         sale_price: item?.sale_price ?? '',
         purchase_price: item?.purchase_price ?? '',
@@ -422,6 +427,31 @@ export default function ItemForm({
                                             {u.unit_name}
                                         </option>
                                     ))}
+                                </SelectField>
+                            </Field>
+                            <Field
+                                id="item-classification"
+                                label="e-Invoice Classification"
+                                required
+                                error={form.errors.classification_code}
+                            >
+                                <SelectField
+                                    id="item-classification"
+                                    value={form.data.classification_code}
+                                    onChange={(e) =>
+                                        form.setData(
+                                            'classification_code',
+                                            e.target.value,
+                                        )
+                                    }
+                                >
+                                    {Object.entries(classifications).map(
+                                        ([code, label]) => (
+                                            <option key={code} value={code}>
+                                                {code} · {label}
+                                            </option>
+                                        ),
+                                    )}
                                 </SelectField>
                             </Field>
                             <div className="flex items-center gap-3 self-end pb-2">

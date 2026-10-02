@@ -1,7 +1,8 @@
 {{--
     Shared PDF for sales documents. Pass: $doc (a priced document with customer, warehouse and items),
     $party (the customer or vendor login), $partyRecord (their customer/vendor record),
-    $title, $number, $partyLabel, and $facts ([label => value]), optionally $paid (invoices). The letterhead comes from Settings.
+    $title, $number, $partyLabel, and $facts ([label => value]), optionally $paid (invoices) and $einvoice + $einvoiceQr
+    (a validated LHDN e-invoice and its validation-link QR). The letterhead comes from Settings.
 --}}
 @php
     $money = fn ($v) => \App\Support\Settings::money($v);
@@ -123,5 +124,19 @@
             </td>
         </tr>
     </table>
+
+    @if (! empty($einvoice))
+        <table style="margin-top: 16px;">
+            <tr>
+                <td style="width: 100px; vertical-align: top;"><img src="{{ $einvoiceQr }}" width="90" height="90" alt="LHDN validation QR"></td>
+                <td style="vertical-align: top;">
+                    <div><strong>{{ __('Validated e-Invoice (LHDN MyInvois)') }}</strong></div>
+                    <div class="muted">{{ __('UUID') }}: {{ $einvoice->uuid }}</div>
+                    <div class="muted">{{ __('Validated') }}: {{ \App\Support\Settings::date($einvoice->validated_at) }}</div>
+                    <div class="muted">{{ __('Scan to verify with LHDN.') }}</div>
+                </td>
+            </tr>
+        </table>
+    @endif
 </body>
 </html>

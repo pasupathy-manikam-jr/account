@@ -39,6 +39,8 @@ export default function CreateCustomer({
                         contact_person_email: '',
                         contact_person_mobile: '',
                         tax_number: '',
+                        id_type: '',
+                        id_number: '',
                         payment_terms: '',
                         billing_address: blankAddress,
                         shipping_address: blankAddress,

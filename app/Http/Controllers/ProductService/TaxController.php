@@ -4,6 +4,7 @@ namespace App\Http\Controllers\ProductService;
 
 use App\Http\Controllers\Controller;
 use App\Models\Tax;
+use EInvoiceSdk\Codes;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
@@ -16,6 +17,7 @@ class TaxController extends Controller
     {
         return Inertia::render('product-service/taxes/index', [
             'taxes' => Tax::query()->withCount('items')->orderBy('tax_name')->get(),
+            'typeCodes' => Codes::taxTypes(),
         ]);
     }
 
@@ -52,6 +54,7 @@ class TaxController extends Controller
         return $request->validate([
             'tax_name' => ['required', 'string', 'max:255', Rule::unique('taxes')->ignore($tax)],
             'rate' => ['required', 'numeric', 'between:0,100', 'decimal:0,2'],
+            'type_code' => ['nullable', Rule::in(array_keys(Codes::taxTypes()))],
         ]);
     }
 }

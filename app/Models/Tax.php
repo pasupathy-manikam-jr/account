@@ -11,10 +11,11 @@ use Illuminate\Support\Carbon;
  * @property int $id
  * @property string $tax_name
  * @property string $rate
+ * @property string|null $type_code LHDN tax type (01 sales, 02 service, 06 not applicable, E exempt…)
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  */
-#[Fillable(['tax_name', 'rate'])]
+#[Fillable(['tax_name', 'rate', 'type_code'])]
 class Tax extends Model
 {
     /**

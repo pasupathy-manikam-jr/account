@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Storage;
  * @property string $type
  * @property int $category_id
  * @property int $unit_id
+ * @property string $classification_code LHDN e-invoice classification
  * @property string $sale_price
  * @property string $purchase_price
  * @property string|null $image
@@ -29,7 +30,7 @@ use Illuminate\Support\Facades\Storage;
  * @property-read ItemCategory $category
  * @property-read Unit $unit
  */
-#[Fillable(['name', 'sku', 'type', 'category_id', 'unit_id', 'sale_price', 'purchase_price', 'description', 'long_description', 'is_active'])]
+#[Fillable(['name', 'sku', 'type', 'category_id', 'unit_id', 'classification_code', 'sale_price', 'purchase_price', 'description', 'long_description', 'is_active'])]
 class Item extends Model
 {
     public const TYPES = ['product', 'service', 'part'];

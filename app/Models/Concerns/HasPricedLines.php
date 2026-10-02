@@ -24,10 +24,10 @@ trait HasPricedLines
      */
     public function saveWithLines(array $header, array $lines): void
     {
-        $items = Item::query()->with('taxes:id,tax_name,rate')->findMany(array_column($lines, 'item_id'))->keyBy('id');
+        $items = Item::query()->with('taxes:id,tax_name,rate,type_code')->findMany(array_column($lines, 'item_id'))->keyBy('id');
 
         $lines = array_map(function (array $line) use ($items) {
-            $taxes = $items[$line['item_id']]->taxes->map(fn (Tax $tax) => ['name' => $tax->tax_name, 'rate' => $tax->rate])->values()->all();
+            $taxes = $items[$line['item_id']]->taxes->map(fn (Tax $tax) => ['name' => $tax->tax_name, 'rate' => $tax->rate, 'code' => $tax->type_code])->values()->all();
 
             return [
                 'item_id' => (int) $line['item_id'],
