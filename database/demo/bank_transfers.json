@@ -1,0 +1,152 @@
+[
+    {
+        "date": "2026-05-10",
+        "from": 0,
+        "to": 1,
+        "amount": "12500.00",
+        "charges": "25.00",
+        "reference_number": "TRF-2026-001",
+        "description": "Monthly profit sweep to savings.",
+        "status": "pending"
+    },
+    {
+        "date": "2026-05-20",
+        "from": 1,
+        "to": 0,
+        "amount": "8000.00",
+        "charges": "15.00",
+        "reference_number": "TRF-2026-002",
+        "description": "Payroll fund allocation.",
+        "status": "completed"
+    },
+    {
+        "date": "2026-05-31",
+        "from": 0,
+        "to": 2,
+        "amount": "5500.00",
+        "charges": "10.00",
+        "reference_number": "TRF-2026-003",
+        "description": "Credit line principal repayment.",
+        "status": "completed"
+    },
+    {
+        "date": "2026-06-07",
+        "from": 3,
+        "to": 0,
+        "amount": "15000.00",
+        "charges": "30.00",
+        "reference_number": "TRF-2026-003",
+        "description": "Credit line principal repayment.",
+        "status": "pending"
+    },
+    {
+        "date": "2026-06-15",
+        "from": 1,
+        "to": 0,
+        "amount": "10000.00",
+        "charges": "20.00",
+        "reference_number": "TRF-2026-005",
+        "description": "Q2 operating capital injection.",
+        "status": "completed"
+    },
+    {
+        "date": "2026-06-23",
+        "from": 0,
+        "to": 1,
+        "amount": "6500.00",
+        "charges": "12.00",
+        "reference_number": "TRF-2026-006",
+        "description": "Tax reserve fund transfer.",
+        "status": "completed"
+    },
+    {
+        "date": "2026-07-01",
+        "from": 0,
+        "to": 2,
+        "amount": "4200.00",
+        "charges": "8.00",
+        "reference_number": "TRF-2026-007",
+        "description": "Interest payment coverage.",
+        "status": "completed"
+    },
+    {
+        "date": "2026-07-11",
+        "from": 1,
+        "to": 0,
+        "amount": "14500.00",
+        "charges": "28.00",
+        "reference_number": "TRF-2026-008",
+        "description": "Staff bonus payout funding.",
+        "status": "pending"
+    },
+    {
+        "date": "2026-07-21",
+        "from": 0,
+        "to": 1,
+        "amount": "9000.00",
+        "charges": "18.00",
+        "reference_number": "TRF-2026-009",
+        "description": "Excess cash deposit.",
+        "status": "completed"
+    },
+    {
+        "date": "2026-07-28",
+        "from": 2,
+        "to": 3,
+        "amount": "11000.00",
+        "charges": "22.00",
+        "reference_number": "TRF-2026-010",
+        "description": "Additional equipment financing.",
+        "status": "completed"
+    },
+    {
+        "date": "2026-08-04",
+        "from": 0,
+        "to": 2,
+        "amount": "4800.00",
+        "charges": "9.00",
+        "reference_number": "TRF-2026-011",
+        "description": "Weekly credit settlement.",
+        "status": "completed"
+    },
+    {
+        "date": "2026-08-16",
+        "from": 1,
+        "to": 0,
+        "amount": "13000.00",
+        "charges": "26.00",
+        "reference_number": "TRF-2026-012",
+        "description": "Marketing campaign budget release.",
+        "status": "completed"
+    },
+    {
+        "date": "2026-08-25",
+        "from": 3,
+        "to": 1,
+        "amount": "7200.00",
+        "charges": "14.00",
+        "reference_number": "TRF-2026-013",
+        "description": "Emergency fund contribution.",
+        "status": "pending"
+    },
+    {
+        "date": "2026-09-07",
+        "from": 0,
+        "to": 2,
+        "amount": "5000.00",
+        "charges": "10.00",
+        "reference_number": "TRF-2026-014",
+        "description": "Monthly credit facility fee.",
+        "status": "completed"
+    },
+    {
+        "date": "2026-09-19",
+        "from": 1,
+        "to": 0,
+        "amount": "6800.00",
+        "charges": "13.00",
+        "reference_number": "TRF-2026-015",
+        "description": "Training and development fund.",
+        "status": "completed"
+    }
+]

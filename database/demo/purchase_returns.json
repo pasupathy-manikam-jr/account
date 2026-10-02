@@ -1,0 +1,170 @@
+[
+    {
+        "invoice": 0,
+        "return_date": "2026-05-18",
+        "reason": "defective",
+        "status": "approved",
+        "notes": "Packaging was torn upon arrival.",
+        "debit_note": "applied",
+        "items": [
+            {
+                "item": "Coffee",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "invoice": 2,
+        "return_date": "2026-05-25",
+        "reason": "damaged",
+        "status": "draft",
+        "notes": "Liquid cooling units showed signs of leakage.",
+        "debit_note": null,
+        "items": [
+            {
+                "item": "Brake Pad Set",
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "invoice": 3,
+        "return_date": "2026-06-02",
+        "reason": "excess_quantity",
+        "status": "completed",
+        "notes": "Received 10 extra cases than ordered.",
+        "debit_note": "draft",
+        "items": [
+            {
+                "item": "Apple",
+                "quantity": 10
+            }
+        ]
+    },
+    {
+        "invoice": 4,
+        "return_date": "2026-06-07",
+        "reason": "wrong_item",
+        "status": "approved",
+        "notes": "Ordered blue ink, received black ink sets.",
+        "debit_note": "approved",
+        "items": [
+            {
+                "item": "Ink Cartridge",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "invoice": 6,
+        "return_date": "2026-06-23",
+        "reason": "defective",
+        "status": "completed",
+        "notes": "Oil viscosity does not match specifications.",
+        "debit_note": "approved",
+        "items": [
+            {
+                "item": "Car Engine Oil",
+                "quantity": 4
+            }
+        ]
+    },
+    {
+        "invoice": 7,
+        "return_date": "2026-07-01",
+        "reason": "damaged",
+        "status": "completed",
+        "notes": "Screen was cracked during transit.",
+        "debit_note": "partial",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "invoice": 8,
+        "return_date": "2026-07-15",
+        "reason": "excess_quantity",
+        "status": "approved",
+        "notes": "Inventory space full, returning surplus coffee.",
+        "debit_note": "applied",
+        "items": [
+            {
+                "item": "Coffee",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "invoice": 10,
+        "return_date": "2026-07-28",
+        "reason": "wrong_item",
+        "status": "approved",
+        "notes": "Wrong model of smart watch delivered.",
+        "debit_note": "partial",
+        "items": [
+            {
+                "item": "Watch",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "invoice": 11,
+        "return_date": "2026-08-07",
+        "reason": "defective",
+        "status": "draft",
+        "notes": "Bottles were leaking from the caps.",
+        "debit_note": null,
+        "items": [
+            {
+                "item": "Shampoo",
+                "quantity": 10
+            }
+        ]
+    },
+    {
+        "invoice": 13,
+        "return_date": "2026-08-28",
+        "reason": "damaged",
+        "status": "completed",
+        "notes": "Brake pads show signs of surface rust.",
+        "debit_note": "approved",
+        "items": [
+            {
+                "item": "Brake Pad Set",
+                "quantity": 3
+            }
+        ]
+    },
+    {
+        "invoice": 14,
+        "return_date": "2026-09-17",
+        "reason": "excess_quantity",
+        "status": "approved",
+        "notes": "Returning extra t-shirts from seasonal prom.",
+        "debit_note": "draft",
+        "items": [
+            {
+                "item": "T-Shirt",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "invoice": 15,
+        "return_date": "2026-09-19",
+        "reason": "other",
+        "status": "completed",
+        "notes": null,
+        "debit_note": "applied",
+        "items": [
+            {
+                "item": "Watch",
+                "quantity": 1
+            }
+        ]
+    }
+]

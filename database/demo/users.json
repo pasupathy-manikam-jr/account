@@ -1,0 +1,354 @@
+[
+    {
+        "name": "Tan Sri Dato' Ahmad Zulkifli bin Hashim",
+        "email": "admin@example.com",
+        "type": "company",
+        "mobile_no": "+60 16-353 0829"
+    },
+    {
+        "name": "Dato' Lim Chee Keong",
+        "email": "company@example.com",
+        "type": "company",
+        "mobile_no": "+60 17-181 0111"
+    },
+    {
+        "name": "Puan Nurul Aisyah binti Rahman",
+        "email": "aisyah.rahman@example.com",
+        "type": "staff",
+        "mobile_no": "+60 12-999 0608"
+    },
+    {
+        "name": "Encik Muhammad Hafiz bin Ismail",
+        "email": "hafiz.ismail@example.com",
+        "type": "staff",
+        "mobile_no": "+60 12-713 5241"
+    },
+    {
+        "name": "Ms. Tan Mei Ling",
+        "email": "meiling.tan@example.com",
+        "type": "staff",
+        "mobile_no": "+60 19-197 3060"
+    },
+    {
+        "name": "Mr. Rajesh a/l Subramaniam",
+        "email": "rajesh.subramaniam@example.com",
+        "type": "staff",
+        "mobile_no": "+60 19-460 2037"
+    },
+    {
+        "name": "Cik Siti Hajar binti Kamal",
+        "email": "sitihajar.kamal@example.com",
+        "type": "staff",
+        "mobile_no": "+60 12-244 1955"
+    },
+    {
+        "name": "Mr. Wong Kah Wai",
+        "email": "kahwai.wong@example.com",
+        "type": "staff",
+        "mobile_no": "+60 17-801 5764"
+    },
+    {
+        "name": "Ms. Priya a/p Krishnan",
+        "email": "priya.krishnan@example.com",
+        "type": "staff",
+        "mobile_no": "+60 12-503 7655"
+    },
+    {
+        "name": "Haji Mohd Azlan bin Othman",
+        "email": "azlan.othman@example.com",
+        "type": "staff",
+        "mobile_no": "+60 12-812 2250"
+    },
+    {
+        "name": "Encik Jeffrey Gimbang",
+        "email": "jeffrey.gimbang@example.com",
+        "type": "staff",
+        "mobile_no": "+60 12-307 7052"
+    },
+    {
+        "name": "Cik Dayang Norliza binti Abang Ahmad",
+        "email": "norliza.ahmad@example.com",
+        "type": "staff",
+        "mobile_no": "+60 13-203 7872"
+    },
+    {
+        "name": "Dato' Seri Mohd Nazri bin Abdullah",
+        "email": "nazri.abdullah@example.com",
+        "type": "client",
+        "company": "Nazri Holdings Berhad",
+        "mobile_no": "+60 19-765 5194"
+    },
+    {
+        "name": "Datin Sharifah Zainab binti Syed Hussein",
+        "email": "sharifah.zainab@example.com",
+        "type": "client",
+        "company": "Zainab Hartanah Sdn Bhd",
+        "mobile_no": "+60 12-470 9137"
+    },
+    {
+        "name": "Mr. Lee Chong Wei",
+        "email": "chongwei.lee@example.com",
+        "type": "client",
+        "company": "Lee Brothers Trading Sdn Bhd",
+        "mobile_no": "+60 12-323 4302"
+    },
+    {
+        "name": "Dr. Kavitha a/p Ramasamy",
+        "email": "kavitha.ramasamy@example.com",
+        "type": "client",
+        "company": "Klinik Kesihatan Kavitha Sdn Bhd",
+        "mobile_no": "+60 16-803 1986"
+    },
+    {
+        "name": "Encik Faizal bin Mansor",
+        "email": "faizal.mansor@example.com",
+        "type": "client",
+        "company": "Syarikat Maju Jaya Sdn Bhd",
+        "mobile_no": "+60 13-297 6225"
+    },
+    {
+        "name": "Puan Rohani binti Yusof",
+        "email": "rohani.yusof@example.com",
+        "type": "client",
+        "company": "Rohani Katering Enterprise",
+        "mobile_no": "+60 19-617 5466"
+    },
+    {
+        "name": "Ms. Chong Siew Ling",
+        "email": "siewling.chong@example.com",
+        "type": "client",
+        "company": "Pelita Digital Solutions Sdn Bhd",
+        "mobile_no": "+60 19-403 2085"
+    },
+    {
+        "name": "Mr. Muthu a/l Velu",
+        "email": "muthu.velu@example.com",
+        "type": "client",
+        "company": "Velu Logistics Sdn Bhd",
+        "mobile_no": "+60 12-415 1952"
+    },
+    {
+        "name": "Dato' Haji Kamarul Ariffin bin Daud",
+        "email": "kamarul.ariffin@example.com",
+        "type": "client",
+        "company": "Ariffin Construction Berhad",
+        "mobile_no": "+60 16-263 4613"
+    },
+    {
+        "name": "Mr. Goh Boon Hock",
+        "email": "boonhock.goh@example.com",
+        "type": "client",
+        "company": "Goh Hardware & Machinery Sdn Bhd",
+        "mobile_no": "+60 19-205 3424"
+    },
+    {
+        "name": "Cik Nur Izzati binti Hamzah",
+        "email": "izzati.hamzah@example.com",
+        "type": "client",
+        "company": "Izzati Fashion House Sdn Bhd",
+        "mobile_no": "+60 19-199 9941"
+    },
+    {
+        "name": "Encik Daniel Lajim",
+        "email": "daniel.lajim@example.com",
+        "type": "client",
+        "company": "Kinabalu Eco Tours Sdn Bhd",
+        "mobile_no": "+60 19-445 5413"
+    },
+    {
+        "name": "Puan Hajah Salmah binti Ali",
+        "email": "salmah.ali@example.com",
+        "type": "client",
+        "company": "Salmah Rempah Ratus Enterprise",
+        "mobile_no": "+60 17-992 0785"
+    },
+    {
+        "name": "Mr. Ong Teck Seng",
+        "email": "teckseng.ong@example.com",
+        "type": "client",
+        "company": "Ong Teck Seng Engineering Sdn Bhd",
+        "mobile_no": "+60 17-627 0514"
+    },
+    {
+        "name": "Ms. Deepa a/p Muniandy",
+        "email": "deepa.muniandy@example.com",
+        "type": "client",
+        "company": "Deepa Textiles Sdn Bhd",
+        "mobile_no": "+60 17-860 3172"
+    },
+    {
+        "name": "Tan Sri Vincent Tan Kim Hock",
+        "email": "vincent.tan@example.com",
+        "type": "client",
+        "company": "Tan Capital Group Berhad",
+        "mobile_no": "+60 16-602 9255"
+    },
+    {
+        "name": "Puan Sri Norhayati binti Ibrahim",
+        "email": "norhayati.ibrahim@example.com",
+        "type": "client",
+        "company": "Permata Hayati Resources Sdn Bhd",
+        "mobile_no": "+60 13-401 5985"
+    },
+    {
+        "name": "Mr. Ng Wei Kiat",
+        "email": "weikiat.ng@example.com",
+        "type": "client",
+        "company": "Ng & Partners Consulting",
+        "mobile_no": "+60 11-427 62079"
+    },
+    {
+        "name": "Encik Awang Jaafar bin Awang Bujang",
+        "email": "awang.jaafar@example.com",
+        "type": "client",
+        "company": "Borneo Timber Industries Sdn Bhd",
+        "mobile_no": "+60 12-603 7344"
+    },
+    {
+        "name": "Dr. Lim Siew Hoon",
+        "email": "siewhoon.lim@example.com",
+        "type": "client",
+        "company": "Pusat Pergigian Lim Sdn Bhd",
+        "mobile_no": "+60 19-930 6674"
+    },
+    {
+        "name": "Mr. Suresh a/l Pillai",
+        "email": "suresh.pillai@example.com",
+        "type": "client",
+        "company": "Pillai Medical Supplies Sdn Bhd",
+        "mobile_no": "+60 16-853 0188"
+    },
+    {
+        "name": "Cik Farah Diana binti Zakaria",
+        "email": "farah.zakaria@example.com",
+        "type": "client",
+        "company": "Farah Diana Cosmetics Sdn Bhd",
+        "mobile_no": "+60 16-222 8106"
+    },
+    {
+        "name": "Encik Rosli bin Hamid",
+        "email": "rosli.hamid@example.com",
+        "type": "client",
+        "company": "Rosli Auto Services Enterprise",
+        "mobile_no": "+60 12-958 8807"
+    },
+    {
+        "name": "Ms. Yap Hui Min",
+        "email": "huimin.yap@example.com",
+        "type": "client",
+        "company": "Yap Education Centre Sdn Bhd",
+        "mobile_no": "+60 17-376 7604"
+    },
+    {
+        "name": "Mr. Stephen Jitam",
+        "email": "stephen.jitam@example.com",
+        "type": "client",
+        "company": "Sarawak Agro Ventures Sdn Bhd",
+        "mobile_no": "+60 16-354 9877"
+    },
+    {
+        "name": "Mr. Chan Kok Leong",
+        "email": "kokleong.chan@example.com",
+        "type": "vendor",
+        "company": "Chan Office Supplies Sdn Bhd",
+        "mobile_no": "+60 17-807 4924"
+    },
+    {
+        "name": "Encik Zulkifli bin Omar",
+        "email": "zulkifli.omar@example.com",
+        "type": "vendor",
+        "company": "Syarikat Bekalan Omar Sdn Bhd",
+        "mobile_no": "+60 12-230 2255"
+    },
+    {
+        "name": "Mr. Raj Kumar a/l Ganesan",
+        "email": "rajkumar.ganesan@example.com",
+        "type": "vendor",
+        "company": "Ganesan Electrical Works Sdn Bhd",
+        "mobile_no": "+60 19-626 3809"
+    },
+    {
+        "name": "Ms. Lau Pei Shan",
+        "email": "peishan.lau@example.com",
+        "type": "vendor",
+        "company": "Lau Printing & Packaging Sdn Bhd",
+        "mobile_no": "+60 16-687 5018"
+    },
+    {
+        "name": "Dato' Ir. Hashim bin Yaacob",
+        "email": "hashim.yaacob@example.com",
+        "type": "vendor",
+        "company": "Hashim Engineering Consultants Sdn Bhd",
+        "mobile_no": "+60 19-933 2820"
+    },
+    {
+        "name": "Puan Azizah binti Musa",
+        "email": "azizah.musa@example.com",
+        "type": "vendor",
+        "company": "Azizah Cleaning Services Enterprise",
+        "mobile_no": "+60 19-865 3855"
+    },
+    {
+        "name": "Mr. Teh Kian Ming",
+        "email": "kianming.teh@example.com",
+        "type": "vendor",
+        "company": "Teh Computer Systems Sdn Bhd",
+        "mobile_no": "+60 12-257 0280"
+    },
+    {
+        "name": "Encik Mohd Firdaus bin Rahim",
+        "email": "firdaus.rahim@example.com",
+        "type": "vendor",
+        "company": "Firdaus Transport & Haulage Sdn Bhd",
+        "mobile_no": "+60 16-895 4050"
+    },
+    {
+        "name": "Ms. Lakshmi a/p Nair",
+        "email": "lakshmi.nair@example.com",
+        "type": "vendor",
+        "company": "Nair Furniture Trading Sdn Bhd",
+        "mobile_no": "+60 11-991 41000"
+    },
+    {
+        "name": "Mr. Koh Jun Hao",
+        "email": "junhao.koh@example.com",
+        "type": "vendor",
+        "company": "Koh Steel Fabrication Sdn Bhd",
+        "mobile_no": "+60 12-201 7864"
+    },
+    {
+        "name": "Encik Benedict Majimbun",
+        "email": "benedict.majimbun@example.com",
+        "type": "vendor",
+        "company": "Sabah Fresh Produce Sdn Bhd",
+        "mobile_no": "+60 11-515 54798"
+    },
+    {
+        "name": "Haji Abdul Rahman bin Said",
+        "email": "rahman.said@example.com",
+        "type": "vendor",
+        "company": "Rahman Halal Foods Sdn Bhd",
+        "mobile_no": "+60 11-875 70629"
+    },
+    {
+        "name": "Ms. Cheah Li Ying",
+        "email": "liying.cheah@example.com",
+        "type": "vendor",
+        "company": "Cheah Telecommunication Sdn Bhd",
+        "mobile_no": "+60 11-698 12891"
+    },
+    {
+        "name": "Mr. Gopal a/l Arumugam",
+        "email": "gopal.arumugam@example.com",
+        "type": "vendor",
+        "company": "Arumugam Security Services Sdn Bhd",
+        "mobile_no": "+60 16-747 2506"
+    },
+    {
+        "name": "Cik Dayang Siti Aminah binti Abang Zaini",
+        "email": "aminah.zaini@example.com",
+        "type": "vendor",
+        "company": "Kuching Stationery Enterprise",
+        "mobile_no": "+60 11-565 74257"
+    }
+]

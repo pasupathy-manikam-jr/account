@@ -1,0 +1,599 @@
+[
+    {
+        "email": "nazri.abdullah@example.com",
+        "company_name": "Nazri Holdings Berhad",
+        "contact_person_name": "Dato' Seri Mohd Nazri bin Abdullah",
+        "contact_person_email": "nazri.abdullah@example.com",
+        "contact_person_mobile": "+60172579240",
+        "tax_number": "W10-6991-29555120",
+        "payment_terms": "Net 30",
+        "billing_address": {
+            "name": "Nazri Holdings Berhad",
+            "address_line_1": "No. 83, Jalan Tun Razak",
+            "address_line_2": null,
+            "city": "Kuala Lumpur",
+            "state": "Wilayah Persekutuan Kuala Lumpur",
+            "country": "Malaysia",
+            "zip_code": "50450"
+        },
+        "shipping_address": {
+            "name": "Nazri Holdings Berhad (Gudang)",
+            "address_line_1": "Lot 75, Kawasan Perindustrian Melaka",
+            "address_line_2": null,
+            "city": "Melaka",
+            "state": "Melaka",
+            "country": "Malaysia",
+            "zip_code": "75000"
+        },
+        "same_as_billing": false,
+        "notes": null
+    },
+    {
+        "email": "sharifah.zainab@example.com",
+        "company_name": "Zainab Hartanah Sdn Bhd",
+        "contact_person_name": "Datin Sharifah Zainab binti Syed Hussein",
+        "contact_person_email": "sharifah.zainab@example.com",
+        "contact_person_mobile": "+60128275367",
+        "tax_number": "W10-7851-12343959",
+        "payment_terms": "Net 15",
+        "billing_address": {
+            "name": "Zainab Hartanah Sdn Bhd",
+            "address_line_1": "No. 15, Lebuh Pantai",
+            "address_line_2": null,
+            "city": "Petaling Jaya",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "46200"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "chongwei.lee@example.com",
+        "company_name": "Lee Brothers Trading Sdn Bhd",
+        "contact_person_name": "Mr. Lee Chong Wei",
+        "contact_person_email": "chongwei.lee@example.com",
+        "contact_person_mobile": "+60173077052",
+        "tax_number": "W10-4657-31160294",
+        "payment_terms": "Net 45",
+        "billing_address": {
+            "name": "Lee Brothers Trading Sdn Bhd",
+            "address_line_1": "No. 62, Jalan Sultan Ismail",
+            "address_line_2": null,
+            "city": "Shah Alam",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "40000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "kavitha.ramasamy@example.com",
+        "company_name": "Klinik Kesihatan Kavitha Sdn Bhd",
+        "contact_person_name": "Dr. Kavitha a/p Ramasamy",
+        "contact_person_email": "kavitha.ramasamy@example.com",
+        "contact_person_mobile": "+60124709137",
+        "tax_number": "W10-1763-28678574",
+        "payment_terms": "COD",
+        "billing_address": {
+            "name": "Klinik Kesihatan Kavitha Sdn Bhd",
+            "address_line_1": "No. 161, Jalan Teluk Sisek",
+            "address_line_2": "Lot 74",
+            "city": "Subang Jaya",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "47500"
+        },
+        "shipping_address": {
+            "name": "Klinik Kesihatan Kavitha Sdn Bhd (Gudang)",
+            "address_line_1": "Lot 407, Kawasan Perindustrian Kuching",
+            "address_line_2": null,
+            "city": "Kuching",
+            "state": "Sarawak",
+            "country": "Malaysia",
+            "zip_code": "93100"
+        },
+        "same_as_billing": false,
+        "notes": null
+    },
+    {
+        "email": "faizal.mansor@example.com",
+        "company_name": "Syarikat Maju Jaya Sdn Bhd",
+        "contact_person_name": "Encik Faizal bin Mansor",
+        "contact_person_email": "faizal.mansor@example.com",
+        "contact_person_mobile": "+60172976225",
+        "tax_number": "W10-6054-28799114",
+        "payment_terms": "Due on Receipt",
+        "billing_address": {
+            "name": "Syarikat Maju Jaya Sdn Bhd",
+            "address_line_1": "No. 220, Jalan Tun Razak",
+            "address_line_2": null,
+            "city": "George Town",
+            "state": "Pulau Pinang",
+            "country": "Malaysia",
+            "zip_code": "10200"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "rohani.yusof@example.com",
+        "company_name": "Rohani Katering Enterprise",
+        "contact_person_name": "Puan Rohani binti Yusof",
+        "contact_person_email": "rohani.yusof@example.com",
+        "contact_person_mobile": "+60174151952",
+        "tax_number": "W10-7101-13269227",
+        "payment_terms": "Net 60",
+        "billing_address": {
+            "name": "Rohani Katering Enterprise",
+            "address_line_1": "No. 209, Persiaran Perdana",
+            "address_line_2": "Lot 14",
+            "city": "Johor Bahru",
+            "state": "Johor",
+            "country": "Malaysia",
+            "zip_code": "80000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "siewling.chong@example.com",
+        "company_name": "Pelita Digital Solutions Sdn Bhd",
+        "contact_person_name": "Ms. Chong Siew Ling",
+        "contact_person_email": "siewling.chong@example.com",
+        "contact_person_mobile": "+60139328453",
+        "tax_number": "W10-9711-24347616",
+        "payment_terms": "Net 30",
+        "billing_address": {
+            "name": "Pelita Digital Solutions Sdn Bhd",
+            "address_line_1": "No. 141, Jalan Kampung Attap",
+            "address_line_2": null,
+            "city": "Ipoh",
+            "state": "Perak",
+            "country": "Malaysia",
+            "zip_code": "30450"
+        },
+        "shipping_address": {
+            "name": "Pelita Digital Solutions Sdn Bhd (Gudang)",
+            "address_line_1": "Lot 634, Kawasan Perindustrian Kota Bharu",
+            "address_line_2": null,
+            "city": "Kota Bharu",
+            "state": "Kelantan",
+            "country": "Malaysia",
+            "zip_code": "15000"
+        },
+        "same_as_billing": false,
+        "notes": null
+    },
+    {
+        "email": "muthu.velu@example.com",
+        "company_name": "Velu Logistics Sdn Bhd",
+        "contact_person_name": "Mr. Muthu a/l Velu",
+        "contact_person_email": "muthu.velu@example.com",
+        "contact_person_mobile": "+60146029255",
+        "tax_number": "W10-5070-16031971",
+        "payment_terms": "Net 15",
+        "billing_address": {
+            "name": "Velu Logistics Sdn Bhd",
+            "address_line_1": "No. 199, Jalan Raja Laut",
+            "address_line_2": "Tingkat 15",
+            "city": "Melaka",
+            "state": "Melaka",
+            "country": "Malaysia",
+            "zip_code": "75000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "kamarul.ariffin@example.com",
+        "company_name": "Ariffin Construction Berhad",
+        "contact_person_name": "Dato' Haji Kamarul Ariffin bin Daud",
+        "contact_person_email": "kamarul.ariffin@example.com",
+        "contact_person_mobile": "+60149811335",
+        "tax_number": "W10-9111-21525131",
+        "payment_terms": "Net 45",
+        "billing_address": {
+            "name": "Ariffin Construction Berhad",
+            "address_line_1": "No. 179, Jalan SS 2/24",
+            "address_line_2": "Lot 11",
+            "city": "Seremban",
+            "state": "Negeri Sembilan",
+            "country": "Malaysia",
+            "zip_code": "70000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "boonhock.goh@example.com",
+        "company_name": "Goh Hardware & Machinery Sdn Bhd",
+        "contact_person_name": "Mr. Goh Boon Hock",
+        "contact_person_email": "boonhock.goh@example.com",
+        "contact_person_mobile": "+60178014936",
+        "tax_number": "W10-3702-21477488",
+        "payment_terms": "COD",
+        "billing_address": {
+            "name": "Goh Hardware & Machinery Sdn Bhd",
+            "address_line_1": "No. 187, Jalan Gaya",
+            "address_line_2": null,
+            "city": "Kota Kinabalu",
+            "state": "Sabah",
+            "country": "Malaysia",
+            "zip_code": "88000"
+        },
+        "shipping_address": {
+            "name": "Goh Hardware & Machinery Sdn Bhd (Gudang)",
+            "address_line_1": "Lot 121, Kawasan Perindustrian Cyberjaya",
+            "address_line_2": null,
+            "city": "Cyberjaya",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "63000"
+        },
+        "same_as_billing": false,
+        "notes": null
+    },
+    {
+        "email": "izzati.hamzah@example.com",
+        "company_name": "Izzati Fashion House Sdn Bhd",
+        "contact_person_name": "Cik Nur Izzati binti Hamzah",
+        "contact_person_email": "izzati.hamzah@example.com",
+        "contact_person_mobile": "+60192302255",
+        "tax_number": "W10-6140-21412612",
+        "payment_terms": "Due on Receipt",
+        "billing_address": {
+            "name": "Izzati Fashion House Sdn Bhd",
+            "address_line_1": "No. 39, Lebuh Pantai",
+            "address_line_2": null,
+            "city": "Kuching",
+            "state": "Sarawak",
+            "country": "Malaysia",
+            "zip_code": "93100"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "daniel.lajim@example.com",
+        "company_name": "Kinabalu Eco Tours Sdn Bhd",
+        "contact_person_name": "Encik Daniel Lajim",
+        "contact_person_email": "daniel.lajim@example.com",
+        "contact_person_mobile": "+60162153650",
+        "tax_number": "W10-2533-19057659",
+        "payment_terms": "Net 60",
+        "billing_address": {
+            "name": "Kinabalu Eco Tours Sdn Bhd",
+            "address_line_1": "No. 178, Jalan Raja Laut",
+            "address_line_2": "Lot 64",
+            "city": "Kuantan",
+            "state": "Pahang",
+            "country": "Malaysia",
+            "zip_code": "25000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "salmah.ali@example.com",
+        "company_name": "Salmah Rempah Ratus Enterprise",
+        "contact_person_name": "Puan Hajah Salmah binti Ali",
+        "contact_person_email": "salmah.ali@example.com",
+        "contact_person_mobile": "+60148476611",
+        "tax_number": "W10-5662-22945012",
+        "payment_terms": "Net 30",
+        "billing_address": {
+            "name": "Salmah Rempah Ratus Enterprise",
+            "address_line_1": "No. 122, Jalan Kampung Attap",
+            "address_line_2": "Lot 8",
+            "city": "Alor Setar",
+            "state": "Kedah",
+            "country": "Malaysia",
+            "zip_code": "05000"
+        },
+        "shipping_address": {
+            "name": "Salmah Rempah Ratus Enterprise (Gudang)",
+            "address_line_1": "Lot 719, Kawasan Perindustrian Klang",
+            "address_line_2": null,
+            "city": "Klang",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "41000"
+        },
+        "same_as_billing": false,
+        "notes": null
+    },
+    {
+        "email": "teckseng.ong@example.com",
+        "company_name": "Ong Teck Seng Engineering Sdn Bhd",
+        "contact_person_name": "Mr. Ong Teck Seng",
+        "contact_person_email": "teckseng.ong@example.com",
+        "contact_person_mobile": "+60143819383",
+        "tax_number": "W10-2918-26565588",
+        "payment_terms": "Net 15",
+        "billing_address": {
+            "name": "Ong Teck Seng Engineering Sdn Bhd",
+            "address_line_1": "No. 228, Persiaran Perdana",
+            "address_line_2": "Tingkat 12",
+            "city": "Kota Bharu",
+            "state": "Kelantan",
+            "country": "Malaysia",
+            "zip_code": "15000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "deepa.muniandy@example.com",
+        "company_name": "Deepa Textiles Sdn Bhd",
+        "contact_person_name": "Ms. Deepa a/p Muniandy",
+        "contact_person_email": "deepa.muniandy@example.com",
+        "contact_person_mobile": "+60137675615",
+        "tax_number": "W10-7405-26660000",
+        "payment_terms": "Net 45",
+        "billing_address": {
+            "name": "Deepa Textiles Sdn Bhd",
+            "address_line_1": "No. 16, Persiaran Gurney",
+            "address_line_2": "Lot 17",
+            "city": "Kuala Terengganu",
+            "state": "Terengganu",
+            "country": "Malaysia",
+            "zip_code": "20000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "vincent.tan@example.com",
+        "company_name": "Tan Capital Group Berhad",
+        "contact_person_name": "Tan Sri Vincent Tan Kim Hock",
+        "contact_person_email": "vincent.tan@example.com",
+        "contact_person_mobile": "+60138222954",
+        "tax_number": "W10-5561-23935038",
+        "payment_terms": "COD",
+        "billing_address": {
+            "name": "Tan Capital Group Berhad",
+            "address_line_1": "No. 21, Jalan Tun Razak",
+            "address_line_2": "Lot 52",
+            "city": "Putrajaya",
+            "state": "Wilayah Persekutuan Putrajaya",
+            "country": "Malaysia",
+            "zip_code": "62000"
+        },
+        "shipping_address": {
+            "name": "Tan Capital Group Berhad (Gudang)",
+            "address_line_1": "Lot 285, Kawasan Perindustrian Shah Alam",
+            "address_line_2": null,
+            "city": "Shah Alam",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "40000"
+        },
+        "same_as_billing": false,
+        "notes": null
+    },
+    {
+        "email": "norhayati.ibrahim@example.com",
+        "company_name": "Permata Hayati Resources Sdn Bhd",
+        "contact_person_name": "Puan Sri Norhayati binti Ibrahim",
+        "contact_person_email": "norhayati.ibrahim@example.com",
+        "contact_person_mobile": "+60123956442",
+        "tax_number": "W10-3478-17783180",
+        "payment_terms": "Due on Receipt",
+        "billing_address": {
+            "name": "Permata Hayati Resources Sdn Bhd",
+            "address_line_1": "No. 92, Persiaran Perdana",
+            "address_line_2": null,
+            "city": "Cyberjaya",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "63000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "weikiat.ng@example.com",
+        "company_name": "Ng & Partners Consulting",
+        "contact_person_name": "Mr. Ng Wei Kiat",
+        "contact_person_email": "weikiat.ng@example.com",
+        "contact_person_mobile": "+60135408156",
+        "tax_number": "W10-5619-10137358",
+        "payment_terms": "Net 60",
+        "billing_address": {
+            "name": "Ng & Partners Consulting",
+            "address_line_1": "No. 169, Persiaran Gurney",
+            "address_line_2": "Lot 63",
+            "city": "Miri",
+            "state": "Sarawak",
+            "country": "Malaysia",
+            "zip_code": "98000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "awang.jaafar@example.com",
+        "company_name": "Borneo Timber Industries Sdn Bhd",
+        "contact_person_name": "Encik Awang Jaafar bin Awang Bujang",
+        "contact_person_email": "awang.jaafar@example.com",
+        "contact_person_mobile": "+60143105398",
+        "tax_number": "W10-9445-30722973",
+        "payment_terms": "Net 30",
+        "billing_address": {
+            "name": "Borneo Timber Industries Sdn Bhd",
+            "address_line_1": "No. 38, Jalan Bukit Bintang",
+            "address_line_2": "Lot 48",
+            "city": "Sandakan",
+            "state": "Sabah",
+            "country": "Malaysia",
+            "zip_code": "90000"
+        },
+        "shipping_address": {
+            "name": "Borneo Timber Industries Sdn Bhd (Gudang)",
+            "address_line_1": "Lot 580, Kawasan Perindustrian Johor Bahru",
+            "address_line_2": null,
+            "city": "Johor Bahru",
+            "state": "Johor",
+            "country": "Malaysia",
+            "zip_code": "80000"
+        },
+        "same_as_billing": false,
+        "notes": null
+    },
+    {
+        "email": "siewhoon.lim@example.com",
+        "company_name": "Pusat Pergigian Lim Sdn Bhd",
+        "contact_person_name": "Dr. Lim Siew Hoon",
+        "contact_person_email": "siewhoon.lim@example.com",
+        "contact_person_mobile": "+60177583025",
+        "tax_number": "W10-7521-23387508",
+        "payment_terms": "Net 15",
+        "billing_address": {
+            "name": "Pusat Pergigian Lim Sdn Bhd",
+            "address_line_1": "No. 168, Persiaran Perdana",
+            "address_line_2": "Lot 59",
+            "city": "Klang",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "41000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "suresh.pillai@example.com",
+        "company_name": "Pillai Medical Supplies Sdn Bhd",
+        "contact_person_name": "Mr. Suresh a/l Pillai",
+        "contact_person_email": "suresh.pillai@example.com",
+        "contact_person_mobile": "+60124197897",
+        "tax_number": "W10-2103-17004930",
+        "payment_terms": "Net 45",
+        "billing_address": {
+            "name": "Pillai Medical Supplies Sdn Bhd",
+            "address_line_1": "No. 101, Jalan Sultan Ismail",
+            "address_line_2": "Tingkat 16",
+            "city": "Kuala Lumpur",
+            "state": "Wilayah Persekutuan Kuala Lumpur",
+            "country": "Malaysia",
+            "zip_code": "50450"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "farah.zakaria@example.com",
+        "company_name": "Farah Diana Cosmetics Sdn Bhd",
+        "contact_person_name": "Cik Farah Diana binti Zakaria",
+        "contact_person_email": "farah.zakaria@example.com",
+        "contact_person_mobile": "+60121003913",
+        "tax_number": "W10-3478-28005935",
+        "payment_terms": "COD",
+        "billing_address": {
+            "name": "Farah Diana Cosmetics Sdn Bhd",
+            "address_line_1": "No. 113, Jalan Tun Razak",
+            "address_line_2": "Lot 44",
+            "city": "Petaling Jaya",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "46200"
+        },
+        "shipping_address": {
+            "name": "Farah Diana Cosmetics Sdn Bhd (Gudang)",
+            "address_line_1": "Lot 54, Kawasan Perindustrian Seremban",
+            "address_line_2": null,
+            "city": "Seremban",
+            "state": "Negeri Sembilan",
+            "country": "Malaysia",
+            "zip_code": "70000"
+        },
+        "same_as_billing": false,
+        "notes": null
+    },
+    {
+        "email": "rosli.hamid@example.com",
+        "company_name": "Rosli Auto Services Enterprise",
+        "contact_person_name": "Encik Rosli bin Hamid",
+        "contact_person_email": "rosli.hamid@example.com",
+        "contact_person_mobile": "+60137312081",
+        "tax_number": "W10-3433-31287253",
+        "payment_terms": "Due on Receipt",
+        "billing_address": {
+            "name": "Rosli Auto Services Enterprise",
+            "address_line_1": "No. 26, Jalan Raja Laut",
+            "address_line_2": null,
+            "city": "Shah Alam",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "40000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "huimin.yap@example.com",
+        "company_name": "Yap Education Centre Sdn Bhd",
+        "contact_person_name": "Ms. Yap Hui Min",
+        "contact_person_email": "huimin.yap@example.com",
+        "contact_person_mobile": "+60122935310",
+        "tax_number": "W10-8996-25636011",
+        "payment_terms": "Net 60",
+        "billing_address": {
+            "name": "Yap Education Centre Sdn Bhd",
+            "address_line_1": "No. 65, Jalan Raja Laut",
+            "address_line_2": "Tingkat 20",
+            "city": "Subang Jaya",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "47500"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": null
+    },
+    {
+        "email": "stephen.jitam@example.com",
+        "company_name": "Sarawak Agro Ventures Sdn Bhd",
+        "contact_person_name": "Mr. Stephen Jitam",
+        "contact_person_email": "stephen.jitam@example.com",
+        "contact_person_mobile": "+60196748475",
+        "tax_number": "W10-5337-26059887",
+        "payment_terms": "Net 30",
+        "billing_address": {
+            "name": "Sarawak Agro Ventures Sdn Bhd",
+            "address_line_1": "No. 123, Jalan Gaya",
+            "address_line_2": null,
+            "city": "George Town",
+            "state": "Pulau Pinang",
+            "country": "Malaysia",
+            "zip_code": "10200"
+        },
+        "shipping_address": {
+            "name": "Sarawak Agro Ventures Sdn Bhd (Gudang)",
+            "address_line_1": "Lot 105, Kawasan Perindustrian Kuantan",
+            "address_line_2": null,
+            "city": "Kuantan",
+            "state": "Pahang",
+            "country": "Malaysia",
+            "zip_code": "25000"
+        },
+        "same_as_billing": false,
+        "notes": null
+    }
+]

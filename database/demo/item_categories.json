@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Fashion & Apparel",
+        "color": "#efe444"
+    },
+    {
+        "name": "Books & Stationery",
+        "color": "#10b77f"
+    },
+    {
+        "name": "Jewelry & Accessories",
+        "color": "#84CC16"
+    },
+    {
+        "name": "Health & Beauty",
+        "color": "#EC4899"
+    },
+    {
+        "name": "Automotive & Tools",
+        "color": "#06B6D4"
+    },
+    {
+        "name": "Home & Garden",
+        "color": "#F59E0B"
+    },
+    {
+        "name": "Sports & Fitness",
+        "color": "#8B5CF6"
+    },
+    {
+        "name": "Fruits & Vegetables",
+        "color": "#6B7280"
+    },
+    {
+        "name": "Food & Beverages",
+        "color": "#F97316"
+    },
+    {
+        "name": "Electronics & Technology",
+        "color": "#3B82F6"
+    }
+]

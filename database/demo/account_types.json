@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Current Assets",
+        "code": "CA",
+        "category": "assets",
+        "normal_balance": "debit",
+        "description": "Assets expected to be converted to cash within one year"
+    },
+    {
+        "name": "Fixed Assets",
+        "code": "FA",
+        "category": "assets",
+        "normal_balance": "debit",
+        "description": "Long-term tangible assets"
+    },
+    {
+        "name": "Other Assets",
+        "code": "OA",
+        "category": "assets",
+        "normal_balance": "debit",
+        "description": "Other miscellaneous assets"
+    },
+    {
+        "name": "Current Liabilities",
+        "code": "CL",
+        "category": "liabilities",
+        "normal_balance": "credit",
+        "description": "Debts due within one year"
+    },
+    {
+        "name": "Long-term Liabilities",
+        "code": "LTL",
+        "category": "liabilities",
+        "normal_balance": "credit",
+        "description": "Debts due after one year"
+    },
+    {
+        "name": "Share Capital",
+        "code": "SC",
+        "category": "equity",
+        "normal_balance": "credit",
+        "description": "Owner's investment in the business"
+    },
+    {
+        "name": "Retained Earnings",
+        "code": "RE",
+        "category": "equity",
+        "normal_balance": "credit",
+        "description": "Accumulated profits retained in business"
+    },
+    {
+        "name": "Sales Revenue",
+        "code": "SR",
+        "category": "revenue",
+        "normal_balance": "credit",
+        "description": "Income from sales of goods or services"
+    },
+    {
+        "name": "Other Income",
+        "code": "OI",
+        "category": "revenue",
+        "normal_balance": "credit",
+        "description": "Miscellaneous income"
+    },
+    {
+        "name": "Cost of Goods Sold",
+        "code": "COGS",
+        "category": "expenses",
+        "normal_balance": "debit",
+        "description": "Direct costs of producing goods sold"
+    },
+    {
+        "name": "Operating Expenses",
+        "code": "OE",
+        "category": "expenses",
+        "normal_balance": "debit",
+        "description": "Expenses from normal business operations"
+    },
+    {
+        "name": "Administrative Expenses",
+        "code": "AE",
+        "category": "expenses",
+        "normal_balance": "debit",
+        "description": "General administrative costs"
+    },
+    {
+        "name": "Financial Expenses",
+        "code": "FE",
+        "category": "expenses",
+        "normal_balance": "debit",
+        "description": "Interest and financial costs"
+    },
+    {
+        "name": "Tax Expenses",
+        "code": "TE",
+        "category": "expenses",
+        "normal_balance": "debit",
+        "description": "Tax-related expenses"
+    },
+    {
+        "name": "Other Expenses",
+        "code": "OX",
+        "category": "expenses",
+        "normal_balance": "debit",
+        "description": "Miscellaneous expenses"
+    }
+]

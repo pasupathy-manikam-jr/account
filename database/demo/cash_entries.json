@@ -1,0 +1,384 @@
+{
+    "categories": [
+        {
+            "kind": "revenue",
+            "category_name": "Product Sales",
+            "category_code": "REV-001",
+            "gl_account": "4010",
+            "description": "Revenue from product sales"
+        },
+        {
+            "kind": "revenue",
+            "category_name": "Service Income",
+            "category_code": "REV-002",
+            "gl_account": "4200",
+            "description": "Revenue from services provided"
+        },
+        {
+            "kind": "revenue",
+            "category_name": "Consulting Fees",
+            "category_code": "REV-003",
+            "gl_account": "4030",
+            "description": "Revenue from consulting services"
+        },
+        {
+            "kind": "revenue",
+            "category_name": "Subscription Revenue",
+            "category_code": "REV-004",
+            "gl_account": "4040",
+            "description": "Revenue from subscription plans"
+        },
+        {
+            "kind": "revenue",
+            "category_name": "Interest Income",
+            "category_code": "REV-005",
+            "gl_account": "4300",
+            "description": "Revenue from interest earnings"
+        },
+        {
+            "kind": "expense",
+            "category_name": "Travel",
+            "category_code": "EXP-005",
+            "gl_account": "5330",
+            "description": "Business travel and transportation expenses"
+        },
+        {
+            "kind": "expense",
+            "category_name": "Office Supplies",
+            "category_code": "EXP-001",
+            "gl_account": "5310",
+            "description": "Expenses for office supplies and stationery"
+        },
+        {
+            "kind": "expense",
+            "category_name": "Utilities",
+            "category_code": "EXP-002",
+            "gl_account": "5400",
+            "description": "Expenses for electricity, water, and internet"
+        },
+        {
+            "kind": "expense",
+            "category_name": "Rent",
+            "category_code": "EXP-003",
+            "gl_account": "5300",
+            "description": "Office and property rent expenses"
+        },
+        {
+            "kind": "expense",
+            "category_name": "Marketing",
+            "category_code": "EXP-004",
+            "gl_account": "5320",
+            "description": "Marketing and advertising expenses"
+        }
+    ],
+    "entries": [
+        {
+            "kind": "revenue",
+            "date": "2026-05-11",
+            "category": "REV-001",
+            "bank": 0,
+            "gl_account": "4010",
+            "amount": "15500.00",
+            "description": "Bulk product order payment received from corporate client.",
+            "reference_number": "REV-REF-001",
+            "status": "posted"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-05-19",
+            "category": "REV-002",
+            "bank": 1,
+            "gl_account": "4200",
+            "amount": "8750.00",
+            "description": "Monthly maintenance service contract revenue for February.",
+            "reference_number": "REV-REF-002",
+            "status": "approved"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-05-30",
+            "category": "REV-005",
+            "bank": 1,
+            "gl_account": "4300",
+            "amount": "1850.00",
+            "description": "Interest earned on fixed deposit and savings accounts.",
+            "reference_number": "REV-REF-003",
+            "status": "draft"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-06-06",
+            "category": "REV-003",
+            "bank": 2,
+            "gl_account": "4030",
+            "amount": "22000.00",
+            "description": "Business strategy consulting project completion payment.",
+            "reference_number": "REV-REF-004",
+            "status": "approved"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-06-13",
+            "category": "REV-004",
+            "bank": 3,
+            "gl_account": "4040",
+            "amount": "12500.00",
+            "description": "Quarterly subscription renewals from premium members.",
+            "reference_number": "REV-REF-005",
+            "status": "posted"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-06-18",
+            "category": "REV-001",
+            "bank": 0,
+            "gl_account": "4010",
+            "amount": "18900.00",
+            "description": "Retail product sales revenue for March month.",
+            "reference_number": "REV-REF-006",
+            "status": "posted"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-06-29",
+            "category": "REV-002",
+            "bank": 1,
+            "gl_account": "4200",
+            "amount": "6500.00",
+            "description": "Technical support and troubleshooting service charges.",
+            "reference_number": "REV-REF-007",
+            "status": "draft"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-07-06",
+            "category": "REV-003",
+            "bank": 2,
+            "gl_account": "4030",
+            "amount": "25000.00",
+            "description": "Financial advisory and tax planning consultation fees.",
+            "reference_number": "REV-REF-008",
+            "status": "posted"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-07-15",
+            "category": "REV-004",
+            "bank": 1,
+            "gl_account": "4040",
+            "amount": "9800.00",
+            "description": "Monthly SaaS subscription revenue from enterprise clients.",
+            "reference_number": "REV-REF-009",
+            "status": "approved"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-07-23",
+            "category": "REV-001",
+            "bank": 0,
+            "gl_account": "4010",
+            "amount": "14200.00",
+            "description": "E-commerce platform sales and direct customer orders.",
+            "reference_number": "REV-REF-010",
+            "status": "approved"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-08-02",
+            "category": "REV-002",
+            "bank": 2,
+            "gl_account": "4200",
+            "amount": "7650.00",
+            "description": "Website development and hosting service revenue pending clearance.",
+            "reference_number": "REV-REF-011",
+            "status": "posted"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-07-18",
+            "category": "REV-003",
+            "bank": 0,
+            "gl_account": "4030",
+            "amount": "19500.00",
+            "description": "HR consulting and recruitment advisory services payment.",
+            "reference_number": "REV-REF-012",
+            "status": "posted"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-07-28",
+            "category": "REV-005",
+            "bank": 1,
+            "gl_account": "4300",
+            "amount": "2100.00",
+            "description": "Quarterly interest income from bank deposits pending posting.",
+            "reference_number": "REV-REF-013",
+            "status": "draft"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-09-10",
+            "category": "REV-001",
+            "bank": 0,
+            "gl_account": "4010",
+            "amount": "16750.00",
+            "description": "Wholesale product distribution and retail channel sales.",
+            "reference_number": "REV-REF-014",
+            "status": "posted"
+        },
+        {
+            "kind": "revenue",
+            "date": "2026-09-19",
+            "category": "REV-004",
+            "bank": 2,
+            "gl_account": "4040",
+            "amount": "11300.00",
+            "description": "Annual subscription renewals pending bank confirmation.",
+            "reference_number": "REV-REF-015",
+            "status": "approved"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-05-11",
+            "category": "EXP-001",
+            "bank": 0,
+            "gl_account": "5310",
+            "amount": "800.00",
+            "description": "Monthly stationery and printing supplies for all departments.",
+            "reference_number": "EXP-REF-001",
+            "status": "posted"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-05-18",
+            "category": "EXP-002",
+            "bank": 1,
+            "gl_account": "5400",
+            "amount": "1450.00",
+            "description": "Electricity and internet bills for February month.",
+            "reference_number": "EXP-REF-002",
+            "status": "approved"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-05-25",
+            "category": "EXP-003",
+            "bank": 0,
+            "gl_account": "5300",
+            "amount": "2000.00",
+            "description": "Monthly office rent payment for March.",
+            "reference_number": "EXP-REF-003",
+            "status": "posted"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-05-05",
+            "category": "EXP-004",
+            "bank": 2,
+            "gl_account": "5320",
+            "amount": "1200.00",
+            "description": "Social media advertising campaign for new product launch.",
+            "reference_number": "EXP-REF-004",
+            "status": "posted"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-06-12",
+            "category": "EXP-005",
+            "bank": 0,
+            "gl_account": "5330",
+            "amount": "750.00",
+            "description": "Client meeting travel expenses and accommodation.",
+            "reference_number": "EXP-REF-005",
+            "status": "draft"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-06-18",
+            "category": "EXP-001",
+            "bank": 1,
+            "gl_account": "5310",
+            "amount": "450.00",
+            "description": "Printer cartridges and paper stock replenishment.",
+            "reference_number": "EXP-REF-006",
+            "status": "approved"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-06-28",
+            "category": "EXP-002",
+            "bank": 3,
+            "gl_account": "5400",
+            "amount": "1650.00",
+            "description": "March utilities including water, electricity and telecom.",
+            "reference_number": "EXP-REF-007",
+            "status": "posted"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-07-05",
+            "category": "EXP-004",
+            "bank": 1,
+            "gl_account": "5320",
+            "amount": "1750.00",
+            "description": "Google Ads and LinkedIn sponsored posts for recruitment.",
+            "reference_number": "EXP-REF-008",
+            "status": "draft"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-07-20",
+            "category": "EXP-005",
+            "bank": 2,
+            "gl_account": "5330",
+            "amount": "850.00",
+            "description": "Conference attendance and networking event expenses.",
+            "reference_number": "EXP-REF-009",
+            "status": "posted"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-08-03",
+            "category": "EXP-003",
+            "bank": 1,
+            "gl_account": "5300",
+            "amount": "1500.00",
+            "description": "Monthly office rent payment for May.",
+            "reference_number": "EXP-REF-010",
+            "status": "approved"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-08-18",
+            "category": "EXP-002",
+            "bank": 3,
+            "gl_account": "5400",
+            "amount": "1380.00",
+            "description": "May month electricity, water and internet charges.",
+            "reference_number": "EXP-REF-011",
+            "status": "posted"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-09-10",
+            "category": "EXP-003",
+            "bank": 0,
+            "gl_account": "5300",
+            "amount": "2200.00",
+            "description": "Monthly office rent payment for june.",
+            "reference_number": "EXP-REF-012",
+            "status": "draft"
+        },
+        {
+            "kind": "expense",
+            "date": "2026-09-19",
+            "category": "EXP-005",
+            "bank": 1,
+            "gl_account": "5330",
+            "amount": "890.00",
+            "description": "Local client visits and vendor meeting transportation.",
+            "reference_number": "EXP-REF-013",
+            "status": "approved"
+        }
+    ]
+}

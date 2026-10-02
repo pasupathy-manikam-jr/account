@@ -1,0 +1,368 @@
+[
+    {
+        "invoice_date": "2026-05-03",
+        "due_date": "2026-07-18",
+        "customer": "siewling.chong@example.com",
+        "type": "product",
+        "warehouse": 4,
+        "status": "posted",
+        "payment_terms": "COD",
+        "notes": "Workstation upgrade proposal.",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 2,
+                "unit_price": "899.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-05-03",
+        "due_date": "2026-06-12",
+        "customer": "salmah.ali@example.com",
+        "type": "product",
+        "warehouse": 4,
+        "status": "draft",
+        "payment_terms": "Net 15",
+        "notes": "High-end laptop for design team.",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 2,
+                "unit_price": "899.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-05-03",
+        "due_date": "2026-08-24",
+        "customer": "nazri.abdullah@example.com",
+        "type": "product",
+        "warehouse": 4,
+        "status": "posted",
+        "payment_terms": "Net 15",
+        "notes": "Backup laptop for executive.",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 3,
+                "unit_price": "899.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-05-13",
+        "due_date": "2026-05-27",
+        "customer": "kavitha.ramasamy@example.com",
+        "type": "product",
+        "warehouse": 0,
+        "status": "posted",
+        "payment_terms": "Net 15",
+        "notes": "Bulk coffee and apparel order.",
+        "items": [
+            {
+                "item": "Coffee",
+                "quantity": 10,
+                "unit_price": "15.99",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Jeans",
+                "quantity": 5,
+                "unit_price": "59.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-05-23",
+        "due_date": "2026-06-23",
+        "customer": "boonhock.goh@example.com",
+        "type": "product",
+        "warehouse": 1,
+        "status": "posted",
+        "payment_terms": "Net 30",
+        "notes": "Quarterly skincare inventory replenishment.",
+        "items": [
+            {
+                "item": "Shampoo",
+                "quantity": 40,
+                "unit_price": "18.99",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Face Cream",
+                "quantity": 20,
+                "unit_price": "35.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-06-02",
+        "due_date": "2026-06-17",
+        "customer": "vincent.tan@example.com",
+        "type": "product",
+        "warehouse": 2,
+        "status": "draft",
+        "payment_terms": "COD",
+        "notes": "Tools for facility maintenance project.",
+        "items": [
+            {
+                "item": "Cordless Drill Machine",
+                "quantity": 2,
+                "unit_price": "120.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Brake Pad Set",
+                "quantity": 5,
+                "unit_price": "80.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-06-18",
+        "due_date": "2026-08-02",
+        "customer": "kavitha.ramasamy@example.com",
+        "type": "service",
+        "warehouse": 0,
+        "status": "posted",
+        "payment_terms": "Net 15",
+        "notes": "Monthly IT server maintenance package.",
+        "items": [
+            {
+                "item": "IT Support Service",
+                "quantity": 1,
+                "unit_price": "1750.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-06-28",
+        "due_date": "2026-07-13",
+        "customer": "siewling.chong@example.com",
+        "type": "service",
+        "warehouse": 0,
+        "status": "posted",
+        "payment_terms": "COD",
+        "notes": "Corporate wellness therapy sessions.",
+        "items": [
+            {
+                "item": "Massage Therapy Service",
+                "quantity": 1,
+                "unit_price": "1200.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-07-11",
+        "due_date": "2026-09-10",
+        "customer": "stephen.jitam@example.com",
+        "type": "product",
+        "warehouse": 0,
+        "status": "posted",
+        "payment_terms": "Net 60",
+        "notes": "Annual staff uniform and apparel order.",
+        "items": [
+            {
+                "item": "Jeans",
+                "quantity": 5,
+                "unit_price": "59.99",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Watch",
+                "quantity": 6,
+                "unit_price": "199.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-07-18",
+        "due_date": "2026-07-18",
+        "customer": "awang.jaafar@example.com",
+        "type": "product",
+        "warehouse": 3,
+        "status": "draft",
+        "payment_terms": "Net 45",
+        "notes": "Fresh produce for corporate event.",
+        "items": [
+            {
+                "item": "Apple",
+                "quantity": 54,
+                "unit_price": "3.99",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Raspberry",
+                "quantity": 29,
+                "unit_price": "6.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-07-31",
+        "due_date": "2026-08-31",
+        "customer": "farah.zakaria@example.com",
+        "type": "product",
+        "warehouse": 4,
+        "status": "posted",
+        "payment_terms": "Net 15",
+        "notes": "Tech peripheral replacement.",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 3,
+                "unit_price": "899.99",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Notebook",
+                "quantity": 5,
+                "unit_price": "34.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-08-07",
+        "due_date": "2026-08-22",
+        "customer": "boonhock.goh@example.com",
+        "type": "service",
+        "warehouse": 0,
+        "status": "posted",
+        "payment_terms": "Net 30",
+        "notes": "Emergency technical support block fees.",
+        "items": [
+            {
+                "item": "IT Support Service",
+                "quantity": 1,
+                "unit_price": "1500.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-08-16",
+        "due_date": "2026-08-16",
+        "customer": "vincent.tan@example.com",
+        "type": "service",
+        "warehouse": 0,
+        "status": "posted",
+        "payment_terms": "Net 15",
+        "notes": "Custom uniform tailoring and alterations.",
+        "items": [
+            {
+                "item": "Tailoring Service",
+                "quantity": 1,
+                "unit_price": "450.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-08-28",
+        "due_date": "2026-09-27",
+        "customer": "nazri.abdullah@example.com",
+        "type": "product",
+        "warehouse": 2,
+        "status": "posted",
+        "payment_terms": "Net 30",
+        "notes": "Warehouse equipment and office decor.",
+        "items": [
+            {
+                "item": "Plant Pot",
+                "quantity": 19,
+                "unit_price": "24.99",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Cordless Drill Machine",
+                "quantity": 5,
+                "unit_price": "120.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-09-07",
+        "due_date": "2026-09-22",
+        "customer": "kavitha.ramasamy@example.com",
+        "type": "product",
+        "warehouse": 1,
+        "status": "draft",
+        "payment_terms": "COD",
+        "notes": "Regular branch hygiene supply stock.",
+        "items": [
+            {
+                "item": "Shampoo",
+                "quantity": 50,
+                "unit_price": "18.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-09-12",
+        "due_date": "2026-09-12",
+        "customer": "siewling.chong@example.com",
+        "type": "service",
+        "warehouse": 0,
+        "status": "posted",
+        "payment_terms": "COD",
+        "notes": "Premium VIP massage therapy billing.",
+        "items": [
+            {
+                "item": "Massage Therapy Service",
+                "quantity": 1,
+                "unit_price": "1500.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-09-22",
+        "due_date": "2026-10-20",
+        "customer": "boonhock.goh@example.com",
+        "type": "service",
+        "warehouse": 0,
+        "status": "draft",
+        "payment_terms": "Net 45",
+        "notes": "Network security setup and audit fees.",
+        "items": [
+            {
+                "item": "IT Support Service",
+                "quantity": 1,
+                "unit_price": "750.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-10-02",
+        "due_date": "2026-10-17",
+        "customer": "nazri.abdullah@example.com",
+        "type": "service",
+        "warehouse": 0,
+        "status": "posted",
+        "payment_terms": "Net 15",
+        "notes": "Hospitality staff tailoring service contract.",
+        "items": [
+            {
+                "item": "Tailoring Service",
+                "quantity": 1,
+                "unit_price": "2500.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    }
+]

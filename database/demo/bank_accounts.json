@@ -1,0 +1,67 @@
+[
+    {
+        "account_number": "514012345678",
+        "account_name": "Business Current Account",
+        "bank_name": "Maybank",
+        "branch_name": "Jalan Tun Perak, Kuala Lumpur",
+        "opening_balance": "500000.00",
+        "iban": null,
+        "swift_code": "MBBEMYKL",
+        "routing_number": null,
+        "is_active": true,
+        "account_type": "checking",
+        "gl_account": "1010"
+    },
+    {
+        "account_number": "8001234567",
+        "account_name": "Business Savings Account",
+        "bank_name": "CIMB Bank",
+        "branch_name": "Menara CIMB, KL Sentral",
+        "opening_balance": "1000000.00",
+        "iban": null,
+        "swift_code": "CIBBMYKL",
+        "routing_number": null,
+        "is_active": true,
+        "account_type": "savings",
+        "gl_account": "1020"
+    },
+    {
+        "account_number": "3123456789",
+        "account_name": "Revolving Credit Facility",
+        "bank_name": "Public Bank",
+        "branch_name": "Menara Public Bank, Jalan Ampang",
+        "opening_balance": "0.00",
+        "iban": null,
+        "swift_code": "PBBEMYKL",
+        "routing_number": null,
+        "is_active": true,
+        "account_type": "credit",
+        "gl_account": "2300"
+    },
+    {
+        "account_number": "21234500012345",
+        "account_name": "Equipment Term Loan",
+        "bank_name": "RHB Bank",
+        "branch_name": "Jalan Tun Razak",
+        "opening_balance": "500000.00",
+        "iban": null,
+        "swift_code": "RHBBMYKL",
+        "routing_number": null,
+        "is_active": true,
+        "account_type": "loan",
+        "gl_account": "2500"
+    },
+    {
+        "account_number": "04500012345",
+        "account_name": "Petty Cash Account",
+        "bank_name": "Hong Leong Bank",
+        "branch_name": "Petaling Jaya",
+        "opening_balance": "10000.00",
+        "iban": null,
+        "swift_code": "HLBBMYKL",
+        "routing_number": null,
+        "is_active": false,
+        "account_type": "checking",
+        "gl_account": "1005"
+    }
+]

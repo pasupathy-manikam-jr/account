@@ -1,0 +1,317 @@
+[
+    {
+        "email": "kokleong.chan@example.com",
+        "company_name": "Chan Office Supplies Sdn Bhd",
+        "contact_person_name": "Mr. Chan Kok Leong",
+        "contact_person_email": "kokleong.chan@example.com",
+        "contact_person_mobile": "+60152530829",
+        "tax_number": "C220791-1186",
+        "payment_terms": "Net 30",
+        "billing_address": {
+            "name": "Chan Office Supplies Sdn Bhd",
+            "address_line_1": "No. 15, Lebuh Pantai",
+            "address_line_2": null,
+            "city": "Petaling Jaya",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "46200"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for chan office supplies."
+    },
+    {
+        "email": "zulkifli.omar@example.com",
+        "company_name": "Syarikat Bekalan Omar Sdn Bhd",
+        "contact_person_name": "Encik Zulkifli bin Omar",
+        "contact_person_email": "zulkifli.omar@example.com",
+        "contact_person_mobile": "+60181579240",
+        "tax_number": "C219548-0950",
+        "payment_terms": "Net 45",
+        "billing_address": {
+            "name": "Syarikat Bekalan Omar Sdn Bhd",
+            "address_line_1": "No. 220, Jalan Tun Razak",
+            "address_line_2": null,
+            "city": "George Town",
+            "state": "Pulau Pinang",
+            "country": "Malaysia",
+            "zip_code": "10200"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for syarikat bekalan omar."
+    },
+    {
+        "email": "rajkumar.ganesan@example.com",
+        "company_name": "Ganesan Electrical Works Sdn Bhd",
+        "contact_person_name": "Mr. Raj Kumar a/l Ganesan",
+        "contact_person_email": "rajkumar.ganesan@example.com",
+        "contact_person_mobile": "+60183602037",
+        "tax_number": "C111408-7104",
+        "payment_terms": "Net 60",
+        "billing_address": {
+            "name": "Ganesan Electrical Works Sdn Bhd",
+            "address_line_1": "No. 199, Jalan Raja Laut",
+            "address_line_2": "Tingkat 15",
+            "city": "Melaka",
+            "state": "Melaka",
+            "country": "Malaysia",
+            "zip_code": "75000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for ganesan electrical works."
+    },
+    {
+        "email": "peishan.lau@example.com",
+        "company_name": "Lau Printing & Packaging Sdn Bhd",
+        "contact_person_name": "Ms. Lau Pei Shan",
+        "contact_person_email": "peishan.lau@example.com",
+        "contact_person_mobile": "+60161171979",
+        "tax_number": "C171486-9028",
+        "payment_terms": "Net 15",
+        "billing_address": {
+            "name": "Lau Printing & Packaging Sdn Bhd",
+            "address_line_1": "No. 39, Lebuh Pantai",
+            "address_line_2": null,
+            "city": "Kuching",
+            "state": "Sarawak",
+            "country": "Malaysia",
+            "zip_code": "93100"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for lau printing & packaging."
+    },
+    {
+        "email": "hashim.yaacob@example.com",
+        "company_name": "Hashim Engineering Consultants Sdn Bhd",
+        "contact_person_name": "Dato' Ir. Hashim bin Yaacob",
+        "contact_person_email": "hashim.yaacob@example.com",
+        "contact_person_mobile": "+60160991709",
+        "tax_number": "C282028-3657",
+        "payment_terms": "COD",
+        "billing_address": {
+            "name": "Hashim Engineering Consultants Sdn Bhd",
+            "address_line_1": "No. 228, Persiaran Perdana",
+            "address_line_2": "Tingkat 12",
+            "city": "Kota Bharu",
+            "state": "Kelantan",
+            "country": "Malaysia",
+            "zip_code": "15000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for hashim engineering consultants."
+    },
+    {
+        "email": "azizah.musa@example.com",
+        "company_name": "Azizah Cleaning Services Enterprise",
+        "contact_person_name": "Puan Azizah binti Musa",
+        "contact_person_email": "azizah.musa@example.com",
+        "contact_person_mobile": "+60191037872",
+        "tax_number": "C289593-6499",
+        "payment_terms": "Net 30",
+        "billing_address": {
+            "name": "Azizah Cleaning Services Enterprise",
+            "address_line_1": "No. 92, Persiaran Perdana",
+            "address_line_2": null,
+            "city": "Cyberjaya",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "63000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for azizah cleaning services."
+    },
+    {
+        "email": "kianming.teh@example.com",
+        "company_name": "Teh Computer Systems Sdn Bhd",
+        "contact_person_name": "Mr. Teh Kian Ming",
+        "contact_person_email": "kianming.teh@example.com",
+        "contact_person_mobile": "+60103709137",
+        "tax_number": "C119120-2181",
+        "payment_terms": "Net 45",
+        "billing_address": {
+            "name": "Teh Computer Systems Sdn Bhd",
+            "address_line_1": "No. 168, Persiaran Perdana",
+            "address_line_2": "Lot 59",
+            "city": "Klang",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "41000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for teh computer systems."
+    },
+    {
+        "email": "firdaus.rahim@example.com",
+        "company_name": "Firdaus Transport & Haulage Sdn Bhd",
+        "contact_person_name": "Encik Mohd Firdaus bin Rahim",
+        "contact_person_email": "firdaus.rahim@example.com",
+        "contact_person_mobile": "+60147031986",
+        "tax_number": "C148858-1929",
+        "payment_terms": "Net 60",
+        "billing_address": {
+            "name": "Firdaus Transport & Haulage Sdn Bhd",
+            "address_line_1": "No. 26, Jalan Raja Laut",
+            "address_line_2": null,
+            "city": "Shah Alam",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "40000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for firdaus transport & haulage."
+    },
+    {
+        "email": "lakshmi.nair@example.com",
+        "company_name": "Nair Furniture Trading Sdn Bhd",
+        "contact_person_name": "Ms. Lakshmi a/p Nair",
+        "contact_person_email": "lakshmi.nair@example.com",
+        "contact_person_mobile": "+60195175466",
+        "tax_number": "C272961-1688",
+        "payment_terms": "Net 15",
+        "billing_address": {
+            "name": "Nair Furniture Trading Sdn Bhd",
+            "address_line_1": "No. 83, Jalan Tun Razak",
+            "address_line_2": null,
+            "city": "Kuala Lumpur",
+            "state": "Wilayah Persekutuan Kuala Lumpur",
+            "country": "Malaysia",
+            "zip_code": "50450"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for nair furniture trading."
+    },
+    {
+        "email": "junhao.koh@example.com",
+        "company_name": "Koh Steel Fabrication Sdn Bhd",
+        "contact_person_name": "Mr. Koh Jun Hao",
+        "contact_person_email": "junhao.koh@example.com",
+        "contact_person_mobile": "+60199583219",
+        "tax_number": "C166101-1596",
+        "payment_terms": "COD",
+        "billing_address": {
+            "name": "Koh Steel Fabrication Sdn Bhd",
+            "address_line_1": "No. 161, Jalan Teluk Sisek",
+            "address_line_2": "Lot 74",
+            "city": "Subang Jaya",
+            "state": "Selangor",
+            "country": "Malaysia",
+            "zip_code": "47500"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for koh steel fabrication."
+    },
+    {
+        "email": "benedict.majimbun@example.com",
+        "company_name": "Sabah Fresh Produce Sdn Bhd",
+        "contact_person_name": "Encik Benedict Majimbun",
+        "contact_person_email": "benedict.majimbun@example.com",
+        "contact_person_mobile": "+60181053424",
+        "tax_number": "C280976-3374",
+        "payment_terms": "Net 30",
+        "billing_address": {
+            "name": "Sabah Fresh Produce Sdn Bhd",
+            "address_line_1": "No. 141, Jalan Kampung Attap",
+            "address_line_2": null,
+            "city": "Ipoh",
+            "state": "Perak",
+            "country": "Malaysia",
+            "zip_code": "30450"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for sabah fresh produce."
+    },
+    {
+        "email": "rahman.said@example.com",
+        "company_name": "Rahman Halal Foods Sdn Bhd",
+        "contact_person_name": "Haji Abdul Rahman bin Said",
+        "contact_person_email": "rahman.said@example.com",
+        "contact_person_mobile": "+60178920785",
+        "tax_number": "C235146-7628",
+        "payment_terms": "Net 45",
+        "billing_address": {
+            "name": "Rahman Halal Foods Sdn Bhd",
+            "address_line_1": "No. 187, Jalan Gaya",
+            "address_line_2": null,
+            "city": "Kota Kinabalu",
+            "state": "Sabah",
+            "country": "Malaysia",
+            "zip_code": "88000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for rahman halal foods."
+    },
+    {
+        "email": "liying.cheah@example.com",
+        "company_name": "Cheah Telecommunication Sdn Bhd",
+        "contact_person_name": "Ms. Cheah Li Ying",
+        "contact_person_email": "liying.cheah@example.com",
+        "contact_person_mobile": "+60197603172",
+        "tax_number": "C214911-4070",
+        "payment_terms": "Net 60",
+        "billing_address": {
+            "name": "Cheah Telecommunication Sdn Bhd",
+            "address_line_1": "No. 122, Jalan Kampung Attap",
+            "address_line_2": "Lot 8",
+            "city": "Alor Setar",
+            "state": "Kedah",
+            "country": "Malaysia",
+            "zip_code": "05000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for cheah telecommunication."
+    },
+    {
+        "email": "gopal.arumugam@example.com",
+        "company_name": "Arumugam Security Services Sdn Bhd",
+        "contact_person_name": "Mr. Gopal a/l Arumugam",
+        "contact_person_email": "gopal.arumugam@example.com",
+        "contact_person_mobile": "+60124095259",
+        "tax_number": "C129411-4919",
+        "payment_terms": "Net 15",
+        "billing_address": {
+            "name": "Arumugam Security Services Sdn Bhd",
+            "address_line_1": "No. 21, Jalan Tun Razak",
+            "address_line_2": "Lot 52",
+            "city": "Putrajaya",
+            "state": "Wilayah Persekutuan Putrajaya",
+            "country": "Malaysia",
+            "zip_code": "62000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for arumugam security services."
+    },
+    {
+        "email": "aminah.zaini@example.com",
+        "company_name": "Kuching Stationery Enterprise",
+        "contact_person_name": "Cik Dayang Siti Aminah binti Abang Zaini",
+        "contact_person_email": "aminah.zaini@example.com",
+        "contact_person_mobile": "+60188306674",
+        "tax_number": "C207353-4717",
+        "payment_terms": "COD",
+        "billing_address": {
+            "name": "Kuching Stationery Enterprise",
+            "address_line_1": "No. 38, Jalan Bukit Bintang",
+            "address_line_2": "Lot 48",
+            "city": "Sandakan",
+            "state": "Sabah",
+            "country": "Malaysia",
+            "zip_code": "90000"
+        },
+        "shipping_address": null,
+        "same_as_billing": true,
+        "notes": "Preferred supplier for kuching stationery."
+    }
+]

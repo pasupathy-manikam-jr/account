@@ -1,0 +1,364 @@
+[
+    {
+        "invoice_date": "2026-05-10",
+        "due_date": "2026-05-23",
+        "vendor": "kokleong.chan@example.com",
+        "warehouse": 0,
+        "status": "posted",
+        "payment_terms": "Net 15",
+        "notes": "Initial stock replenishment.",
+        "items": [
+            {
+                "item": "Coffee",
+                "quantity": 50,
+                "unit_price": "8.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Jeans",
+                "quantity": 30,
+                "unit_price": "35.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-05-12",
+        "due_date": "2026-05-28",
+        "vendor": "rajkumar.ganesan@example.com",
+        "warehouse": 1,
+        "status": "draft",
+        "payment_terms": "COD",
+        "notes": "Tech inventory update.",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 5,
+                "unit_price": "650.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Smartphone",
+                "quantity": 10,
+                "unit_price": "450.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-05-16",
+        "due_date": "2026-05-31",
+        "vendor": "hashim.yaacob@example.com",
+        "warehouse": 2,
+        "status": "posted",
+        "payment_terms": "Net 30",
+        "notes": "Industrial parts bulk purchase.",
+        "items": [
+            {
+                "item": "Brake Pad Set",
+                "quantity": 40,
+                "unit_price": "40.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Cordless Drill Machine",
+                "quantity": 10,
+                "unit_price": "70.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-05-21",
+        "due_date": "2026-06-04",
+        "vendor": "kianming.teh@example.com",
+        "warehouse": 3,
+        "status": "posted",
+        "payment_terms": "Net 45",
+        "notes": "Fresh produce restocking.",
+        "items": [
+            {
+                "item": "Apple",
+                "quantity": 100,
+                "unit_price": "2.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Raspberry",
+                "quantity": 60,
+                "unit_price": "4.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-05-28",
+        "due_date": "2026-07-13",
+        "vendor": "lakshmi.nair@example.com",
+        "warehouse": 4,
+        "status": "posted",
+        "payment_terms": "Net 15",
+        "notes": "Office supplies and stationery.",
+        "items": [
+            {
+                "item": "Ink Cartridge",
+                "quantity": 30,
+                "unit_price": "12.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Notebook",
+                "quantity": 50,
+                "unit_price": "18.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-06-04",
+        "due_date": "2026-06-18",
+        "vendor": "benedict.majimbun@example.com",
+        "warehouse": 0,
+        "status": "draft",
+        "payment_terms": "Net 30",
+        "notes": "Apparel and accessories stock.",
+        "items": [
+            {
+                "item": "Jeans",
+                "quantity": 50,
+                "unit_price": "35.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Belt",
+                "quantity": 20,
+                "unit_price": "120.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-06-12",
+        "due_date": "2026-06-28",
+        "vendor": "liying.cheah@example.com",
+        "warehouse": 1,
+        "status": "posted",
+        "payment_terms": "Net 60",
+        "notes": "Maintenance and tools.",
+        "items": [
+            {
+                "item": "Car Engine Oil",
+                "quantity": 50,
+                "unit_price": "25.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Cordless Drill Machine",
+                "quantity": 5,
+                "unit_price": "70.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-06-18",
+        "due_date": "2026-07-03",
+        "vendor": "kokleong.chan@example.com",
+        "warehouse": 2,
+        "status": "posted",
+        "payment_terms": "Net 15",
+        "notes": "Tech and electronics restock.",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 3,
+                "unit_price": "650.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Laptop Battery",
+                "quantity": 10,
+                "unit_price": "45.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-06-25",
+        "due_date": "2026-07-08",
+        "vendor": "rajkumar.ganesan@example.com",
+        "warehouse": 3,
+        "status": "posted",
+        "payment_terms": "Net 30",
+        "notes": "Pantry and food supplies.",
+        "items": [
+            {
+                "item": "Coffee",
+                "quantity": 20,
+                "unit_price": "8.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Apple",
+                "quantity": 50,
+                "unit_price": "2.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-07-02",
+        "due_date": "2026-07-17",
+        "vendor": "hashim.yaacob@example.com",
+        "warehouse": 4,
+        "status": "draft",
+        "payment_terms": "COD",
+        "notes": "Home and garden accessories.",
+        "items": [
+            {
+                "item": "Light Bulb",
+                "quantity": 10,
+                "unit_price": "250.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Plant Pot",
+                "quantity": 100,
+                "unit_price": "12.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-07-11",
+        "due_date": "2026-07-28",
+        "vendor": "kianming.teh@example.com",
+        "warehouse": 0,
+        "status": "posted",
+        "payment_terms": "Net 45",
+        "notes": "Premium gadgets and accessories.",
+        "items": [
+            {
+                "item": "Watch",
+                "quantity": 10,
+                "unit_price": "120.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Smartphone",
+                "quantity": 5,
+                "unit_price": "450.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-07-18",
+        "due_date": "2026-08-02",
+        "vendor": "lakshmi.nair@example.com",
+        "warehouse": 1,
+        "status": "posted",
+        "payment_terms": "Net 15",
+        "notes": "Beauty and hygiene essentials.",
+        "items": [
+            {
+                "item": "Shampoo",
+                "quantity": 100,
+                "unit_price": "9.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Face Cream",
+                "quantity": 50,
+                "unit_price": "18.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-07-24",
+        "due_date": "2026-08-06",
+        "vendor": "benedict.majimbun@example.com",
+        "warehouse": 2,
+        "status": "draft",
+        "payment_terms": "Due on Receipt",
+        "notes": "Warehouse lighting setup.",
+        "items": [
+            {
+                "item": "Light Bulb",
+                "quantity": 15,
+                "unit_price": "250.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-08-02",
+        "due_date": "2026-08-18",
+        "vendor": "liying.cheah@example.com",
+        "warehouse": 3,
+        "status": "posted",
+        "payment_terms": "Net 60",
+        "notes": "Spare parts for fleet.",
+        "items": [
+            {
+                "item": "Brake Pad Set",
+                "quantity": 30,
+                "unit_price": "40.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Car Engine Oil",
+                "quantity": 25,
+                "unit_price": "25.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-08-10",
+        "due_date": "2026-08-25",
+        "vendor": "kokleong.chan@example.com",
+        "warehouse": 4,
+        "status": "posted",
+        "payment_terms": "Net 15",
+        "notes": "Mixed retail inventory.",
+        "items": [
+            {
+                "item": "Jeans",
+                "quantity": 20,
+                "unit_price": "35.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "T-Shirt",
+                "quantity": 50,
+                "unit_price": "12.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "invoice_date": "2026-08-18",
+        "due_date": "2026-09-02",
+        "vendor": "rajkumar.ganesan@example.com",
+        "warehouse": 0,
+        "status": "posted",
+        "payment_terms": "Net 30",
+        "notes": "Corporate gifting supplies.",
+        "items": [
+            {
+                "item": "Watch",
+                "quantity": 5,
+                "unit_price": "120.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Notebook",
+                "quantity": 20,
+                "unit_price": "18.00",
+                "discount_percentage": "0.00"
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "tax_name": "Sales Tax 10%",
+        "rate": "10.00"
+    },
+    {
+        "tax_name": "Sales Tax 5%",
+        "rate": "5.00"
+    },
+    {
+        "tax_name": "Service Tax 8%",
+        "rate": "8.00"
+    },
+    {
+        "tax_name": "Service Tax 6%",
+        "rate": "6.00"
+    }
+]

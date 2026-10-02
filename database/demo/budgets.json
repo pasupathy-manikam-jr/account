@@ -1,0 +1,102 @@
+{
+    "periods": [
+        {
+            "period_name": "FY2026 Annual Budget",
+            "financial_year": 2026,
+            "start_date": "2026-01-01",
+            "end_date": "2026-12-31",
+            "status": "active"
+        },
+        {
+            "period_name": "Q3 2026 (Jul – Sep)",
+            "financial_year": 2026,
+            "start_date": "2026-07-01",
+            "end_date": "2026-09-30",
+            "status": "closed"
+        },
+        {
+            "period_name": "Q4 2026 (Oct – Dec)",
+            "financial_year": 2026,
+            "start_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "status": "active"
+        },
+        {
+            "period_name": "H1 2027 (Jan – Jun)",
+            "financial_year": 2027,
+            "start_date": "2027-01-01",
+            "end_date": "2027-06-30",
+            "status": "approved"
+        },
+        {
+            "period_name": "FY2027 Annual Budget",
+            "financial_year": 2027,
+            "start_date": "2027-01-01",
+            "end_date": "2027-12-31",
+            "status": "draft"
+        }
+    ],
+    "budgets": [
+        {
+            "budget_name": "Kuala Lumpur HQ Operating Expenses",
+            "period": "FY2026 Annual Budget",
+            "budget_type": "operational",
+            "status": "active",
+            "allocations": {
+                "5300": 24000,
+                "5310": 3600,
+                "5400": 9000,
+                "5510": 480
+            }
+        },
+        {
+            "budget_name": "Sales & Marketing 2026",
+            "period": "FY2026 Annual Budget",
+            "budget_type": "operational",
+            "status": "active",
+            "allocations": { "5320": 15000, "5330": 6000 }
+        },
+        {
+            "budget_name": "Cost of Sales 2026",
+            "period": "FY2026 Annual Budget",
+            "budget_type": "operational",
+            "status": "active",
+            "allocations": { "5100": 12000 }
+        },
+        {
+            "budget_name": "Merdeka Month Promotion",
+            "period": "Q3 2026 (Jul – Sep)",
+            "budget_type": "operational",
+            "status": "closed",
+            "allocations": { "5320": 3000, "5330": 1500 }
+        },
+        {
+            "budget_name": "Year-End Festive Campaign",
+            "period": "Q4 2026 (Oct – Dec)",
+            "budget_type": "operational",
+            "status": "approved",
+            "allocations": { "5320": 8000, "5330": 2500 }
+        },
+        {
+            "budget_name": "Penang Branch Office Fit-Out",
+            "period": "H1 2027 (Jan – Jun)",
+            "budget_type": "capital",
+            "status": "approved",
+            "allocations": { "5300": 18000, "5310": 5000 }
+        },
+        {
+            "budget_name": "IT Equipment Refresh 2027",
+            "period": "FY2027 Annual Budget",
+            "budget_type": "capital",
+            "status": "draft",
+            "allocations": { "5310": 12000 }
+        },
+        {
+            "budget_name": "Working Capital Reserve 2027",
+            "period": "FY2027 Annual Budget",
+            "budget_type": "cash_flow",
+            "status": "draft",
+            "allocations": {}
+        }
+    ]
+}

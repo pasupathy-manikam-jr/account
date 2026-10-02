@@ -1,0 +1,296 @@
+[
+    {
+        "kind": "customer",
+        "date": "2026-05-15",
+        "bank": 0,
+        "reference_number": "REF-CP-001",
+        "notes": "Partial payment with defective product credit note applied.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 0,
+                "amount": "1500.00"
+            }
+        ]
+    },
+    {
+        "kind": "customer",
+        "date": "2026-05-15",
+        "bank": 1,
+        "reference_number": "REF-CP-002",
+        "notes": "Full payment for backup laptop purchase.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 2,
+                "amount": "3185.96"
+            }
+        ]
+    },
+    {
+        "kind": "customer",
+        "date": "2026-05-15",
+        "bank": 0,
+        "reference_number": "REF-CP-003",
+        "notes": "Full settlement with multiple credit note adjustments.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 3,
+                "amount": "542.62"
+            }
+        ]
+    },
+    {
+        "kind": "customer",
+        "date": "2026-05-16",
+        "bank": 2,
+        "reference_number": "REF-CP-004",
+        "notes": "Payment with wrong item and damaged goods credit notes.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 4,
+                "amount": "2145.13"
+            }
+        ]
+    },
+    {
+        "kind": "customer",
+        "date": "2026-05-16",
+        "bank": 0,
+        "reference_number": "REF-CP-005",
+        "notes": "Final payment completing SI-001, invoice now fully paid.",
+        "status": "pending",
+        "allocations": [
+            {
+                "invoice": 0,
+                "amount": "623.98"
+            }
+        ]
+    },
+    {
+        "kind": "customer",
+        "date": "2026-05-16",
+        "bank": 1,
+        "reference_number": "REF-CP-006",
+        "notes": "IT server maintenance payment pending clearance.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 6,
+                "amount": "2065.00"
+            }
+        ]
+    },
+    {
+        "kind": "customer",
+        "date": "2026-05-17",
+        "bank": 0,
+        "reference_number": "REF-CP-007",
+        "notes": "Corporate wellness therapy sessions full payment.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 7,
+                "amount": "1560.00"
+            }
+        ]
+    },
+    {
+        "kind": "customer",
+        "date": "2026-05-18",
+        "bank": 2,
+        "reference_number": "REF-CP-008",
+        "notes": "Annual order partial payment.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 13,
+                "amount": "1200.00"
+            }
+        ]
+    },
+    {
+        "kind": "customer",
+        "date": "2026-05-19",
+        "bank": 0,
+        "reference_number": "REF-CP-009",
+        "notes": "Tech peripheral payment.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 15,
+                "amount": "1950.00"
+            }
+        ]
+    },
+    {
+        "kind": "customer",
+        "date": "2026-05-19",
+        "bank": 1,
+        "reference_number": "REF-CP-010",
+        "notes": "Emergency technical support partial payment.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 10,
+                "amount": "3000.00"
+            }
+        ]
+    },
+    {
+        "kind": "customer",
+        "date": "2026-05-19",
+        "bank": 3,
+        "reference_number": "REF-CP-011",
+        "notes": "Full Payment.",
+        "status": "pending",
+        "allocations": [
+            {
+                "invoice": 11,
+                "amount": "1770.00"
+            }
+        ]
+    },
+    {
+        "kind": "vendor",
+        "date": "2026-05-15",
+        "bank": 0,
+        "reference_number": "REF-VP-001",
+        "notes": "Full payment for invoice PI-001 after debit note adjustment for defective items.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 0,
+                "amount": "1711.00"
+            }
+        ]
+    },
+    {
+        "kind": "vendor",
+        "date": "2026-05-15",
+        "bank": 1,
+        "reference_number": "REF-VP-002",
+        "notes": "Partial payment for industrial parts purchase, remaining balance to be paid later.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 2,
+                "amount": "2000.00"
+            }
+        ]
+    },
+    {
+        "kind": "vendor",
+        "date": "2026-05-15",
+        "bank": 0,
+        "reference_number": "REF-VP-003",
+        "notes": "Full settlement with debit note adjustment for excess quantity returned.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 3,
+                "amount": "572.00"
+            }
+        ]
+    },
+    {
+        "kind": "vendor",
+        "date": "2026-05-16",
+        "bank": 2,
+        "reference_number": "REF-VP-004",
+        "notes": "Complete payment after wrong item return adjustment applied.",
+        "status": "pending",
+        "allocations": [
+            {
+                "invoice": 4,
+                "amount": "1638.00"
+            }
+        ]
+    },
+    {
+        "kind": "vendor",
+        "date": "2026-05-16",
+        "bank": 3,
+        "reference_number": "REF-VP-005",
+        "notes": "Complete payment after wrong item return adjustment applied.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 15,
+                "amount": "1338.00"
+            }
+        ]
+    },
+    {
+        "kind": "vendor",
+        "date": "2026-05-16",
+        "bank": 0,
+        "reference_number": "REF-VP-006",
+        "notes": "Final payment completing PI-003, invoice now fully paid.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 2,
+                "amount": "1146.00"
+            }
+        ]
+    },
+    {
+        "kind": "vendor",
+        "date": "2026-05-16",
+        "bank": 1,
+        "reference_number": "REF-VP-007",
+        "notes": "Full payment with defective parts debit note applied.",
+        "status": "pending",
+        "allocations": [
+            {
+                "invoice": 6,
+                "amount": "2225.50"
+            }
+        ]
+    },
+    {
+        "kind": "vendor",
+        "date": "2026-05-17",
+        "bank": 0,
+        "reference_number": "REF-VP-008",
+        "notes": "Payment after damaged goods return, large debit note adjustment.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 7,
+                "amount": "2000.00"
+            }
+        ]
+    },
+    {
+        "kind": "vendor",
+        "date": "2026-05-19",
+        "bank": 2,
+        "reference_number": "REF-VP-009",
+        "notes": "Pantry supplies payment with excess quantity adjustment.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 8,
+                "amount": "318.80"
+            }
+        ]
+    },
+    {
+        "kind": "vendor",
+        "date": "2026-05-19",
+        "bank": 0,
+        "reference_number": "REF-VP-010",
+        "notes": "Partial payment for premium gadgets with wrong item debit note.",
+        "status": "cleared",
+        "allocations": [
+            {
+                "invoice": 10,
+                "amount": "1000.00"
+            }
+        ]
+    }
+]

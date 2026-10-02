@@ -1,0 +1,310 @@
+[
+    {
+        "proposal_date": "2026-06-24",
+        "due_date": "2026-07-07",
+        "customer": "nazri.abdullah@example.com",
+        "warehouse": 0,
+        "status": "accepted",
+        "payment_terms": "Net 15",
+        "notes": "Bulk office supply restocking.",
+        "items": [
+            {
+                "item": "Ink Cartridge",
+                "quantity": 10,
+                "unit_price": "25.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-06-26",
+        "due_date": "2026-07-10",
+        "customer": "sharifah.zainab@example.com",
+        "warehouse": 1,
+        "status": "sent",
+        "payment_terms": "Net 30",
+        "notes": "Quarterly hygiene supply request.",
+        "items": [
+            {
+                "item": "Shampoo",
+                "quantity": 5,
+                "unit_price": "18.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-06-30",
+        "due_date": "2026-07-15",
+        "customer": "chongwei.lee@example.com",
+        "warehouse": 2,
+        "status": "draft",
+        "payment_terms": "COD",
+        "notes": "Office decoration and maintenance.",
+        "items": [
+            {
+                "item": "Plant Pot",
+                "quantity": 5,
+                "unit_price": "24.99",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Watch",
+                "quantity": 3,
+                "unit_price": "199.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-07-05",
+        "due_date": "2026-07-19",
+        "customer": "kavitha.ramasamy@example.com",
+        "warehouse": 3,
+        "status": "rejected",
+        "payment_terms": "Net 45",
+        "notes": "Pantry restocking proposal.",
+        "items": [
+            {
+                "item": "Apple",
+                "quantity": 20,
+                "unit_price": "3.99",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Raspberry",
+                "quantity": 50,
+                "unit_price": "6.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-07-12",
+        "due_date": "2026-07-27",
+        "customer": "faizal.mansor@example.com",
+        "warehouse": 4,
+        "status": "accepted",
+        "payment_terms": "Net 15",
+        "notes": "High-end laptop for design team.",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 2,
+                "unit_price": "899.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-07-19",
+        "due_date": "2026-08-02",
+        "customer": "rohani.yusof@example.com",
+        "warehouse": 0,
+        "status": "sent",
+        "payment_terms": "Net 30",
+        "notes": "Stationery procurement.",
+        "items": [
+            {
+                "item": "Ink Cartridge",
+                "quantity": 14,
+                "unit_price": "25.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-07-27",
+        "due_date": "2026-08-12",
+        "customer": "siewling.chong@example.com",
+        "warehouse": 1,
+        "status": "draft",
+        "payment_terms": "Net 60",
+        "notes": "Annual cleaning supply contract.",
+        "items": [
+            {
+                "item": "Shampoo",
+                "quantity": 5,
+                "unit_price": "18.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-08-02",
+        "due_date": "2026-08-17",
+        "customer": "nazri.abdullah@example.com",
+        "warehouse": 2,
+        "status": "accepted",
+        "payment_terms": "Net 15",
+        "notes": "Car maintenance and office decor.",
+        "items": [
+            {
+                "item": "Car Engine Oil",
+                "quantity": 5,
+                "unit_price": "45.00",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Plant Pot",
+                "quantity": 4,
+                "unit_price": "24.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-08-11",
+        "due_date": "2026-08-22",
+        "customer": "sharifah.zainab@example.com",
+        "warehouse": 3,
+        "status": "rejected",
+        "payment_terms": "Net 30",
+        "notes": "Fruit supply for corporate event.",
+        "items": [
+            {
+                "item": "Apple",
+                "quantity": 20,
+                "unit_price": "3.99",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Raspberry",
+                "quantity": 30,
+                "unit_price": "6.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-08-17",
+        "due_date": "2026-09-01",
+        "customer": "chongwei.lee@example.com",
+        "warehouse": 4,
+        "status": "accepted",
+        "payment_terms": "COD",
+        "notes": "Workstation upgrade proposal.",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 2,
+                "unit_price": "899.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-08-25",
+        "due_date": "2026-09-11",
+        "customer": "kavitha.ramasamy@example.com",
+        "warehouse": 0,
+        "status": "sent",
+        "payment_terms": "Net 45",
+        "notes": "Monthly toner and ink supply.",
+        "items": [
+            {
+                "item": "Ink Cartridge",
+                "quantity": 15,
+                "unit_price": "25.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-09-01",
+        "due_date": "2026-09-16",
+        "customer": "faizal.mansor@example.com",
+        "warehouse": 1,
+        "status": "draft",
+        "payment_terms": "Net 15",
+        "notes": "Hotel amenity restocking.",
+        "items": [
+            {
+                "item": "Shampoo",
+                "quantity": 15,
+                "unit_price": "18.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-09-08",
+        "due_date": "2026-09-21",
+        "customer": "rohani.yusof@example.com",
+        "warehouse": 2,
+        "status": "accepted",
+        "payment_terms": "Net 30",
+        "notes": "Premium gifts and decor.",
+        "items": [
+            {
+                "item": "Watch",
+                "quantity": 3,
+                "unit_price": "199.99",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Plant Pot",
+                "quantity": 4,
+                "unit_price": "24.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-09-16",
+        "due_date": "2026-10-02",
+        "customer": "siewling.chong@example.com",
+        "warehouse": 3,
+        "status": "draft",
+        "payment_terms": "Net 60",
+        "notes": "Seasonal food basket supplies.",
+        "items": [
+            {
+                "item": "Apple",
+                "quantity": 15,
+                "unit_price": "3.99",
+                "discount_percentage": "0.00"
+            },
+            {
+                "item": "Raspberry",
+                "quantity": 30,
+                "unit_price": "6.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-09-23",
+        "due_date": "2026-10-08",
+        "customer": "nazri.abdullah@example.com",
+        "warehouse": 4,
+        "status": "accepted",
+        "payment_terms": "Net 15",
+        "notes": "Backup laptop for executive.",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 3,
+                "unit_price": "899.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    },
+    {
+        "proposal_date": "2026-10-02",
+        "due_date": "2026-10-17",
+        "customer": "sharifah.zainab@example.com",
+        "warehouse": 0,
+        "status": "sent",
+        "payment_terms": "Net 30",
+        "notes": "Large scale printing ink order.",
+        "items": [
+            {
+                "item": "Ink Cartridge",
+                "quantity": 20,
+                "unit_price": "25.99",
+                "discount_percentage": "0.00"
+            }
+        ]
+    }
+]

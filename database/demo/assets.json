@@ -1,0 +1,425 @@
+{
+    "categories": [
+        "Computer Equipment",
+        "Office Furniture",
+        "Vehicles",
+        "Machinery",
+        "Electronics",
+        "Network Equipment",
+        "Mobile Devices",
+        "Tools & Equipment",
+        "Building Infrastructure",
+        "Software Licences"
+    ],
+    "locations": [
+        {
+            "name": "Menara Lim Group, Jalan Ampang",
+            "code": "KL-HQ",
+            "type": "building",
+            "parent": null
+        },
+        {
+            "name": "Level 12 – Finance & Admin",
+            "code": "KL-L12",
+            "type": "floor",
+            "parent": "KL-HQ"
+        },
+        {
+            "name": "Level 15 – IT Department",
+            "code": "KL-L15",
+            "type": "floor",
+            "parent": "KL-HQ"
+        },
+        {
+            "name": "Server Room",
+            "code": "KL-L15-SRV",
+            "type": "room",
+            "parent": "KL-L15"
+        },
+        {
+            "name": "Bilik Mesyuarat Melaka",
+            "code": "KL-L12-BMM",
+            "type": "room",
+            "parent": "KL-L12"
+        },
+        {
+            "name": "Shah Alam Distribution Warehouse",
+            "code": "SA-WH",
+            "type": "warehouse",
+            "parent": null
+        },
+        {
+            "name": "Penang Branch, Bayan Lepas",
+            "code": "PG-BR",
+            "type": "building",
+            "parent": null
+        },
+        {
+            "name": "Iskandar Puteri Project Site",
+            "code": "JB-SITE",
+            "type": "site",
+            "parent": null
+        }
+    ],
+    "assets": [
+        {
+            "name": "Dell Latitude 5440 Laptop",
+            "serial_code": "CE-LAP-001",
+            "category": "Computer Equipment",
+            "location": "KL-L15",
+            "purchase_date": "2025-01-15",
+            "quantity": 8,
+            "unit_price": "4200.00",
+            "description": "14-inch, Core i5, 16GB RAM for finance and admin staff."
+        },
+        {
+            "name": "HP EliteDesk 800 G9 Desktop",
+            "serial_code": "CE-DSK-002",
+            "category": "Computer Equipment",
+            "location": "KL-L12",
+            "purchase_date": "2025-03-03",
+            "quantity": 6,
+            "unit_price": "3100.00",
+            "description": null
+        },
+        {
+            "name": "Proton X70 Premium (WVA 7120)",
+            "serial_code": "VH-CAR-003",
+            "category": "Vehicles",
+            "location": "KL-HQ",
+            "purchase_date": "2024-06-20",
+            "quantity": 1,
+            "unit_price": "115000.00",
+            "description": "Company car for the managing director."
+        },
+        {
+            "name": "Perodua Bezza AV (WPP 3318)",
+            "serial_code": "VH-CAR-004",
+            "category": "Vehicles",
+            "location": "SA-WH",
+            "purchase_date": "2025-02-10",
+            "quantity": 1,
+            "unit_price": "42000.00",
+            "description": "Sales team runabout."
+        },
+        {
+            "name": "Ergonomic Mesh Office Chair",
+            "serial_code": "OF-CHR-005",
+            "category": "Office Furniture",
+            "location": "KL-L12",
+            "purchase_date": "2024-11-05",
+            "quantity": 20,
+            "unit_price": "650.00",
+            "description": null
+        },
+        {
+            "name": "Daikin Inverter Air-Conditioner 2.5HP",
+            "serial_code": "BI-AC-006",
+            "category": "Building Infrastructure",
+            "location": "KL-L15-SRV",
+            "purchase_date": "2024-09-12",
+            "quantity": 4,
+            "unit_price": "3800.00",
+            "description": "Precision cooling for the server room."
+        },
+        {
+            "name": "Canon imageRUNNER ADVANCE DX C3926",
+            "serial_code": "EL-PRN-007",
+            "category": "Electronics",
+            "location": "KL-L12",
+            "purchase_date": "2025-04-22",
+            "quantity": 1,
+            "unit_price": "12500.00",
+            "description": null
+        },
+        {
+            "name": "Cisco Catalyst 9200 48-Port Switch",
+            "serial_code": "NW-SW-008",
+            "category": "Network Equipment",
+            "location": "KL-L15-SRV",
+            "purchase_date": "2025-01-08",
+            "quantity": 2,
+            "unit_price": "8900.00",
+            "description": null
+        },
+        {
+            "name": "Toyota 2.5-Tonne Diesel Forklift",
+            "serial_code": "MC-FLT-009",
+            "category": "Machinery",
+            "location": "SA-WH",
+            "purchase_date": "2024-03-18",
+            "quantity": 1,
+            "unit_price": "68000.00",
+            "description": null
+        },
+        {
+            "name": "Apple iPhone 15 128GB",
+            "serial_code": "MD-PHN-010",
+            "category": "Mobile Devices",
+            "location": "KL-HQ",
+            "purchase_date": "2025-05-30",
+            "quantity": 5,
+            "unit_price": "4299.00",
+            "description": "For the sales and collections team."
+        },
+        {
+            "name": "Hikvision CCTV System (16 cameras)",
+            "serial_code": "BI-CCTV-011",
+            "category": "Building Infrastructure",
+            "location": "PG-BR",
+            "purchase_date": "2025-07-01",
+            "quantity": 1,
+            "unit_price": "15000.00",
+            "description": null
+        },
+        {
+            "name": "Bosch Professional Power Tool Set",
+            "serial_code": "TL-PWR-012",
+            "category": "Tools & Equipment",
+            "location": "JB-SITE",
+            "purchase_date": "2025-08-14",
+            "quantity": 3,
+            "unit_price": "1850.00",
+            "description": null
+        }
+    ],
+    "assignments": [
+        {
+            "asset": "CE-LAP-001",
+            "user": "aisyah.rahman@example.com",
+            "assigned_date": "2025-01-20",
+            "expected_return_date": "2027-01-19",
+            "condition": "excellent",
+            "returned_date": null,
+            "return_condition": null
+        },
+        {
+            "asset": "CE-LAP-001",
+            "user": "hafiz.ismail@example.com",
+            "assigned_date": "2025-01-20",
+            "expected_return_date": "2026-09-15",
+            "condition": "good",
+            "returned_date": null,
+            "return_condition": null
+        },
+        {
+            "asset": "CE-LAP-001",
+            "user": "meiling.tan@example.com",
+            "assigned_date": "2025-02-03",
+            "expected_return_date": null,
+            "condition": "excellent",
+            "returned_date": null,
+            "return_condition": null
+        },
+        {
+            "asset": "CE-LAP-001",
+            "user": "rajesh.subramaniam@example.com",
+            "assigned_date": "2025-02-03",
+            "expected_return_date": "2026-03-31",
+            "condition": "good",
+            "returned_date": "2026-03-28",
+            "return_condition": "fair"
+        },
+        {
+            "asset": "VH-CAR-003",
+            "user": "company@example.com",
+            "assigned_date": "2024-06-25",
+            "expected_return_date": null,
+            "condition": "excellent",
+            "returned_date": null,
+            "return_condition": null
+        },
+        {
+            "asset": "VH-CAR-004",
+            "user": "kahwai.wong@example.com",
+            "assigned_date": "2025-02-15",
+            "expected_return_date": "2026-08-31",
+            "condition": "good",
+            "returned_date": null,
+            "return_condition": null
+        },
+        {
+            "asset": "MD-PHN-010",
+            "user": "sitihajar.kamal@example.com",
+            "assigned_date": "2025-06-02",
+            "expected_return_date": "2027-06-01",
+            "condition": "excellent",
+            "returned_date": null,
+            "return_condition": null
+        },
+        {
+            "asset": "MD-PHN-010",
+            "user": "priya.krishnan@example.com",
+            "assigned_date": "2025-06-02",
+            "expected_return_date": "2026-06-01",
+            "condition": "excellent",
+            "returned_date": "2026-05-29",
+            "return_condition": "good"
+        },
+        {
+            "asset": "TL-PWR-012",
+            "user": "jeffrey.gimbang@example.com",
+            "assigned_date": "2025-08-20",
+            "expected_return_date": "2026-12-31",
+            "condition": "good",
+            "returned_date": null,
+            "return_condition": null
+        }
+    ],
+    "maintenances": [
+        {
+            "asset": "VH-CAR-003",
+            "title": "40,000 km Service at Proton 3S Centre",
+            "maintenance_type": "preventive",
+            "priority": "medium",
+            "scheduled_date": "2026-08-12",
+            "status": "completed",
+            "completed_date": "2026-08-12",
+            "cost": "680.00",
+            "technician": "Proton Edar, Glenmarie"
+        },
+        {
+            "asset": "MC-FLT-009",
+            "title": "Hydraulic Leak Repair",
+            "maintenance_type": "corrective",
+            "priority": "high",
+            "scheduled_date": "2026-09-24",
+            "status": "in_progress",
+            "completed_date": null,
+            "cost": "1450.00",
+            "technician": "Encik Kamarul (Toyota Material Handling)"
+        },
+        {
+            "asset": "BI-AC-006",
+            "title": "Quarterly Chemical Wash",
+            "maintenance_type": "preventive",
+            "priority": "medium",
+            "scheduled_date": "2026-10-15",
+            "status": "scheduled",
+            "completed_date": null,
+            "cost": "480.00",
+            "technician": "Sejuk Aircond Services Sdn Bhd"
+        },
+        {
+            "asset": "EL-PRN-007",
+            "title": "Fuser Unit Replacement",
+            "maintenance_type": "corrective",
+            "priority": "low",
+            "scheduled_date": "2026-07-03",
+            "status": "completed",
+            "completed_date": "2026-07-04",
+            "cost": "920.00",
+            "technician": "Canon Marketing Malaysia"
+        },
+        {
+            "asset": "NW-SW-008",
+            "title": "Firmware Upgrade & Port Audit",
+            "maintenance_type": "preventive",
+            "priority": "medium",
+            "scheduled_date": "2026-10-20",
+            "status": "scheduled",
+            "completed_date": null,
+            "cost": "0.00",
+            "technician": "In-house IT"
+        },
+        {
+            "asset": "VH-CAR-004",
+            "title": "Accident Repair – Rear Bumper",
+            "maintenance_type": "emergency",
+            "priority": "critical",
+            "scheduled_date": "2026-05-18",
+            "status": "completed",
+            "completed_date": "2026-05-22",
+            "cost": "2350.00",
+            "technician": "Bengkel Ah Seng, Klang"
+        },
+        {
+            "asset": "BI-CCTV-011",
+            "title": "Camera 7 Replacement",
+            "maintenance_type": "corrective",
+            "priority": "medium",
+            "scheduled_date": "2026-06-10",
+            "status": "cancelled",
+            "completed_date": null,
+            "cost": "0.00",
+            "technician": null
+        },
+        {
+            "asset": "OF-CHR-005",
+            "title": "Gas Lift Replacement (3 chairs)",
+            "maintenance_type": "corrective",
+            "priority": "low",
+            "scheduled_date": "2026-10-08",
+            "status": "scheduled",
+            "completed_date": null,
+            "cost": "210.00",
+            "technician": null
+        }
+    ],
+    "depreciations": [
+        {
+            "asset": "CE-LAP-001",
+            "method": "straight_line",
+            "useful_life_years": 4,
+            "salvage_value": "2400.00",
+            "start_date": "2025-02-01",
+            "post": true
+        },
+        {
+            "asset": "CE-DSK-002",
+            "method": "straight_line",
+            "useful_life_years": 5,
+            "salvage_value": "1200.00",
+            "start_date": "2025-04-01",
+            "post": true
+        },
+        {
+            "asset": "VH-CAR-003",
+            "method": "declining_balance",
+            "useful_life_years": 5,
+            "salvage_value": "35000.00",
+            "start_date": "2024-07-01",
+            "post": true
+        },
+        {
+            "asset": "VH-CAR-004",
+            "method": "declining_balance",
+            "useful_life_years": 5,
+            "salvage_value": "12000.00",
+            "start_date": "2025-03-01",
+            "post": false
+        },
+        {
+            "asset": "MC-FLT-009",
+            "method": "sum_of_years",
+            "useful_life_years": 8,
+            "salvage_value": "8000.00",
+            "start_date": "2024-04-01",
+            "post": true
+        },
+        {
+            "asset": "EL-PRN-007",
+            "method": "straight_line",
+            "useful_life_years": 5,
+            "salvage_value": "500.00",
+            "start_date": "2025-05-01",
+            "post": false
+        },
+        {
+            "asset": "NW-SW-008",
+            "method": "straight_line",
+            "useful_life_years": 5,
+            "salvage_value": "0.00",
+            "start_date": "2025-02-01",
+            "post": false
+        },
+        {
+            "asset": "MD-PHN-010",
+            "method": "sum_of_years",
+            "useful_life_years": 3,
+            "salvage_value": "2000.00",
+            "start_date": "2025-06-01",
+            "post": false
+        }
+    ]
+}

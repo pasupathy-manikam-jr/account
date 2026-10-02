@@ -1,0 +1,714 @@
+{
+    "retainers": [
+        {
+            "retainer_date": "2026-01-17",
+            "due_date": "2026-09-08",
+            "customer": "vincent.tan@example.com",
+            "warehouse": 3,
+            "status": "accepted",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Cordless Drill Machine",
+                    "quantity": "1.00",
+                    "unit_price": "120.00",
+                    "discount_percentage": "3.00"
+                },
+                {
+                    "item": "Car Engine Oil",
+                    "quantity": "1.00",
+                    "unit_price": "45.00",
+                    "discount_percentage": "1.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-01-27",
+            "due_date": "2026-11-17",
+            "customer": "nazri.abdullah@example.com",
+            "warehouse": 13,
+            "status": "accepted",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Smartphone",
+                    "quantity": "1.00",
+                    "unit_price": "699.99",
+                    "discount_percentage": "4.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-02-01",
+            "due_date": "2026-09-28",
+            "customer": "suresh.pillai@example.com",
+            "warehouse": 5,
+            "status": "draft",
+            "payment_terms": "Net 45",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Smartphone",
+                    "quantity": "1.00",
+                    "unit_price": "699.99",
+                    "discount_percentage": "8.00"
+                },
+                {
+                    "item": "Shampoo",
+                    "quantity": "1.00",
+                    "unit_price": "18.99",
+                    "discount_percentage": "3.00"
+                },
+                {
+                    "item": "Laptop Battery",
+                    "quantity": "2.00",
+                    "unit_price": "89.99",
+                    "discount_percentage": "3.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-02-06",
+            "due_date": "2026-11-09",
+            "customer": "rohani.yusof@example.com",
+            "warehouse": 8,
+            "status": "accepted",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Coffee",
+                    "quantity": "1.00",
+                    "unit_price": "15.99",
+                    "discount_percentage": "6.00"
+                },
+                {
+                    "item": "T-Shirt",
+                    "quantity": "1.00",
+                    "unit_price": "24.99",
+                    "discount_percentage": "9.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-02-11",
+            "due_date": "2026-12-16",
+            "customer": "nazri.abdullah@example.com",
+            "warehouse": 14,
+            "status": "accepted",
+            "payment_terms": "Net 15",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Apple",
+                    "quantity": "2.00",
+                    "unit_price": "3.99",
+                    "discount_percentage": "14.00"
+                },
+                {
+                    "item": "Jeans",
+                    "quantity": "3.00",
+                    "unit_price": "59.99",
+                    "discount_percentage": "19.00"
+                },
+                {
+                    "item": "Ink Cartridge",
+                    "quantity": "2.00",
+                    "unit_price": "25.99",
+                    "discount_percentage": "19.00"
+                },
+                {
+                    "item": "Laptop Battery",
+                    "quantity": "3.00",
+                    "unit_price": "89.99",
+                    "discount_percentage": "10.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-02-16",
+            "due_date": "2026-11-26",
+            "customer": "vincent.tan@example.com",
+            "warehouse": 1,
+            "status": "accepted",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Shampoo",
+                    "quantity": "2.00",
+                    "unit_price": "18.99",
+                    "discount_percentage": "9.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-02-21",
+            "due_date": "2026-10-01",
+            "customer": "vincent.tan@example.com",
+            "warehouse": 10,
+            "status": "sent",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Coffee",
+                    "quantity": "1.00",
+                    "unit_price": "15.99",
+                    "discount_percentage": "11.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-02-26",
+            "due_date": "2026-09-05",
+            "customer": "nazri.abdullah@example.com",
+            "warehouse": 11,
+            "status": "draft",
+            "payment_terms": "Net 45",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Light Bulb",
+                    "quantity": "1.00",
+                    "unit_price": "300.00",
+                    "discount_percentage": "4.00"
+                },
+                {
+                    "item": "Laptop Battery",
+                    "quantity": "1.00",
+                    "unit_price": "89.99",
+                    "discount_percentage": "12.00"
+                },
+                {
+                    "item": "Car Engine Oil",
+                    "quantity": "1.00",
+                    "unit_price": "45.00",
+                    "discount_percentage": "4.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-03-03",
+            "due_date": "2026-11-02",
+            "customer": "rohani.yusof@example.com",
+            "warehouse": 5,
+            "status": "accepted",
+            "payment_terms": "Net 15",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Jeans",
+                    "quantity": "1.00",
+                    "unit_price": "59.99",
+                    "discount_percentage": "5.00"
+                },
+                {
+                    "item": "Belt",
+                    "quantity": "1.00",
+                    "unit_price": "250.00",
+                    "discount_percentage": "12.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-03-08",
+            "due_date": "2026-12-11",
+            "customer": "izzati.hamzah@example.com",
+            "warehouse": 12,
+            "status": "sent",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "T-Shirt",
+                    "quantity": "1.00",
+                    "unit_price": "24.99",
+                    "discount_percentage": "7.00"
+                },
+                {
+                    "item": "Ink Cartridge",
+                    "quantity": "1.00",
+                    "unit_price": "25.99",
+                    "discount_percentage": "11.00"
+                },
+                {
+                    "item": "Football",
+                    "quantity": "2.00",
+                    "unit_price": "39.99",
+                    "discount_percentage": "1.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-03-13",
+            "due_date": "2027-01-12",
+            "customer": "suresh.pillai@example.com",
+            "warehouse": 14,
+            "status": "accepted",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Ink Cartridge",
+                    "quantity": "1.00",
+                    "unit_price": "25.99",
+                    "discount_percentage": "18.00"
+                },
+                {
+                    "item": "Laptop Battery",
+                    "quantity": "1.00",
+                    "unit_price": "89.99",
+                    "discount_percentage": "16.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-03-18",
+            "due_date": "2026-12-26",
+            "customer": "nazri.abdullah@example.com",
+            "warehouse": 2,
+            "status": "draft",
+            "payment_terms": "Net 45",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Plant Pot",
+                    "quantity": "1.00",
+                    "unit_price": "24.99",
+                    "discount_percentage": "0.00"
+                },
+                {
+                    "item": "Watch",
+                    "quantity": "1.00",
+                    "unit_price": "199.99",
+                    "discount_percentage": "0.00"
+                },
+                {
+                    "item": "Car Engine Oil",
+                    "quantity": "2.00",
+                    "unit_price": "45.00",
+                    "discount_percentage": "8.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-03-23",
+            "due_date": "2027-01-14",
+            "customer": "izzati.hamzah@example.com",
+            "warehouse": 0,
+            "status": "sent",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Watch",
+                    "quantity": "2.00",
+                    "unit_price": "199.99",
+                    "discount_percentage": "7.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-03-28",
+            "due_date": "2026-11-14",
+            "customer": "vincent.tan@example.com",
+            "warehouse": 12,
+            "status": "accepted",
+            "payment_terms": "Net 15",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Face Cream",
+                    "quantity": "3.00",
+                    "unit_price": "35.99",
+                    "discount_percentage": "3.00"
+                },
+                {
+                    "item": "Ink Cartridge",
+                    "quantity": "2.00",
+                    "unit_price": "25.99",
+                    "discount_percentage": "1.00"
+                },
+                {
+                    "item": "Football",
+                    "quantity": "3.00",
+                    "unit_price": "39.99",
+                    "discount_percentage": "5.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-04-02",
+            "due_date": "2026-10-22",
+            "customer": "suresh.pillai@example.com",
+            "warehouse": 5,
+            "status": "accepted",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Jeans",
+                    "quantity": "1.00",
+                    "unit_price": "59.99",
+                    "discount_percentage": "16.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-04-07",
+            "due_date": "2026-12-18",
+            "customer": "nazri.abdullah@example.com",
+            "warehouse": 3,
+            "status": "sent",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Cordless Drill Machine",
+                    "quantity": "1.00",
+                    "unit_price": "120.00",
+                    "discount_percentage": "10.00"
+                },
+                {
+                    "item": "Apple",
+                    "quantity": "2.00",
+                    "unit_price": "3.99",
+                    "discount_percentage": "8.00"
+                },
+                {
+                    "item": "Car Engine Oil",
+                    "quantity": "2.00",
+                    "unit_price": "45.00",
+                    "discount_percentage": "2.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-04-12",
+            "due_date": "2026-09-06",
+            "customer": "nazri.abdullah@example.com",
+            "warehouse": 11,
+            "status": "draft",
+            "payment_terms": "Net 45",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Shampoo",
+                    "quantity": "1.00",
+                    "unit_price": "18.99",
+                    "discount_percentage": "11.00"
+                },
+                {
+                    "item": "Football",
+                    "quantity": "1.00",
+                    "unit_price": "39.99",
+                    "discount_percentage": "22.00"
+                },
+                {
+                    "item": "Laptop Battery",
+                    "quantity": "1.00",
+                    "unit_price": "89.99",
+                    "discount_percentage": "12.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-04-17",
+            "due_date": "2026-10-21",
+            "customer": "izzati.hamzah@example.com",
+            "warehouse": 14,
+            "status": "accepted",
+            "payment_terms": "Net 15",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Apple",
+                    "quantity": "3.00",
+                    "unit_price": "3.99",
+                    "discount_percentage": "0.00"
+                },
+                {
+                    "item": "Jeans",
+                    "quantity": "3.00",
+                    "unit_price": "59.99",
+                    "discount_percentage": "11.00"
+                },
+                {
+                    "item": "Laptop Battery",
+                    "quantity": "3.00",
+                    "unit_price": "89.99",
+                    "discount_percentage": "9.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-04-22",
+            "due_date": "2026-11-09",
+            "customer": "suresh.pillai@example.com",
+            "warehouse": 3,
+            "status": "sent",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Cordless Drill Machine",
+                    "quantity": "1.00",
+                    "unit_price": "120.00",
+                    "discount_percentage": "14.00"
+                },
+                {
+                    "item": "Apple",
+                    "quantity": "1.00",
+                    "unit_price": "3.99",
+                    "discount_percentage": "7.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-04-27",
+            "due_date": "2026-12-05",
+            "customer": "rohani.yusof@example.com",
+            "warehouse": 2,
+            "status": "accepted",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Plant Pot",
+                    "quantity": "1.00",
+                    "unit_price": "24.99",
+                    "discount_percentage": "0.00"
+                },
+                {
+                    "item": "Watch",
+                    "quantity": "2.00",
+                    "unit_price": "199.99",
+                    "discount_percentage": "10.00"
+                },
+                {
+                    "item": "Car Engine Oil",
+                    "quantity": "1.00",
+                    "unit_price": "45.00",
+                    "discount_percentage": "11.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-06-16",
+            "due_date": "2026-11-26",
+            "customer": "rohani.yusof@example.com",
+            "warehouse": 9,
+            "status": "sent",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Yoga Mat",
+                    "quantity": "1.00",
+                    "unit_price": "150.00",
+                    "discount_percentage": "10.00"
+                },
+                {
+                    "item": "Football",
+                    "quantity": "1.00",
+                    "unit_price": "39.99",
+                    "discount_percentage": "8.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-06-26",
+            "due_date": "2026-12-01",
+            "customer": "nazri.abdullah@example.com",
+            "warehouse": 8,
+            "status": "draft",
+            "payment_terms": "Net 45",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Coffee",
+                    "quantity": "1.00",
+                    "unit_price": "15.99",
+                    "discount_percentage": "3.00"
+                },
+                {
+                    "item": "T-Shirt",
+                    "quantity": "1.00",
+                    "unit_price": "24.99",
+                    "discount_percentage": "1.00"
+                },
+                {
+                    "item": "Notebook",
+                    "quantity": "1.00",
+                    "unit_price": "34.99",
+                    "discount_percentage": "6.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-07-06",
+            "due_date": "2026-12-17",
+            "customer": "rohani.yusof@example.com",
+            "warehouse": 2,
+            "status": "accepted",
+            "payment_terms": "Net 15",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Car Engine Oil",
+                    "quantity": "1.00",
+                    "unit_price": "45.00",
+                    "discount_percentage": "10.00"
+                }
+            ]
+        },
+        {
+            "retainer_date": "2026-07-14",
+            "due_date": "2026-11-19",
+            "customer": "nazri.abdullah@example.com",
+            "warehouse": 13,
+            "status": "draft",
+            "payment_terms": "Net 30",
+            "notes": "Professional services retainer agreement",
+            "items": [
+                {
+                    "item": "Smartphone",
+                    "quantity": "2.00",
+                    "unit_price": "699.99",
+                    "discount_percentage": "13.00"
+                },
+                {
+                    "item": "Brake Pad Set",
+                    "quantity": "1.00",
+                    "unit_price": "80.00",
+                    "discount_percentage": "18.00"
+                }
+            ]
+        }
+    ],
+    "payments": [
+        {
+            "payment_date": "2026-06-01",
+            "status": "cleared",
+            "reference_number": "REF-20260103-4487",
+            "notes": "Payment for retainer services - Bank Transfer",
+            "allocations": [
+                {
+                    "retainer": 0,
+                    "amount": "107.13"
+                }
+            ]
+        },
+        {
+            "payment_date": "2026-06-06",
+            "status": "cleared",
+            "reference_number": "REF-20260108-6029",
+            "notes": "Payment for retainer services - Check",
+            "allocations": [
+                {
+                    "retainer": 1,
+                    "amount": "519.31"
+                }
+            ]
+        },
+        {
+            "payment_date": "2026-06-11",
+            "status": "cleared",
+            "reference_number": "REF-20260113-4573",
+            "notes": "Payment for retainer services - Online Payment",
+            "allocations": [
+                {
+                    "retainer": 3,
+                    "amount": "31.99"
+                }
+            ]
+        },
+        {
+            "payment_date": "2026-06-16",
+            "status": "cleared",
+            "reference_number": "REF-20260118-8954",
+            "notes": "Payment for retainer services - Cash",
+            "allocations": [
+                {
+                    "retainer": 4,
+                    "amount": "254.63"
+                }
+            ]
+        },
+        {
+            "payment_date": "2026-06-21",
+            "status": "cleared",
+            "reference_number": "REF-20260123-3753",
+            "notes": "Payment for retainer services - Bank Transfer",
+            "allocations": [
+                {
+                    "retainer": 5,
+                    "amount": "21.67"
+                }
+            ]
+        },
+        {
+            "payment_date": "2026-06-26",
+            "status": "pending",
+            "reference_number": "REF-20260128-9809",
+            "notes": "Payment for retainer services - Check",
+            "allocations": [
+                {
+                    "retainer": 6,
+                    "amount": "13.43"
+                }
+            ]
+        },
+        {
+            "payment_date": "2026-07-01",
+            "status": "cleared",
+            "reference_number": "REF-20260202-8220",
+            "notes": "Payment for retainer services - Online Payment",
+            "allocations": [
+                {
+                    "retainer": 8,
+                    "amount": "169.42"
+                }
+            ]
+        },
+        {
+            "payment_date": "2026-07-06",
+            "status": "pending",
+            "reference_number": "REF-20260207-6767",
+            "notes": "Payment for retainer services - Bank Transfer",
+            "allocations": [
+                {
+                    "retainer": 9,
+                    "amount": "77.23"
+                }
+            ]
+        },
+        {
+            "payment_date": "2026-07-11",
+            "status": "cleared",
+            "reference_number": "REF-20260212-9884",
+            "notes": "Payment for retainer services - Cash",
+            "allocations": [
+                {
+                    "retainer": 10,
+                    "amount": "83.55"
+                }
+            ]
+        },
+        {
+            "payment_date": "2026-07-14",
+            "status": "pending",
+            "reference_number": "REF-20260215-5884",
+            "notes": "Payment for retainer services - Online Payment",
+            "allocations": [
+                {
+                    "retainer": 12,
+                    "amount": "222.97"
+                }
+            ]
+        }
+    ]
+}

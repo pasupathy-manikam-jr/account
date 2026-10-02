@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Shah Alam Distribution Centre",
+        "address": "Lot 12, Jalan Utas 15/7, Seksyen 15",
+        "city": "Shah Alam",
+        "zip_code": "40200",
+        "phone": "+60355101234",
+        "email": "shahalam@example.com",
+        "is_active": true
+    },
+    {
+        "name": "Penang Logistics Hub",
+        "address": "Plot 88, Lorong Perusahaan Maju 8, Bukit Tengah",
+        "city": "Bukit Mertajam",
+        "zip_code": "14000",
+        "phone": "+6045071234",
+        "email": "penang@example.com",
+        "is_active": true
+    },
+    {
+        "name": "Johor Bahru Warehouse",
+        "address": "No. 5, Jalan Persiaran Teknologi, Taman Teknologi Johor",
+        "city": "Johor Bahru",
+        "zip_code": "81400",
+        "phone": "+6075991234",
+        "email": "johor@example.com",
+        "is_active": true
+    },
+    {
+        "name": "Ipoh Regional Store",
+        "address": "No. 21, Jalan Kuala Kangsar, Kawasan Perindustrian Tasek",
+        "city": "Ipoh",
+        "zip_code": "31400",
+        "phone": "+6052911234",
+        "email": "ipoh@example.com",
+        "is_active": true
+    },
+    {
+        "name": "Kuching Storage Facility",
+        "address": "Lot 1045, Jalan Demak Laut, Demak Laut Industrial Park",
+        "city": "Kuching",
+        "zip_code": "93050",
+        "phone": "+6082431234",
+        "email": "kuching@example.com",
+        "is_active": true
+    },
+    {
+        "name": "Kota Kinabalu Depot",
+        "address": "Lot 7, Jalan Kolombong, KKIP",
+        "city": "Kota Kinabalu",
+        "zip_code": "88450",
+        "phone": "+6088491234",
+        "email": "kotakinabalu@example.com",
+        "is_active": false
+    }
+]

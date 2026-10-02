@@ -1,0 +1,366 @@
+{
+    "categories": [
+        {
+            "category_name": "Financial",
+            "category_code": "FINANCE",
+            "description": "Cash reserves, loans and financial planning goals",
+            "is_active": true
+        },
+        {
+            "category_name": "Business Expansion",
+            "category_code": "EXPANSION",
+            "description": "New branches, markets and business development",
+            "is_active": true
+        },
+        {
+            "category_name": "Operations",
+            "category_code": "OPERATIONS",
+            "description": "Running costs, utilities and process efficiency",
+            "is_active": true
+        },
+        {
+            "category_name": "Sales & Revenue",
+            "category_code": "SALES",
+            "description": "Revenue and sales performance targets",
+            "is_active": true
+        },
+        {
+            "category_name": "People & Training",
+            "category_code": "PEOPLE",
+            "description": "Staff development, HRDF training and welfare",
+            "is_active": true
+        },
+        {
+            "category_name": "Technology",
+            "category_code": "TECH",
+            "description": "Systems, software and digital upgrades",
+            "is_active": true
+        },
+        {
+            "category_name": "Facilities",
+            "category_code": "FACILITIES",
+            "description": "Office premises, renovation and equipment",
+            "is_active": true
+        },
+        {
+            "category_name": "Compliance & Tax",
+            "category_code": "COMPLIANCE",
+            "description": "SST, LHDN and statutory obligations",
+            "is_active": true
+        },
+        {
+            "category_name": "Marketing",
+            "category_code": "MARKETING",
+            "description": "Brand, campaigns and trade shows",
+            "is_active": true
+        },
+        {
+            "category_name": "Community & CSR",
+            "category_code": "CSR",
+            "description": "Corporate social responsibility programmes",
+            "is_active": false
+        }
+    ],
+    "goals": [
+        {
+            "goal_name": "Dana Kecemasan Syarikat",
+            "description": "Build a company emergency fund covering six months of operating expenses.",
+            "category": "FINANCE",
+            "goal_type": "savings",
+            "priority": "high",
+            "target_amount": "150000.00",
+            "start_date": "2026-01-01",
+            "target_date": "2026-12-31",
+            "gl_account": "1020",
+            "status": "active",
+            "milestones": [
+                {
+                    "milestone_name": "First RM50,000 set aside",
+                    "target_amount": "50000.00",
+                    "target_date": "2026-05-31"
+                },
+                {
+                    "milestone_name": "Three months covered",
+                    "target_amount": "75000.00",
+                    "target_date": "2026-08-31"
+                },
+                {
+                    "milestone_name": "Full six-month reserve",
+                    "target_amount": "150000.00",
+                    "target_date": "2026-12-31"
+                }
+            ],
+            "contributions": [
+                {
+                    "date": "2026-04-05",
+                    "amount": "20000.00",
+                    "type": "manual",
+                    "notes": "Opening transfer from Maybank current account"
+                },
+                {
+                    "date": "2026-05-05",
+                    "amount": "15000.00",
+                    "type": "automatic",
+                    "notes": "Monthly standing instruction"
+                },
+                {
+                    "date": "2026-06-05",
+                    "amount": "15000.00",
+                    "type": "automatic",
+                    "notes": "Monthly standing instruction"
+                },
+                {
+                    "date": "2026-07-05",
+                    "amount": "15000.00",
+                    "type": "automatic",
+                    "notes": "Monthly standing instruction"
+                },
+                {
+                    "date": "2026-08-20",
+                    "amount": "12000.00",
+                    "type": "manual",
+                    "notes": "Part of Q2 profit allocation"
+                },
+                {
+                    "date": "2026-09-05",
+                    "amount": "15000.00",
+                    "type": "automatic",
+                    "notes": "Monthly standing instruction"
+                }
+            ]
+        },
+        {
+            "goal_name": "Expand to Penang branch",
+            "description": "Fund the fit-out, deposit and first-year rent for a Bayan Lepas branch office.",
+            "category": "EXPANSION",
+            "goal_type": "savings",
+            "priority": "medium",
+            "target_amount": "250000.00",
+            "start_date": "2026-03-01",
+            "target_date": "2027-06-30",
+            "gl_account": null,
+            "status": "active",
+            "milestones": [
+                {
+                    "milestone_name": "Tenancy deposit secured",
+                    "target_amount": "40000.00",
+                    "target_date": "2026-09-30"
+                },
+                {
+                    "milestone_name": "Fit-out budget ready",
+                    "target_amount": "150000.00",
+                    "target_date": "2027-02-28"
+                }
+            ],
+            "contributions": [
+                {
+                    "date": "2026-04-15",
+                    "amount": "10000.00",
+                    "type": "manual",
+                    "notes": "Initial allocation approved by Dato' Lim"
+                },
+                {
+                    "date": "2026-06-15",
+                    "amount": "10000.00",
+                    "type": "manual",
+                    "notes": "Board-approved top-up"
+                },
+                {
+                    "date": "2026-08-15",
+                    "amount": "8000.00",
+                    "type": "automatic",
+                    "notes": "Quarterly sinking fund"
+                }
+            ]
+        },
+        {
+            "goal_name": "Reduce TNB electricity bill",
+            "description": "Cut monthly TNB charges through LED retrofit and solar panels at the Shah Alam warehouse.",
+            "category": "OPERATIONS",
+            "goal_type": "expense_reduction",
+            "priority": "medium",
+            "target_amount": "12000.00",
+            "start_date": "2026-04-01",
+            "target_date": "2026-12-31",
+            "gl_account": null,
+            "status": "active",
+            "milestones": [
+                {
+                    "milestone_name": "LED retrofit savings",
+                    "target_amount": "4000.00",
+                    "target_date": "2026-07-31"
+                }
+            ],
+            "contributions": [
+                {
+                    "date": "2026-05-31",
+                    "amount": "1500.00",
+                    "type": "automatic",
+                    "notes": "May saving versus 2025 average"
+                },
+                {
+                    "date": "2026-06-30",
+                    "amount": "1800.00",
+                    "type": "automatic",
+                    "notes": "June saving versus 2025 average"
+                },
+                {
+                    "date": "2026-07-31",
+                    "amount": "2100.00",
+                    "type": "automatic",
+                    "notes": "July saving after solar commissioning"
+                },
+                {
+                    "date": "2026-08-31",
+                    "amount": "2300.00",
+                    "type": "automatic",
+                    "notes": "August saving"
+                },
+                {
+                    "date": "2026-09-30",
+                    "amount": "2200.00",
+                    "type": "automatic",
+                    "notes": "September saving"
+                }
+            ]
+        },
+        {
+            "goal_name": "Pay off Maybank term loan",
+            "description": "Settle the remaining Maybank SME term loan ahead of schedule to save on interest.",
+            "category": "FINANCE",
+            "goal_type": "debt_reduction",
+            "priority": "critical",
+            "target_amount": "80000.00",
+            "start_date": "2026-02-01",
+            "target_date": "2026-11-30",
+            "gl_account": "2500",
+            "status": "active",
+            "milestones": [
+                {
+                    "milestone_name": "Half the balance repaid",
+                    "target_amount": "40000.00",
+                    "target_date": "2026-06-30"
+                },
+                {
+                    "milestone_name": "Loan fully settled",
+                    "target_amount": "80000.00",
+                    "target_date": "2026-11-30"
+                }
+            ],
+            "contributions": [
+                {
+                    "date": "2026-04-28",
+                    "amount": "8000.00",
+                    "type": "automatic",
+                    "notes": "Monthly instalment plus prepayment"
+                },
+                {
+                    "date": "2026-05-28",
+                    "amount": "8000.00",
+                    "type": "automatic",
+                    "notes": "Monthly instalment plus prepayment"
+                },
+                {
+                    "date": "2026-06-28",
+                    "amount": "8000.00",
+                    "type": "automatic",
+                    "notes": "Monthly instalment plus prepayment"
+                },
+                {
+                    "date": "2026-08-28",
+                    "amount": "6000.00",
+                    "type": "automatic",
+                    "notes": "Reduced instalment during cash crunch"
+                }
+            ]
+        },
+        {
+            "goal_name": "Office renovation Bangsar South",
+            "description": "Refurbish the meeting rooms and pantry at the Bangsar South head office.",
+            "category": "FACILITIES",
+            "goal_type": "savings",
+            "priority": "low",
+            "target_amount": "60000.00",
+            "start_date": "2026-01-15",
+            "target_date": "2026-08-31",
+            "gl_account": "1600",
+            "status": "completed",
+            "milestones": [
+                {
+                    "milestone_name": "Design and quotation paid",
+                    "target_amount": "15000.00",
+                    "target_date": "2026-04-30"
+                }
+            ],
+            "contributions": [
+                {
+                    "date": "2026-04-10",
+                    "amount": "20000.00",
+                    "type": "manual",
+                    "notes": "Contractor deposit to Bina Jaya Sdn Bhd"
+                },
+                {
+                    "date": "2026-06-10",
+                    "amount": "25000.00",
+                    "type": "manual",
+                    "notes": "Progress payment"
+                },
+                {
+                    "date": "2026-08-10",
+                    "amount": "15000.00",
+                    "type": "manual",
+                    "notes": "Final payment on handover"
+                }
+            ]
+        },
+        {
+            "goal_name": "Q4 revenue target",
+            "description": "Close RM500,000 of new invoiced sales in the fourth quarter.",
+            "category": "SALES",
+            "goal_type": "revenue",
+            "priority": "high",
+            "target_amount": "500000.00",
+            "start_date": "2026-10-01",
+            "target_date": "2026-12-31",
+            "gl_account": "4100",
+            "status": "draft",
+            "milestones": [],
+            "contributions": []
+        },
+        {
+            "goal_name": "HRDF staff training fund",
+            "description": "Top up the training budget for SST, e-Invoicing and leadership courses.",
+            "category": "PEOPLE",
+            "goal_type": "savings",
+            "priority": "medium",
+            "target_amount": "30000.00",
+            "start_date": "2026-11-01",
+            "target_date": "2027-03-31",
+            "gl_account": null,
+            "status": "draft",
+            "milestones": [],
+            "contributions": []
+        },
+        {
+            "goal_name": "Migrate accounting to cloud ERP",
+            "description": "Replaced by the in-house system; kept for reference.",
+            "category": "TECH",
+            "goal_type": "expense_reduction",
+            "priority": "low",
+            "target_amount": "45000.00",
+            "start_date": "2026-02-01",
+            "target_date": "2026-09-30",
+            "gl_account": null,
+            "status": "cancelled",
+            "milestones": [],
+            "contributions": [
+                {
+                    "date": "2026-04-20",
+                    "amount": "3500.00",
+                    "type": "manual",
+                    "notes": "Vendor evaluation workshop"
+                }
+            ]
+        }
+    ]
+}

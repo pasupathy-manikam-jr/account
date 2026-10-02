@@ -1,0 +1,944 @@
+[
+    {
+        "subject": "Enterprise CRM System Development",
+        "value": "285000.00",
+        "start_date": "2026-01-04",
+        "end_date": "2027-09-03",
+        "description": "Development of a comprehensive customer relationship management system with advanced analytics, automation workflows, and integration capabilities for enterprise-level operations.",
+        "status": "declined",
+        "type": "Maintenance & Support Agreement",
+        "user": "nazri.abdullah@example.com",
+        "comments": [
+            {
+                "user": "sharifah.zainab@example.com",
+                "text": "Security audit findings addressed and resolved."
+            },
+            {
+                "user": "aisyah.rahman@example.com",
+                "text": "Code review process completed with no critical issues."
+            }
+        ],
+        "notes": [
+            {
+                "user": "chongwei.lee@example.com",
+                "text": "Integration with existing CRM system requires additional API development."
+            },
+            {
+                "user": "sharifah.zainab@example.com",
+                "text": "Technical team recommends using microservices architecture for better scalability."
+            },
+            {
+                "user": "kavitha.ramasamy@example.com",
+                "text": "Budget allocation approved for additional security features implementation."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-03-31",
+                "end_date": "2026-09-29",
+                "value": "322050.00",
+                "notes": "Annual renewal with enhanced features and extended support coverage.",
+                "status": "cancelled"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Cloud Infrastructure Migration Services",
+        "value": "175000.00",
+        "start_date": "2025-12-27",
+        "end_date": "2027-12-27",
+        "description": "Complete migration of on-premise infrastructure to AWS cloud platform including data migration, security implementation, and performance optimization.",
+        "status": "declined",
+        "type": "Consulting Services Contract",
+        "user": "faizal.mansor@example.com",
+        "comments": [
+            {
+                "user": "rohani.yusof@example.com",
+                "text": "Client satisfaction survey results are very positive."
+            }
+        ],
+        "notes": [
+            {
+                "user": "siewling.chong@example.com",
+                "text": "Client prefers weekly status updates via email and monthly progress meetings."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-02-11",
+                "end_date": "2026-10-12",
+                "value": "243652.50",
+                "notes": "Renewal terms updated to reflect current market rates and service levels.",
+                "status": "expired"
+            },
+            {
+                "start_date": "2026-07-13",
+                "end_date": "2027-07-13",
+                "value": "204750.00",
+                "notes": "Updated contract terms include cloud migration and modernization services.",
+                "status": "active"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Digital Marketing Automation Platform",
+        "value": "95000.00",
+        "start_date": "2026-01-17",
+        "end_date": "2026-09-16",
+        "description": "Implementation of marketing automation platform with email campaigns, lead scoring, customer segmentation, and ROI tracking capabilities.",
+        "status": "closed",
+        "type": "Master Service Agreement (MSA)",
+        "user": "muthu.velu@example.com",
+        "comments": [
+            {
+                "user": "kamarul.ariffin@example.com",
+                "text": "User acceptance testing phase initiated with key users."
+            }
+        ],
+        "notes": [
+            {
+                "user": "hafiz.ismail@example.com",
+                "text": "Budget allocation approved for additional security features implementation."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-08-12",
+                "end_date": "2027-08-12",
+                "value": "110200.00",
+                "notes": "Contract renewal includes additional modules and increased user capacity.",
+                "status": "pending"
+            },
+            {
+                "start_date": "2026-08-31",
+                "end_date": "2027-04-02",
+                "value": "120118.00",
+                "notes": "Renewal with expanded geographic coverage and additional service locations.",
+                "status": "draft"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Cybersecurity Assessment & Implementation",
+        "value": "125000.00",
+        "start_date": "2026-01-30",
+        "end_date": "2027-10-30",
+        "description": "Comprehensive security audit, vulnerability assessment, and implementation of advanced security measures including firewall, intrusion detection, and compliance frameworks.",
+        "status": "accepted",
+        "type": "Master Service Agreement (MSA)",
+        "user": "boonhock.goh@example.com",
+        "comments": [
+            {
+                "user": "meiling.tan@example.com",
+                "text": "Project closure documentation finalized and archived."
+            },
+            {
+                "user": "izzati.hamzah@example.com",
+                "text": "Requirements gathering phase completed successfully."
+            },
+            {
+                "user": "rajesh.subramaniam@example.com",
+                "text": "First milestone deliverables have been submitted for review."
+            }
+        ],
+        "notes": [
+            {
+                "user": "sitihajar.kamal@example.com",
+                "text": "Client team availability limited during holiday season - adjust timeline accordingly."
+            },
+            {
+                "user": "daniel.lajim@example.com",
+                "text": "Technical team recommends using microservices architecture for better scalability."
+            },
+            {
+                "user": "salmah.ali@example.com",
+                "text": "Technical team recommends using microservices architecture for better scalability."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-09-01",
+                "end_date": "2027-03-04",
+                "value": "187550.00",
+                "notes": "Renewal includes migration to latest platform version and new features.",
+                "status": "draft"
+            },
+            {
+                "start_date": "2026-09-25",
+                "end_date": "2027-06-28",
+                "value": "155000.00",
+                "notes": "Renewal terms updated to reflect current market rates and service levels.",
+                "status": "active"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "E-commerce Platform Modernization",
+        "value": "220000.00",
+        "start_date": "2026-01-15",
+        "end_date": "2026-09-14",
+        "description": "Modernization of legacy e-commerce platform with mobile-first design, payment gateway integration, inventory management, and analytics dashboard.",
+        "status": "closed",
+        "type": "Technology Partnership Agreement",
+        "user": "kahwai.wong@example.com",
+        "comments": [
+            {
+                "user": "priya.krishnan@example.com",
+                "text": "Go-live preparation checklist reviewed and approved."
+            },
+            {
+                "user": "azlan.othman@example.com",
+                "text": "Client feedback incorporated into the current sprint."
+            },
+            {
+                "user": "kamarul.ariffin@example.com",
+                "text": "Documentation updates completed for latest features."
+            }
+        ],
+        "notes": [
+            {
+                "user": "rajesh.subramaniam@example.com",
+                "text": "Performance requirements updated to handle 10,000 concurrent users."
+            },
+            {
+                "user": "teckseng.ong@example.com",
+                "text": "Change request submitted for additional reporting dashboard features."
+            },
+            {
+                "user": "sharifah.zainab@example.com",
+                "text": "Integration with existing CRM system requires additional API development."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-05-07",
+                "end_date": "2026-12-05",
+                "value": "305250.00",
+                "notes": "Renewal incorporates new compliance requirements and security standards.",
+                "status": "cancelled"
+            },
+            {
+                "start_date": "2026-07-18",
+                "end_date": "2027-07-18",
+                "value": "275000.00",
+                "notes": "Multi-year contract extension with volume discount pricing applied.",
+                "status": "cancelled"
+            },
+            {
+                "start_date": "2026-11-17",
+                "end_date": "2027-11-17",
+                "value": "338827.50",
+                "notes": "Renewal incorporates new compliance requirements and security standards.",
+                "status": "active"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Business Intelligence & Analytics Solution",
+        "value": "165000.00",
+        "start_date": "2026-02-09",
+        "end_date": "2027-03-12",
+        "description": "Implementation of BI solution with real-time dashboards, predictive analytics, data warehousing, and automated reporting for strategic decision making.",
+        "status": "closed",
+        "type": "Vendor Service Agreement",
+        "user": "nazri.abdullah@example.com",
+        "comments": [
+            {
+                "user": "sitihajar.kamal@example.com",
+                "text": "Go-live preparation checklist reviewed and approved."
+            },
+            {
+                "user": "rohani.yusof@example.com",
+                "text": "First milestone deliverables have been submitted for review."
+            },
+            {
+                "user": "meiling.tan@example.com",
+                "text": "Knowledge transfer sessions completed with client team."
+            }
+        ],
+        "notes": [
+            {
+                "user": "sitihajar.kamal@example.com",
+                "text": "Client prefers weekly status updates via email and monthly progress meetings."
+            },
+            {
+                "user": "daniel.lajim@example.com",
+                "text": "Third-party vendor dependencies identified and mitigation strategies developed."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-04-27",
+                "end_date": "2026-10-26",
+                "value": "233445.30",
+                "notes": "Contract extension includes priority support and dedicated account management.",
+                "status": "cancelled"
+            },
+            {
+                "start_date": "2026-03-11",
+                "end_date": "2027-01-09",
+                "value": "194700.00",
+                "notes": "Multi-year contract extension with volume discount pricing applied.",
+                "status": "expired"
+            },
+            {
+                "start_date": "2026-09-21",
+                "end_date": "2027-06-24",
+                "value": "214170.00",
+                "notes": "Renewal terms updated to reflect current market rates and service levels.",
+                "status": "active"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Mobile Application Development Suite",
+        "value": "145000.00",
+        "start_date": "2026-02-10",
+        "end_date": "2027-10-11",
+        "description": "Development of native iOS and Android applications with backend API, user authentication, push notifications, and offline synchronization capabilities.",
+        "status": "accepted",
+        "type": "Vendor Service Agreement",
+        "user": "deepa.muniandy@example.com",
+        "comments": [
+            {
+                "user": "vincent.tan@example.com",
+                "text": "First milestone deliverables have been submitted for review."
+            },
+            {
+                "user": "rajesh.subramaniam@example.com",
+                "text": "Training materials prepared for end-user sessions."
+            },
+            {
+                "user": "faizal.mansor@example.com",
+                "text": "Development phase is progressing according to timeline."
+            }
+        ],
+        "notes": [
+            {
+                "user": "azlan.othman@example.com",
+                "text": "Client prefers weekly status updates via email and monthly progress meetings."
+            },
+            {
+                "user": "salmah.ali@example.com",
+                "text": "Change request submitted for additional reporting dashboard features."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-04-03",
+                "end_date": "2027-03-04",
+                "value": "186499.00",
+                "notes": "Contract extension includes priority support and dedicated account management.",
+                "status": "pending"
+            },
+            {
+                "start_date": "2026-07-12",
+                "end_date": "2027-02-11",
+                "value": "171100.00",
+                "notes": "Annual renewal with enhanced features and extended support coverage.",
+                "status": "expired"
+            }
+        ],
+        "signed_by": []
+    },
+    {
+        "subject": "DevOps & CI/CD Pipeline Implementation",
+        "value": "85000.00",
+        "start_date": "2026-02-04",
+        "end_date": "2028-01-05",
+        "description": "Setup of DevOps practices including continuous integration, continuous deployment, automated testing, monitoring, and infrastructure as code.",
+        "status": "accepted",
+        "type": "Cloud Services Agreement",
+        "user": "teckseng.ong@example.com",
+        "comments": [
+            {
+                "user": "norhayati.ibrahim@example.com",
+                "text": "Security audit findings addressed and resolved."
+            },
+            {
+                "user": "weikiat.ng@example.com",
+                "text": "Integration testing with third-party systems successful."
+            }
+        ],
+        "notes": [
+            {
+                "user": "teckseng.ong@example.com",
+                "text": "Client team availability limited during holiday season - adjust timeline accordingly."
+            },
+            {
+                "user": "priya.krishnan@example.com",
+                "text": "Performance requirements updated to handle 10,000 concurrent users."
+            },
+            {
+                "user": "izzati.hamzah@example.com",
+                "text": "Client prefers weekly status updates via email and monthly progress meetings."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-03-29",
+                "end_date": "2026-11-26",
+                "value": "106411.50",
+                "notes": "Updated contract terms include cloud migration and modernization services.",
+                "status": "pending"
+            },
+            {
+                "start_date": "2026-11-11",
+                "end_date": "2027-05-14",
+                "value": "99450.00",
+                "notes": "Contract renewal includes additional modules and increased user capacity.",
+                "status": "draft"
+            }
+        ],
+        "signed_by": []
+    },
+    {
+        "subject": "AI-Powered Customer Support System",
+        "value": "115000.00",
+        "start_date": "2026-02-12",
+        "end_date": "2028-02-12",
+        "description": "Implementation of AI chatbot and customer support system with natural language processing, ticket routing, and knowledge base integration.",
+        "status": "closed",
+        "type": "Digital Marketing Agreement",
+        "user": "awang.jaafar@example.com",
+        "comments": [
+            {
+                "user": "kavitha.ramasamy@example.com",
+                "text": "Documentation updates completed for latest features."
+            },
+            {
+                "user": "azlan.othman@example.com",
+                "text": "Technical architecture review completed with stakeholders."
+            },
+            {
+                "user": "faizal.mansor@example.com",
+                "text": "Development phase is progressing according to timeline."
+            }
+        ],
+        "notes": [
+            {
+                "user": "deepa.muniandy@example.com",
+                "text": "Performance requirements updated to handle 10,000 concurrent users."
+            },
+            {
+                "user": "deepa.muniandy@example.com",
+                "text": "Performance requirements updated to handle 10,000 concurrent users."
+            },
+            {
+                "user": "kavitha.ramasamy@example.com",
+                "text": "Integration with existing CRM system requires additional API development."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-08-14",
+                "end_date": "2027-07-14",
+                "value": "165588.50",
+                "notes": "Updated contract terms include cloud migration and modernization services.",
+                "status": "draft"
+            },
+            {
+                "start_date": "2027-02-05",
+                "end_date": "2027-11-05",
+                "value": "136850.00",
+                "notes": "Renewal incorporates new compliance requirements and security standards.",
+                "status": "draft"
+            },
+            {
+                "start_date": "2026-12-05",
+                "end_date": "2027-06-07",
+                "value": "192082.66",
+                "notes": "Renewal with expanded geographic coverage and additional service locations.",
+                "status": "cancelled"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Data Lake & ETL Pipeline Development",
+        "value": "195000.00",
+        "start_date": "2026-03-04",
+        "end_date": "2026-11-01",
+        "description": "Construction of enterprise data lake with ETL pipelines, data governance, quality monitoring, and integration with multiple data sources.",
+        "status": "accepted",
+        "type": "Training & Education Contract",
+        "user": "kamarul.ariffin@example.com",
+        "comments": [
+            {
+                "user": "rajesh.subramaniam@example.com",
+                "text": "Client satisfaction survey results are very positive."
+            }
+        ],
+        "notes": [
+            {
+                "user": "vincent.tan@example.com",
+                "text": "Client prefers weekly status updates via email and monthly progress meetings."
+            },
+            {
+                "user": "siewhoon.lim@example.com",
+                "text": "Integration with existing CRM system requires additional API development."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-11-01",
+                "end_date": "2027-09-01",
+                "value": "260812.50",
+                "notes": "Multi-year contract extension with volume discount pricing applied.",
+                "status": "expired"
+            },
+            {
+                "start_date": "2026-09-14",
+                "end_date": "2027-07-15",
+                "value": "208650.00",
+                "notes": "Annual renewal with enhanced features and extended support coverage.",
+                "status": "active"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Blockchain Supply Chain Solution",
+        "value": "320000.00",
+        "start_date": "2026-03-01",
+        "end_date": "2028-02-29",
+        "description": "Development of blockchain-based supply chain tracking system with smart contracts, transparency features, and real-time monitoring capabilities.",
+        "status": "accepted",
+        "type": "Digital Marketing Agreement",
+        "user": "kavitha.ramasamy@example.com",
+        "comments": [
+            {
+                "user": "daniel.lajim@example.com",
+                "text": "Client satisfaction survey results are very positive."
+            },
+            {
+                "user": "salmah.ali@example.com",
+                "text": "Deployment to staging environment completed successfully."
+            }
+        ],
+        "notes": [
+            {
+                "user": "salmah.ali@example.com",
+                "text": "Stakeholder feedback suggests prioritizing mobile responsiveness."
+            },
+            {
+                "user": "suresh.pillai@example.com",
+                "text": "Budget allocation approved for additional security features implementation."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-10-02",
+                "end_date": "2027-04-03",
+                "value": "355200.00",
+                "notes": "Contract renewal includes additional modules and increased user capacity.",
+                "status": "expired"
+            },
+            {
+                "start_date": "2026-09-20",
+                "end_date": "2027-08-21",
+                "value": "380064.00",
+                "notes": "Updated contract terms include cloud migration and modernization services.",
+                "status": "approved"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "IoT Fleet Management Platform",
+        "value": "180000.00",
+        "start_date": "2026-03-19",
+        "end_date": "2027-03-19",
+        "description": "Implementation of IoT-based fleet management system with GPS tracking, predictive maintenance, fuel optimization, and driver behavior analytics.",
+        "status": "pending",
+        "type": "Consulting Services Contract",
+        "user": "sharifah.zainab@example.com",
+        "comments": [
+            {
+                "user": "siewhoon.lim@example.com",
+                "text": "Client satisfaction survey results are very positive."
+            },
+            {
+                "user": "faizal.mansor@example.com",
+                "text": "Training materials prepared for end-user sessions."
+            }
+        ],
+        "notes": [
+            {
+                "user": "muthu.velu@example.com",
+                "text": "Third-party vendor dependencies identified and mitigation strategies developed."
+            },
+            {
+                "user": "azlan.othman@example.com",
+                "text": "Client prefers weekly status updates via email and monthly progress meetings."
+            },
+            {
+                "user": "priya.krishnan@example.com",
+                "text": "Client prefers weekly status updates via email and monthly progress meetings."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-10-08",
+                "end_date": "2027-08-08",
+                "value": "223200.00",
+                "notes": "Multi-year contract extension with volume discount pricing applied.",
+                "status": "draft"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Healthcare Management System",
+        "value": "275000.00",
+        "start_date": "2026-03-10",
+        "end_date": "2026-11-07",
+        "description": "Comprehensive healthcare management platform with patient records, appointment scheduling, billing integration, and HIPAA compliance features.",
+        "status": "closed",
+        "type": "Cloud Services Agreement",
+        "user": "kavitha.ramasamy@example.com",
+        "comments": [
+            {
+                "user": "rohani.yusof@example.com",
+                "text": "Development phase is progressing according to timeline."
+            },
+            {
+                "user": "awang.jaafar@example.com",
+                "text": "Post-deployment monitoring systems are operational."
+            },
+            {
+                "user": "kavitha.ramasamy@example.com",
+                "text": "Requirements gathering phase completed successfully."
+            }
+        ],
+        "notes": [
+            {
+                "user": "deepa.muniandy@example.com",
+                "text": "Technical team recommends using microservices architecture for better scalability."
+            },
+            {
+                "user": "farah.zakaria@example.com",
+                "text": "Compliance requirements include GDPR and SOC 2 Type II certification."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-08-20",
+                "end_date": "2027-03-22",
+                "value": "305250.00",
+                "notes": "Renewal with expanded geographic coverage and additional service locations.",
+                "status": "expired"
+            }
+        ],
+        "signed_by": []
+    },
+    {
+        "subject": "Financial Trading Platform",
+        "value": "450000.00",
+        "start_date": "2026-04-02",
+        "end_date": "2028-03-02",
+        "description": "High-frequency trading platform with real-time market data, algorithmic trading capabilities, risk management, and regulatory compliance.",
+        "status": "pending",
+        "type": "IT Services Contract",
+        "user": "weikiat.ng@example.com",
+        "comments": [
+            {
+                "user": "norhayati.ibrahim@example.com",
+                "text": "Client feedback incorporated into the current sprint."
+            },
+            {
+                "user": "suresh.pillai@example.com",
+                "text": "User acceptance testing phase initiated with key users."
+            }
+        ],
+        "notes": [
+            {
+                "user": "faizal.mansor@example.com",
+                "text": "Performance requirements updated to handle 10,000 concurrent users."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-06-13",
+                "end_date": "2026-12-11",
+                "value": "490500.00",
+                "notes": "Annual renewal with enhanced features and extended support coverage.",
+                "status": "expired"
+            },
+            {
+                "start_date": "2026-09-05",
+                "end_date": "2027-09-05",
+                "value": "603315.00",
+                "notes": "Contract renewal includes additional modules and increased user capacity.",
+                "status": "approved"
+            },
+            {
+                "start_date": "2026-11-03",
+                "end_date": "2027-08-04",
+                "value": "639513.90",
+                "notes": "Contract renewal includes additional modules and increased user capacity.",
+                "status": "active"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Learning Management System",
+        "value": "135000.00",
+        "start_date": "2026-04-02",
+        "end_date": "2027-12-01",
+        "description": "Enterprise LMS with course creation tools, progress tracking, certification management, and integration with HR systems.",
+        "status": "declined",
+        "type": "IT Services Contract",
+        "user": "awang.jaafar@example.com",
+        "comments": [
+            {
+                "user": "norhayati.ibrahim@example.com",
+                "text": "Post-deployment monitoring systems are operational."
+            }
+        ],
+        "notes": [
+            {
+                "user": "awang.jaafar@example.com",
+                "text": "Compliance requirements include GDPR and SOC 2 Type II certification."
+            },
+            {
+                "user": "rohani.yusof@example.com",
+                "text": "Change request submitted for additional reporting dashboard features."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-09-18",
+                "end_date": "2027-03-21",
+                "value": "152550.00",
+                "notes": "Contract extension includes priority support and dedicated account management.",
+                "status": "pending"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Inventory Management Optimization",
+        "value": "98000.00",
+        "start_date": "2026-04-15",
+        "end_date": "2026-11-13",
+        "description": "Advanced inventory management system with demand forecasting, automated reordering, warehouse optimization, and multi-location support.",
+        "status": "declined",
+        "type": "Cloud Services Agreement",
+        "user": "rosli.hamid@example.com",
+        "comments": [
+            {
+                "user": "rohani.yusof@example.com",
+                "text": "Client satisfaction survey results are very positive."
+            },
+            {
+                "user": "rajesh.subramaniam@example.com",
+                "text": "Development phase is progressing according to timeline."
+            }
+        ],
+        "notes": [
+            {
+                "user": "meiling.tan@example.com",
+                "text": "Performance requirements updated to handle 10,000 concurrent users."
+            },
+            {
+                "user": "meiling.tan@example.com",
+                "text": "Integration with existing CRM system requires additional API development."
+            },
+            {
+                "user": "weikiat.ng@example.com",
+                "text": "Change request submitted for additional reporting dashboard features."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-09-05",
+                "end_date": "2027-05-08",
+                "value": "121716.00",
+                "notes": "Renewal terms updated to reflect current market rates and service levels.",
+                "status": "active"
+            },
+            {
+                "start_date": "2026-11-26",
+                "end_date": "2027-11-26",
+                "value": "105840.00",
+                "notes": "Renewal terms updated to reflect current market rates and service levels.",
+                "status": "draft"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Real Estate CRM & Portal",
+        "value": "155000.00",
+        "start_date": "2026-04-10",
+        "end_date": "2027-02-08",
+        "description": "Real estate management platform with property listings, client management, virtual tours, document management, and commission tracking.",
+        "status": "accepted",
+        "type": "Maintenance & Support Agreement",
+        "user": "kahwai.wong@example.com",
+        "comments": [
+            {
+                "user": "meiling.tan@example.com",
+                "text": "Knowledge transfer sessions completed with client team."
+            },
+            {
+                "user": "boonhock.goh@example.com",
+                "text": "Technical architecture review completed with stakeholders."
+            },
+            {
+                "user": "siewhoon.lim@example.com",
+                "text": "Client satisfaction survey results are very positive."
+            }
+        ],
+        "notes": [
+            {
+                "user": "kahwai.wong@example.com",
+                "text": "Performance requirements updated to handle 10,000 concurrent users."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-11-07",
+                "end_date": "2027-11-07",
+                "value": "181350.00",
+                "notes": "Contract extension includes priority support and dedicated account management.",
+                "status": "cancelled"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Manufacturing ERP Integration",
+        "value": "240000.00",
+        "start_date": "2026-04-24",
+        "end_date": "2028-03-24",
+        "description": "Integration of manufacturing processes with ERP system including production planning, quality control, inventory management, and reporting.",
+        "status": "accepted",
+        "type": "Non-Disclosure Agreement (NDA)",
+        "user": "meiling.tan@example.com",
+        "comments": [
+            {
+                "user": "jeffrey.gimbang@example.com",
+                "text": "Training materials prepared for end-user sessions."
+            },
+            {
+                "user": "chongwei.lee@example.com",
+                "text": "Deployment to staging environment completed successfully."
+            }
+        ],
+        "notes": [
+            {
+                "user": "priya.krishnan@example.com",
+                "text": "Compliance requirements include GDPR and SOC 2 Type II certification."
+            },
+            {
+                "user": "awang.jaafar@example.com",
+                "text": "Integration with existing CRM system requires additional API development."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-07-01",
+                "end_date": "2027-06-03",
+                "value": "288000.00",
+                "notes": "Multi-year contract extension with volume discount pricing applied.",
+                "status": "draft"
+            },
+            {
+                "start_date": "2027-03-28",
+                "end_date": "2028-02-25",
+                "value": "360000.00",
+                "notes": "Renewal with expanded geographic coverage and additional service locations.",
+                "status": "expired"
+            },
+            {
+                "start_date": "2027-03-03",
+                "end_date": "2028-01-01",
+                "value": "392400.00",
+                "notes": "Contract renewal includes additional modules and increased user capacity.",
+                "status": "draft"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Social Media Analytics Dashboard",
+        "value": "75000.00",
+        "start_date": "2026-05-02",
+        "end_date": "2027-09-30",
+        "description": "Comprehensive social media analytics platform with sentiment analysis, competitor tracking, influencer identification, and ROI measurement.",
+        "status": "declined",
+        "type": "Software Development Agreement",
+        "user": "nazri.abdullah@example.com",
+        "comments": [
+            {
+                "user": "weikiat.ng@example.com",
+                "text": "Client feedback incorporated into the current sprint."
+            },
+            {
+                "user": "weikiat.ng@example.com",
+                "text": "Technical architecture review completed with stakeholders."
+            }
+        ],
+        "notes": [
+            {
+                "user": "kavitha.ramasamy@example.com",
+                "text": "Performance requirements updated to handle 10,000 concurrent users."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-07-16",
+                "end_date": "2027-01-16",
+                "value": "78750.00",
+                "notes": "Renewal terms updated to reflect current market rates and service levels.",
+                "status": "approved"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    },
+    {
+        "subject": "Compliance Management System",
+        "value": "190000.00",
+        "start_date": "2026-05-01",
+        "end_date": "2027-08-29",
+        "description": "Regulatory compliance management platform with audit trails, policy management, risk assessment, and automated compliance reporting.",
+        "status": "declined",
+        "type": "Software Development Agreement",
+        "user": "boonhock.goh@example.com",
+        "comments": [
+            {
+                "user": "rajesh.subramaniam@example.com",
+                "text": "Client satisfaction survey results are very positive."
+            }
+        ],
+        "notes": [
+            {
+                "user": "kahwai.wong@example.com",
+                "text": "Budget allocation approved for additional security features implementation."
+            },
+            {
+                "user": "jeffrey.gimbang@example.com",
+                "text": "Compliance requirements include GDPR and SOC 2 Type II certification."
+            }
+        ],
+        "renewals": [
+            {
+                "start_date": "2026-10-03",
+                "end_date": "2027-07-03",
+                "value": "216600.00",
+                "notes": "Annual renewal with enhanced features and extended support coverage.",
+                "status": "draft"
+            }
+        ],
+        "signed_by": ["company", "party"]
+    }
+]

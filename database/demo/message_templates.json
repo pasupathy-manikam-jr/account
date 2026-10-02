@@ -1,0 +1,513 @@
+[
+    {
+        "channel": "email",
+        "slug": "new_user",
+        "name": "New User",
+        "module": "general",
+        "from_name": "{company_name}",
+        "variables": [
+            "app_name",
+            "company_name",
+            "app_url",
+            "name",
+            "email",
+            "password"
+        ],
+        "contents": {
+            "en": {
+                "subject": "Welcome to {app_name}",
+                "body": "Hello {name},\n\nAn account has been created for you on {app_name}.\n\nEmail: {email}\nPassword: {password}\n\nSign in at {app_url} and change your password after your first login.\n\nThank you,\n{company_name}"
+            },
+            "ms": {
+                "subject": "Selamat datang ke {app_name}",
+                "body": "Salam {name},\n\nAkaun telah dicipta untuk anda di {app_name}.\n\nE-mel: {email}\nKata laluan: {password}\n\nLog masuk di {app_url} dan tukar kata laluan anda selepas log masuk pertama.\n\nTerima kasih,\n{company_name}"
+            },
+            "zh": {
+                "subject": "欢迎使用 {app_name}",
+                "body": "{name} 您好：\n\n我们已在 {app_name} 为您创建账户。\n\n电子邮件：{email}\n密码：{password}\n\n请登录 {app_url}，并在首次登录后修改密码。\n\n谢谢，\n{company_name}"
+            },
+            "ar": {
+                "subject": "مرحبًا بك في {app_name}",
+                "body": "مرحبًا {name}،\n\nتم إنشاء حساب لك على {app_name}.\n\nالبريد الإلكتروني: {email}\nكلمة المرور: {password}\n\nسجّل الدخول عبر {app_url} وغيّر كلمة المرور بعد أول تسجيل دخول.\n\nشكرًا لك،\n{company_name}"
+            }
+        }
+    },
+    {
+        "channel": "email",
+        "slug": "customer_invoice_send",
+        "name": "Customer Invoice Send",
+        "module": "general",
+        "from_name": "{company_name}",
+        "variables": [
+            "company_name",
+            "customer_name",
+            "invoice_number",
+            "invoice_total",
+            "due_date",
+            "invoice_url"
+        ],
+        "contents": {
+            "en": {
+                "subject": "Invoice {invoice_number} from {company_name}",
+                "body": "Dear {customer_name},\n\nPlease find attached invoice {invoice_number} for {invoice_total}, due on {due_date}.\n\nYou can view it online at {invoice_url}.\n\nThank you for your business,\n{company_name}"
+            },
+            "ms": {
+                "subject": "Invois {invoice_number} daripada {company_name}",
+                "body": "Yang dihormati {customer_name},\n\nBersama ini dilampirkan invois {invoice_number} berjumlah {invoice_total}, perlu dibayar pada {due_date}.\n\nAnda boleh melihatnya dalam talian di {invoice_url}.\n\nTerima kasih atas urusan anda,\n{company_name}"
+            },
+            "zh": {
+                "subject": "来自 {company_name} 的发票 {invoice_number}",
+                "body": "尊敬的 {customer_name}：\n\n附上发票 {invoice_number}，金额为 {invoice_total}，到期日为 {due_date}。\n\n您可以在 {invoice_url} 在线查看。\n\n感谢您的惠顾，\n{company_name}"
+            },
+            "ar": {
+                "subject": "الفاتورة {invoice_number} من {company_name}",
+                "body": "عزيزي {customer_name}،\n\nمرفق الفاتورة {invoice_number} بمبلغ {invoice_total}، تستحق في {due_date}.\n\nيمكنك عرضها عبر {invoice_url}.\n\nشكرًا لتعاملكم معنا،\n{company_name}"
+            }
+        }
+    },
+    {
+        "channel": "email",
+        "slug": "invoice_payment_create",
+        "name": "Invoice Payment Create",
+        "module": "general",
+        "from_name": "{company_name}",
+        "variables": [
+            "company_name",
+            "customer_name",
+            "payment_number",
+            "payment_amount",
+            "payment_date"
+        ],
+        "contents": {
+            "en": {
+                "subject": "Payment received – {payment_number}",
+                "body": "Dear {customer_name},\n\nWe have received your payment of {payment_amount} on {payment_date} (ref. {payment_number}). Thank you.\n\n{company_name}"
+            },
+            "ms": {
+                "subject": "Bayaran diterima – {payment_number}",
+                "body": "Yang dihormati {customer_name},\n\nKami telah menerima bayaran anda sebanyak {payment_amount} pada {payment_date} (ruj. {payment_number}). Terima kasih.\n\n{company_name}"
+            },
+            "zh": {
+                "subject": "已收到付款 – {payment_number}",
+                "body": "尊敬的 {customer_name}：\n\n我们已于 {payment_date} 收到您的付款 {payment_amount}（编号 {payment_number}）。谢谢。\n\n{company_name}"
+            },
+            "ar": {
+                "subject": "تم استلام الدفعة – {payment_number}",
+                "body": "عزيزي {customer_name}،\n\nاستلمنا دفعتك بمبلغ {payment_amount} بتاريخ {payment_date} (المرجع {payment_number}). شكرًا لك.\n\n{company_name}"
+            }
+        }
+    },
+    {
+        "channel": "email",
+        "slug": "payment_reminder",
+        "name": "Payment Reminder",
+        "module": "general",
+        "from_name": "{company_name}",
+        "variables": [
+            "company_name",
+            "customer_name",
+            "invoice_number",
+            "balance_due",
+            "due_date"
+        ],
+        "contents": {
+            "en": {
+                "subject": "Reminder: invoice {invoice_number} is due",
+                "body": "Dear {customer_name},\n\nThis is a friendly reminder that {balance_due} on invoice {invoice_number} was due on {due_date}. Please arrange payment at your earliest convenience.\n\nIf you have already paid, kindly ignore this message.\n\n{company_name}"
+            },
+            "ms": {
+                "subject": "Peringatan: invois {invoice_number} perlu dibayar",
+                "body": "Yang dihormati {customer_name},\n\nIni peringatan mesra bahawa {balance_due} bagi invois {invoice_number} perlu dibayar pada {due_date}. Sila jelaskan bayaran secepat mungkin.\n\nJika anda telah membayar, sila abaikan mesej ini.\n\n{company_name}"
+            },
+            "zh": {
+                "subject": "提醒：发票 {invoice_number} 已到期",
+                "body": "尊敬的 {customer_name}：\n\n温馨提醒，发票 {invoice_number} 的未付金额 {balance_due} 已于 {due_date} 到期，请尽快安排付款。\n\n如您已付款，请忽略此邮件。\n\n{company_name}"
+            },
+            "ar": {
+                "subject": "تذكير: الفاتورة {invoice_number} مستحقة",
+                "body": "عزيزي {customer_name}،\n\nنذكّرك بأن مبلغ {balance_due} على الفاتورة {invoice_number} كان مستحقًا في {due_date}. يُرجى ترتيب الدفع في أقرب وقت.\n\nإذا كنت قد دفعت بالفعل، يُرجى تجاهل هذه الرسالة.\n\n{company_name}"
+            }
+        }
+    },
+    {
+        "channel": "email",
+        "slug": "proposal_send",
+        "name": "Proposal Send",
+        "module": "general",
+        "from_name": "{company_name}",
+        "variables": [
+            "company_name",
+            "customer_name",
+            "proposal_number",
+            "proposal_total",
+            "proposal_url"
+        ],
+        "contents": {
+            "en": {
+                "subject": "Proposal {proposal_number} from {company_name}",
+                "body": "Dear {customer_name},\n\nPlease find our proposal {proposal_number} for {proposal_total}. You can review and accept it at {proposal_url}.\n\nWe look forward to working with you,\n{company_name}"
+            },
+            "ms": {
+                "subject": "Cadangan {proposal_number} daripada {company_name}",
+                "body": "Yang dihormati {customer_name},\n\nBersama ini cadangan kami {proposal_number} berjumlah {proposal_total}. Anda boleh menyemak dan menerimanya di {proposal_url}.\n\nKami berharap dapat bekerjasama dengan anda,\n{company_name}"
+            },
+            "zh": {
+                "subject": "来自 {company_name} 的报价 {proposal_number}",
+                "body": "尊敬的 {customer_name}：\n\n附上我们的报价 {proposal_number}，金额为 {proposal_total}。您可以在 {proposal_url} 查看并接受。\n\n期待与您合作，\n{company_name}"
+            },
+            "ar": {
+                "subject": "العرض {proposal_number} من {company_name}",
+                "body": "عزيزي {customer_name}،\n\nمرفق عرضنا {proposal_number} بمبلغ {proposal_total}. يمكنك مراجعته وقبوله عبر {proposal_url}.\n\nنتطلع إلى العمل معك،\n{company_name}"
+            }
+        }
+    },
+    {
+        "channel": "email",
+        "slug": "purchase_send",
+        "name": "Purchase Send",
+        "module": "general",
+        "from_name": "{company_name}",
+        "variables": [
+            "company_name",
+            "vendor_name",
+            "purchase_number",
+            "purchase_total"
+        ],
+        "contents": {
+            "en": {
+                "subject": "Purchase {purchase_number} from {company_name}",
+                "body": "Dear {vendor_name},\n\nPlease find our purchase {purchase_number} for {purchase_total}. Kindly confirm delivery details.\n\n{company_name}"
+            },
+            "ms": {
+                "subject": "Pembelian {purchase_number} daripada {company_name}",
+                "body": "Yang dihormati {vendor_name},\n\nBersama ini pembelian kami {purchase_number} berjumlah {purchase_total}. Sila sahkan butiran penghantaran.\n\n{company_name}"
+            },
+            "zh": {
+                "subject": "来自 {company_name} 的采购单 {purchase_number}",
+                "body": "尊敬的 {vendor_name}：\n\n附上我们的采购单 {purchase_number}，金额为 {purchase_total}。请确认交货详情。\n\n{company_name}"
+            },
+            "ar": {
+                "subject": "أمر الشراء {purchase_number} من {company_name}",
+                "body": "عزيزي {vendor_name}،\n\nمرفق أمر الشراء {purchase_number} بمبلغ {purchase_total}. يُرجى تأكيد تفاصيل التسليم.\n\n{company_name}"
+            }
+        }
+    },
+    {
+        "channel": "email",
+        "slug": "purchase_payment_create",
+        "name": "Purchase Payment Create",
+        "module": "general",
+        "from_name": "{company_name}",
+        "variables": [
+            "company_name",
+            "vendor_name",
+            "payment_number",
+            "payment_amount",
+            "payment_date"
+        ],
+        "contents": {
+            "en": {
+                "subject": "Payment sent – {payment_number}",
+                "body": "Dear {vendor_name},\n\nWe have paid {payment_amount} on {payment_date} (ref. {payment_number}).\n\n{company_name}"
+            },
+            "ms": {
+                "subject": "Bayaran dihantar – {payment_number}",
+                "body": "Yang dihormati {vendor_name},\n\nKami telah membayar {payment_amount} pada {payment_date} (ruj. {payment_number}).\n\n{company_name}"
+            },
+            "zh": {
+                "subject": "已付款 – {payment_number}",
+                "body": "尊敬的 {vendor_name}：\n\n我们已于 {payment_date} 支付 {payment_amount}（编号 {payment_number}）。\n\n{company_name}"
+            },
+            "ar": {
+                "subject": "تم إرسال الدفعة – {payment_number}",
+                "body": "عزيزي {vendor_name}،\n\nدفعنا {payment_amount} بتاريخ {payment_date} (المرجع {payment_number}).\n\n{company_name}"
+            }
+        }
+    },
+    {
+        "channel": "notification",
+        "slug": "new_user",
+        "name": "New User",
+        "module": "general",
+        "from_name": null,
+        "variables": ["name", "email"],
+        "contents": {
+            "en": {
+                "subject": null,
+                "body": "New user {name} ({email}) was created."
+            },
+            "ms": {
+                "subject": null,
+                "body": "Pengguna baharu {name} ({email}) telah dicipta."
+            },
+            "zh": {
+                "subject": null,
+                "body": "已创建新用户 {name}（{email}）。"
+            },
+            "ar": {
+                "subject": null,
+                "body": "تم إنشاء مستخدم جديد {name} ({email})."
+            }
+        }
+    },
+    {
+        "channel": "notification",
+        "slug": "new_sales_invoice",
+        "name": "New Sales Invoice",
+        "module": "general",
+        "from_name": null,
+        "variables": ["invoice_number", "customer_name", "invoice_total"],
+        "contents": {
+            "en": {
+                "subject": null,
+                "body": "Sales invoice {invoice_number} for {customer_name} ({invoice_total}) was created."
+            },
+            "ms": {
+                "subject": null,
+                "body": "Invois jualan {invoice_number} untuk {customer_name} ({invoice_total}) telah dicipta."
+            },
+            "zh": {
+                "subject": null,
+                "body": "已为 {customer_name} 创建销售发票 {invoice_number}（{invoice_total}）。"
+            },
+            "ar": {
+                "subject": null,
+                "body": "تم إنشاء فاتورة المبيعات {invoice_number} لـ {customer_name} ({invoice_total})."
+            }
+        }
+    },
+    {
+        "channel": "notification",
+        "slug": "sales_invoice_status_updated",
+        "name": "Sales Invoice Status Updated",
+        "module": "general",
+        "from_name": null,
+        "variables": ["invoice_number", "status"],
+        "contents": {
+            "en": {
+                "subject": null,
+                "body": "Sales invoice {invoice_number} is now {status}."
+            },
+            "ms": {
+                "subject": null,
+                "body": "Invois jualan {invoice_number} kini {status}."
+            },
+            "zh": {
+                "subject": null,
+                "body": "销售发票 {invoice_number} 状态已更新为 {status}。"
+            },
+            "ar": {
+                "subject": null,
+                "body": "فاتورة المبيعات {invoice_number} أصبحت {status}."
+            }
+        }
+    },
+    {
+        "channel": "notification",
+        "slug": "new_proposal",
+        "name": "New Proposal",
+        "module": "general",
+        "from_name": null,
+        "variables": ["proposal_number", "customer_name"],
+        "contents": {
+            "en": {
+                "subject": null,
+                "body": "Proposal {proposal_number} for {customer_name} was created."
+            },
+            "ms": {
+                "subject": null,
+                "body": "Cadangan {proposal_number} untuk {customer_name} telah dicipta."
+            },
+            "zh": {
+                "subject": null,
+                "body": "已为 {customer_name} 创建报价 {proposal_number}。"
+            },
+            "ar": {
+                "subject": null,
+                "body": "تم إنشاء العرض {proposal_number} لـ {customer_name}."
+            }
+        }
+    },
+    {
+        "channel": "notification",
+        "slug": "proposal_status_updated",
+        "name": "Proposal Status Updated",
+        "module": "general",
+        "from_name": null,
+        "variables": ["proposal_number", "status"],
+        "contents": {
+            "en": {
+                "subject": null,
+                "body": "Proposal {proposal_number} is now {status}."
+            },
+            "ms": {
+                "subject": null,
+                "body": "Cadangan {proposal_number} kini {status}."
+            },
+            "zh": {
+                "subject": null,
+                "body": "报价 {proposal_number} 状态已更新为 {status}。"
+            },
+            "ar": {
+                "subject": null,
+                "body": "العرض {proposal_number} أصبح {status}."
+            }
+        }
+    },
+    {
+        "channel": "notification",
+        "slug": "new_purchase_invoice",
+        "name": "New Purchase Invoice",
+        "module": "general",
+        "from_name": null,
+        "variables": ["invoice_number", "vendor_name", "invoice_total"],
+        "contents": {
+            "en": {
+                "subject": null,
+                "body": "Purchase invoice {invoice_number} from {vendor_name} ({invoice_total}) was recorded."
+            },
+            "ms": {
+                "subject": null,
+                "body": "Invois pembelian {invoice_number} daripada {vendor_name} ({invoice_total}) telah direkodkan."
+            },
+            "zh": {
+                "subject": null,
+                "body": "已记录来自 {vendor_name} 的采购发票 {invoice_number}（{invoice_total}）。"
+            },
+            "ar": {
+                "subject": null,
+                "body": "تم تسجيل فاتورة الشراء {invoice_number} من {vendor_name} ({invoice_total})."
+            }
+        }
+    },
+    {
+        "channel": "notification",
+        "slug": "new_warehouse",
+        "name": "New Warehouse",
+        "module": "general",
+        "from_name": null,
+        "variables": ["warehouse_name"],
+        "contents": {
+            "en": {
+                "subject": null,
+                "body": "Warehouse {warehouse_name} was added."
+            },
+            "ms": {
+                "subject": null,
+                "body": "Gudang {warehouse_name} telah ditambah."
+            },
+            "zh": {
+                "subject": null,
+                "body": "已添加仓库 {warehouse_name}。"
+            },
+            "ar": {
+                "subject": null,
+                "body": "تمت إضافة المستودع {warehouse_name}."
+            }
+        }
+    },
+    {
+        "channel": "notification",
+        "slug": "new_customer",
+        "name": "New Customer",
+        "module": "accounting",
+        "from_name": null,
+        "variables": ["customer_name"],
+        "contents": {
+            "en": {
+                "subject": null,
+                "body": "New customer {customer_name} was added."
+            },
+            "ms": {
+                "subject": null,
+                "body": "Pelanggan baharu {customer_name} telah ditambah."
+            },
+            "zh": {
+                "subject": null,
+                "body": "已添加新客户 {customer_name}。"
+            },
+            "ar": {
+                "subject": null,
+                "body": "تمت إضافة العميل الجديد {customer_name}."
+            }
+        }
+    },
+    {
+        "channel": "notification",
+        "slug": "new_vendor",
+        "name": "New Vendor",
+        "module": "accounting",
+        "from_name": null,
+        "variables": ["vendor_name"],
+        "contents": {
+            "en": {
+                "subject": null,
+                "body": "New vendor {vendor_name} was added."
+            },
+            "ms": {
+                "subject": null,
+                "body": "Vendor baharu {vendor_name} telah ditambah."
+            },
+            "zh": {
+                "subject": null,
+                "body": "已添加新供应商 {vendor_name}。"
+            },
+            "ar": {
+                "subject": null,
+                "body": "تمت إضافة المورد الجديد {vendor_name}."
+            }
+        }
+    },
+    {
+        "channel": "notification",
+        "slug": "new_revenue",
+        "name": "New Revenue",
+        "module": "accounting",
+        "from_name": null,
+        "variables": ["amount", "category"],
+        "contents": {
+            "en": {
+                "subject": null,
+                "body": "Revenue of {amount} was recorded under {category}."
+            },
+            "ms": {
+                "subject": null,
+                "body": "Hasil sebanyak {amount} direkodkan di bawah {category}."
+            },
+            "zh": {
+                "subject": null,
+                "body": "已在 {category} 下记录收入 {amount}。"
+            },
+            "ar": {
+                "subject": null,
+                "body": "تم تسجيل إيراد بمبلغ {amount} ضمن {category}."
+            }
+        }
+    },
+    {
+        "channel": "notification",
+        "slug": "new_expense",
+        "name": "New Expense",
+        "module": "accounting",
+        "from_name": null,
+        "variables": ["amount", "category"],
+        "contents": {
+            "en": {
+                "subject": null,
+                "body": "Expense of {amount} was recorded under {category}."
+            },
+            "ms": {
+                "subject": null,
+                "body": "Perbelanjaan sebanyak {amount} direkodkan di bawah {category}."
+            },
+            "zh": {
+                "subject": null,
+                "body": "已在 {category} 下记录支出 {amount}。"
+            },
+            "ar": {
+                "subject": null,
+                "body": "تم تسجيل مصروف بمبلغ {amount} ضمن {category}."
+            }
+        }
+    }
+]

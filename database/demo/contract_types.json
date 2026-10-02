@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Business Process Outsourcing (BPO)",
+        "is_active": false
+    },
+    {
+        "name": "Training & Education Contract",
+        "is_active": false
+    },
+    {
+        "name": "Software License Agreement",
+        "is_active": true
+    },
+    {
+        "name": "Security Services Agreement",
+        "is_active": true
+    },
+    {
+        "name": "Hosting Services Contract",
+        "is_active": true
+    },
+    {
+        "name": "API License Agreement",
+        "is_active": true
+    },
+    {
+        "name": "Technology Partnership Agreement",
+        "is_active": true
+    },
+    {
+        "name": "Professional Services Contract",
+        "is_active": true
+    },
+    {
+        "name": "Vendor Service Agreement",
+        "is_active": true
+    },
+    {
+        "name": "Data Processing Agreement",
+        "is_active": true
+    },
+    {
+        "name": "Software Development Agreement",
+        "is_active": true
+    },
+    {
+        "name": "Statement of Work (SOW)",
+        "is_active": true
+    },
+    {
+        "name": "Master Service Agreement (MSA)",
+        "is_active": true
+    },
+    {
+        "name": "Non-Disclosure Agreement (NDA)",
+        "is_active": true
+    },
+    {
+        "name": "Maintenance & Support Agreement",
+        "is_active": true
+    },
+    {
+        "name": "Consulting Services Contract",
+        "is_active": true
+    },
+    {
+        "name": "Digital Marketing Agreement",
+        "is_active": true
+    },
+    {
+        "name": "SaaS Subscription Contract",
+        "is_active": true
+    },
+    {
+        "name": "Cloud Services Agreement",
+        "is_active": true
+    },
+    {
+        "name": "IT Services Contract",
+        "is_active": true
+    }
+]

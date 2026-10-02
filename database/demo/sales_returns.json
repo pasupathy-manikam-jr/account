@@ -1,0 +1,156 @@
+[
+    {
+        "invoice": 0,
+        "return_date": "2026-05-18",
+        "reason": "defective",
+        "status": "approved",
+        "notes": "Laptop has a dead pixel on the screen.",
+        "credit_note": "applied",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "invoice": 2,
+        "return_date": "2026-05-23",
+        "reason": "defective",
+        "status": "draft",
+        "notes": "Chassis was dented during delivery.",
+        "credit_note": null,
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "invoice": 3,
+        "return_date": "2026-05-28",
+        "reason": "excess_quantity",
+        "status": "completed",
+        "notes": "Customer ordered 3 jeans but received 15.",
+        "credit_note": "applied",
+        "items": [
+            {
+                "item": "Jeans",
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "invoice": 4,
+        "return_date": "2026-06-07",
+        "reason": "wrong_item",
+        "status": "approved",
+        "notes": "Received standard shampoo instead of premium.",
+        "credit_note": "partial",
+        "items": [
+            {
+                "item": "Shampoo",
+                "quantity": 10
+            }
+        ]
+    },
+    {
+        "invoice": 8,
+        "return_date": "2026-06-23",
+        "reason": "defective",
+        "status": "draft",
+        "notes": "Watch strap mechanism is faulty.",
+        "credit_note": null,
+        "items": [
+            {
+                "item": "Watch",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "invoice": 10,
+        "return_date": "2026-07-03",
+        "reason": "defective",
+        "status": "approved",
+        "notes": "Minor swelling.",
+        "credit_note": "approved",
+        "items": [
+            {
+                "item": "Notebook",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "invoice": 13,
+        "return_date": "2026-07-23",
+        "reason": "excess_quantity",
+        "status": "completed",
+        "notes": "Oversized order, returning extra pots.",
+        "credit_note": "draft",
+        "items": [
+            {
+                "item": "Plant Pot",
+                "quantity": 4
+            }
+        ]
+    },
+    {
+        "invoice": 3,
+        "return_date": "2026-08-07",
+        "reason": "other",
+        "status": "approved",
+        "notes": "Packaging was unsatisfactory, returning coffee.",
+        "credit_note": "applied",
+        "items": [
+            {
+                "item": "Coffee",
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "invoice": 4,
+        "return_date": "2026-08-23",
+        "reason": "damaged",
+        "status": "completed",
+        "notes": "Face cream jar was cracked.",
+        "credit_note": "approved",
+        "items": [
+            {
+                "item": "Face Cream",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "invoice": 8,
+        "return_date": "2026-09-02",
+        "reason": "wrong_item",
+        "status": "draft",
+        "notes": "Returned 2 jeans due to size mismatch.",
+        "credit_note": null,
+        "items": [
+            {
+                "item": "Jeans",
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "invoice": 13,
+        "return_date": "2026-09-17",
+        "reason": "defective",
+        "status": "approved",
+        "notes": "Cordless drill trigger is sticking.",
+        "credit_note": "draft",
+        "items": [
+            {
+                "item": "Cordless Drill Machine",
+                "quantity": 1
+            }
+        ]
+    }
+]
