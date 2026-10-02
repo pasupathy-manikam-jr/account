@@ -1673,5 +1673,6 @@
     "wrong item": "错误商品",
     "{1} :count file uploaded.|[2,*] :count files uploaded.": "{1} 已上传 :count 个文件。|[2,*] 已上传 :count 个文件。",
     "User Manual": "用户手册",
-    "How to use each part of the system.": "如何使用系统的各个部分。"
+    "How to use each part of the system.": "如何使用系统的各个部分。",
+    "Contents": "目录"
 }
