@@ -6,6 +6,71 @@ Every amount that moves money is posted to the ledger as balanced debit and cred
 
 ---
 
+## Installation
+
+**Requirements:** PHP 8.4, Composer, Node.js 22, and MySQL 8 (or SQLite for a quick try).
+
+```bash
+git clone https://github.com/pasupathy-manikam-jr/account.git
+cd account
+composer setup            # installs packages, creates .env, generates the key, migrates, builds the frontend
+```
+
+To use MySQL, create an empty database and set it in `.env` before migrating:
+
+```dotenv
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=account
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+
+Then run `php artisan migrate`.
+
+### Seed the data
+
+```bash
+php artisan db:seed
+```
+
+The seeders are included (`database/seeders`, with their data in `database/demo/*.json`). They load:
+
+- the roles and permissions, settings, and email and notification templates,
+- the chart of accounts, bank accounts and opening balances,
+- a full set of Malaysian sample records: customers, vendors, warehouses, items, proposals, invoices, returns, retainers, contracts, payments, revenue and expenses, transfers, goals, budgets, assets and media,
+- 52 users across every role.
+
+Seeding is safe to run again: it updates existing records instead of duplicating them. To start over, run `php artisan migrate:fresh --seed`.
+
+**Sample logins** (password `Zx123456` for all):
+
+| Role    | Email                                        |
+| ------- | -------------------------------------------- |
+| Company | `company@example.com` or `admin@example.com` |
+| Staff   | `aisyah.rahman@example.com`                  |
+| Client  | `nazri.abdullah@example.com`                 |
+| Vendor  | `kokleong.chan@example.com`                  |
+
+Every seeded login is listed in `database/demo/users.json`.
+
+### Run it
+
+```bash
+composer dev              # the app server and Vite together
+```
+
+Open http://localhost:8000. For a production server, build the frontend (`npm run build`) and point the web server at `public/`.
+
+### Checks
+
+```bash
+composer ci:check         # lint, TypeScript, Pint, PHPStan and the test suite
+```
+
+---
+
 ## 1. Getting started
 
 ### 1.1 Signing in
