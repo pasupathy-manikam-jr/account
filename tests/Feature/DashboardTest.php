@@ -31,7 +31,7 @@ class DashboardTest extends TestCase
         $this->get(route('user-manual'))->assertRedirect(route('login'));
 
         $this->actingAs($this->userWithRole('client'))->get(route('user-manual'))->assertOk()
-            ->assertInertia(fn ($page) => $page->component('user-manual')->where('html', fn (string $html) => str_contains($html, '<h2>2. Dashboard</h2>')));
+            ->assertInertia(fn ($page) => $page->component('user-manual')->where('html', fn (string $html) => str_contains($html, '<h2>2. Dashboard</h2>') && ! str_contains($html, 'Installation') && substr_count($html, '<hr />') === 8));
     }
 
     public function test_company_lands_on_the_account_dashboard_and_portal_users_get_a_welcome_page()

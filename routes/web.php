@@ -17,9 +17,12 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', DashboardController::class)->middleware('permission:manage-dashboard')->name('dashboard');
     Route::get('dashboard/account', [DashboardController::class, 'account'])->middleware('permission:manage-account-dashboard')->name('account.dashboard');
 
-    // The manual is the README, so the repo and the app never drift apart.
+    // The manual is the README, so the repo and the app never drift apart; its Installation section is for developers only.
     Route::get('user-manual', fn () => Inertia::render('user-manual', [
-        'html' => Str::markdown(File::get(base_path('README.md')), ['html_input' => 'escape']),
+        'html' => Str::markdown(
+            preg_replace('/^## Installation\n.*?^---\n/ms', '', File::get(base_path('README.md'))) ?? '',
+            ['html_input' => 'escape'],
+        ),
     ]))->name('user-manual');
 });
 
