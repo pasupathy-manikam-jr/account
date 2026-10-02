@@ -1671,5 +1671,7 @@
     "unit price": "سعر الوحدة",
     "vendor": "المورد",
     "wrong item": "صنف خاطئ",
-    "{1} :count file uploaded.|[2,*] :count files uploaded.": "{1} تم رفع ملف واحد.|[2,*] تم رفع :count ملفات."
+    "{1} :count file uploaded.|[2,*] :count files uploaded.": "{1} تم رفع ملف واحد.|[2,*] تم رفع :count ملفات.",
+    "User Manual": "دليل المستخدم",
+    "How to use each part of the system.": "كيفية استخدام كل جزء من النظام."
 }

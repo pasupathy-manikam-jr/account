@@ -17,7 +17,7 @@ import {
     ShoppingCart,
     Users,
 } from 'lucide-react';
-import { companySettings, mediaLibrary } from '@/routes';
+import { companySettings, mediaLibrary, userManual } from '@/routes';
 import account from '@/routes/account';
 import asset from '@/routes/asset';
 import assets from '@/routes/assets';
@@ -433,6 +433,11 @@ export const navigation: NavSection[] = [
                 href: companySettings(),
                 permission: 'manage-settings',
                 icon: Settings,
+            },
+            {
+                title: 'User Manual',
+                href: userManual(),
+                icon: BookOpen,
             },
         ],
     },

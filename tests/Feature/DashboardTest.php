@@ -26,6 +26,14 @@ class DashboardTest extends TestCase
         $response->assertOk();
     }
 
+    public function test_every_role_can_read_the_user_manual(): void
+    {
+        $this->get(route('user-manual'))->assertRedirect(route('login'));
+
+        $this->actingAs($this->userWithRole('client'))->get(route('user-manual'))->assertOk()
+            ->assertInertia(fn ($page) => $page->component('user-manual')->where('html', fn (string $html) => str_contains($html, '<h2>2. Dashboard</h2>')));
+    }
+
     public function test_company_lands_on_the_account_dashboard_and_portal_users_get_a_welcome_page()
     {
         $this->seed([RolesSeeder::class, UserSeeder::class]);

@@ -1671,5 +1671,7 @@
     "unit price": "harga seunit",
     "vendor": "vendor",
     "wrong item": "item salah",
-    "{1} :count file uploaded.|[2,*] :count files uploaded.": "{1} :count fail dimuat naik.|[2,*] :count fail dimuat naik."
+    "{1} :count file uploaded.|[2,*] :count files uploaded.": "{1} :count fail dimuat naik.|[2,*] :count fail dimuat naik.",
+    "User Manual": "Manual Pengguna",
+    "How to use each part of the system.": "Cara menggunakan setiap bahagian sistem."
 }
