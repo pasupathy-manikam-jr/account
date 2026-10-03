@@ -101,7 +101,8 @@
     "extra": {
         "laravel": {
             "dont-discover": [
-                "jiannius/myinvois"
+                "jiannius/myinvois",
+                "noki/laravel-xml-converter"
             ],
             "installer": {
                 "post-create-project": []
@@ -125,7 +126,7 @@
             "type": "vcs",
             "url": "https://github.com/pasupathy-manikam-jr/e-invoice-sdk"
         }
-        ],
+    ],
     "replace": {
         "simplesoftwareio/simple-qrcode": "*"
     }
