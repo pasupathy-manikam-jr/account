@@ -1,0 +1,1 @@
+var e=[`savings`,`debt_reduction`,`expense_reduction`,`revenue`],t=[`low`,`medium`,`high`,`critical`],n=e=>e.replace(/_/g,` `).replace(/\b\w/g,e=>e.toUpperCase()),r=e=>Math.min(100,Math.round(Number(e.current_amount??0)/Math.max(Number(e.target_amount),.01)*100));export{n as i,t as n,r,e as t};

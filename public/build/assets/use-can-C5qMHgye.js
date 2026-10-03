@@ -1,0 +1,1 @@
+import{n as e}from"./jsx-runtime-BhAlOjtF.js";import{u as t}from"./wayfinder-DsAGAPma.js";var n=e();function r(){let e=(0,n.c)(2),{permissions:r}=t().props.auth,i;return e[0]===r?i=e[1]:(i=e=>r.includes(e),e[0]=r,e[1]=i),i}export{r as t};
