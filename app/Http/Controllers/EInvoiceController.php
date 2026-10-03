@@ -21,7 +21,7 @@ use Throwable;
 
 /**
  * LHDN MyInvois: send sales invoices and credit notes, cancel them, check buyer TINs, and keep the company's
- * MyInvois credentials. Submission runs on the queue; the show pages read the result from the e-invoice record.
+ * MyInvois credentials. Everything runs when the user clicks (QUEUE_CONNECTION=sync); the show pages read the result from the e-invoice record.
  */
 class EInvoiceController extends Controller
 {
@@ -66,7 +66,7 @@ class EInvoiceController extends Controller
         } catch (EInvoiceException $e) {
             return $this->toast('error', $e->getMessage());
         } catch (Throwable $e) {
-            // Without a queue the send runs in this request; the e-invoice is already marked failed and logged.
+            // The send runs in this request; the e-invoice is already marked failed and logged.
             report($e);
 
             return $this->toast('error', __('Could not reach LHDN. Please try sending again in a few minutes.'));
