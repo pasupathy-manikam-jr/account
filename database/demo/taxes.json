@@ -1,18 +1,22 @@
 [
     {
         "tax_name": "Sales Tax 10%",
-        "rate": "10.00"
+        "rate": "10.00",
+        "type_code": "01"
     },
     {
         "tax_name": "Sales Tax 5%",
-        "rate": "5.00"
+        "rate": "5.00",
+        "type_code": "01"
     },
     {
         "tax_name": "Service Tax 8%",
-        "rate": "8.00"
+        "rate": "8.00",
+        "type_code": "02"
     },
     {
         "tax_name": "Service Tax 6%",
-        "rate": "6.00"
+        "rate": "6.00",
+        "type_code": "02"
     }
 ]

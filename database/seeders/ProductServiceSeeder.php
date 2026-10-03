@@ -30,7 +30,7 @@ class ProductServiceSeeder extends Seeder
             Unit::query()->firstOrCreate(['unit_name' => $name]);
         }
 
-        /** @var list<array{tax_name: string, rate: string}> $taxes */
+        /** @var list<array{tax_name: string, rate: string, type_code: string}> $taxes */
         $taxes = File::json(database_path('demo/taxes.json'), JSON_THROW_ON_ERROR);
         foreach ($taxes as $row) {
             Tax::query()->updateOrCreate(['tax_name' => $row['tax_name']], $row);
