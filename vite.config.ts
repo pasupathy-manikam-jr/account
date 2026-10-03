@@ -30,11 +30,9 @@ function basePath(): Plugin {
                 return null;
             }
 
-            // The lookahead keeps an already prefixed URL from gaining a second.
-            return code.replace(
-                new RegExp(`(['"\`])/(?!${prefix}[/'"\`?])(?=[a-z])`, 'g'),
-                `$1/${prefix}/`,
-            );
+            // No "already prefixed" check: the source never contains the folder, and this app's own
+            // routes start with /account/ (account.customers.index() is '/account/customers').
+            return code.replace(/(['"`])\/(?=[a-z])/g, `$1/${prefix}/`);
         },
     };
 }
