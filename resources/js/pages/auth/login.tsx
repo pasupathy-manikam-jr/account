@@ -25,7 +25,6 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Spinner } from '@/components/ui/spinner';
 import { useTranslation } from '@/hooks/use-translation';
-import { register } from '@/routes';
 import { store } from '@/routes/login';
 import { request } from '@/routes/password';
 
@@ -75,11 +74,7 @@ const highlights: { icon: LucideIcon; label: string }[] = [
     { icon: FileDown, label: 'PDF for every document' },
 ];
 
-export default function Login({
-    status,
-    canResetPassword,
-    canRegister,
-}: Props) {
+export default function Login({ status, canResetPassword }: Props) {
     const { name } = usePage().props;
     const { t } = useTranslation();
 
@@ -200,18 +195,6 @@ export default function Login({
                                     {processing && <Spinner />}
                                     {t('Login')}
                                 </Button>
-
-                                {canRegister && (
-                                    <div className="text-center text-sm text-muted-foreground">
-                                        {t("Don't have an account?")}{' '}
-                                        <TextLink
-                                            href={register()}
-                                            tabIndex={5}
-                                        >
-                                            {t('Sign up')}
-                                        </TextLink>
-                                    </div>
-                                )}
                             </>
                         )}
                     </Form>
