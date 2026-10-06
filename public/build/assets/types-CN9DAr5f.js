@@ -1,0 +1,1 @@
+var e=e=>e.replace(/_/g,` `).replace(/\b\w/g,e=>e.toUpperCase());export{e as t};

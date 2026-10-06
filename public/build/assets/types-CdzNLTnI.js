@@ -1,0 +1,1 @@
+import{E as e}from"./app-Dgy-UNtf.js";var t=t=>t===`customer`?{routes:e.customerPayments,perm:`customer-payments`,party:`Customer`,title:`Customer Payments`,note:`Credit Notes`}:{routes:e.vendorPayments,perm:`vendor-payments`,party:`Vendor`,title:`Vendor Payments`,note:`Debit Notes`};export{t};
