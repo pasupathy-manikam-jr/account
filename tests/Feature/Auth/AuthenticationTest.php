@@ -3,8 +3,11 @@
 namespace Tests\Feature\Auth;
 
 use App\Models\User;
+use Database\Seeders\RolesSeeder;
+use Database\Seeders\UserSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\RateLimiter;
+use Inertia\Testing\AssertableInertia as Assert;
 use Laravel\Fortify\Features;
 use Tests\TestCase;
 
@@ -17,6 +20,35 @@ class AuthenticationTest extends TestCase
         $response = $this->get(route('login'));
 
         $response->assertOk();
+    }
+
+    public function test_login_screen_hides_demo_logins_by_default()
+    {
+        config(['app.demo_logins' => false]);
+
+        $this->get(route('login'))->assertInertia(fn (Assert $page) => $page
+            ->where('demoLogins', []));
+    }
+
+    public function test_login_screen_offers_seeded_logins_when_enabled()
+    {
+        config(['app.demo_logins' => true]);
+
+        $this->get(route('login'))->assertInertia(fn (Assert $page) => $page
+            ->where('demoLogins.0', ['name' => 'Company', 'email' => 'company@example.com', 'password' => 'Zx123456'])
+            ->where('demoLogins.3.email', 'kokleong.chan@example.com'));
+    }
+
+    public function test_every_quick_login_is_a_seeded_account_that_can_log_in()
+    {
+        $this->seed([RolesSeeder::class, UserSeeder::class]);
+
+        foreach (UserSeeder::quickLogins() as $login) {
+            $this->post(route('login.store'), ['email' => $login['email'], 'password' => $login['password']]);
+
+            $this->assertAuthenticated();
+            $this->post(route('logout'));
+        }
     }
 
     public function test_users_can_authenticate_using_the_login_screen()

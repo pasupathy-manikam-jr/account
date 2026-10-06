@@ -13,6 +13,7 @@ import {
     ShieldCheck,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
+import { useRef } from 'react';
 import AppLogoIcon from '@/components/app-logo-icon';
 import InputError from '@/components/input-error';
 import PasskeyVerify from '@/components/passkey-verify';
@@ -23,15 +24,19 @@ import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Spinner } from '@/components/ui/spinner';
 import { useTranslation } from '@/hooks/use-translation';
 import { store } from '@/routes/login';
 import { request } from '@/routes/password';
 
+type DemoLogin = { name: string; email: string; password: string };
+
 type Props = {
     status?: string;
     canResetPassword: boolean;
     canRegister: boolean;
+    demoLogins: DemoLogin[];
 };
 
 // What the system does, for the panel beside the sign-in form. No figures: this page is public.
@@ -74,9 +79,21 @@ const highlights: { icon: LucideIcon; label: string }[] = [
     { icon: FileDown, label: 'PDF for every document' },
 ];
 
-export default function Login({ status, canResetPassword }: Props) {
+export default function Login({ status, canResetPassword, demoLogins }: Props) {
     const { name } = usePage().props;
     const { t } = useTranslation();
+    const emailRef = useRef<HTMLInputElement>(null);
+    const passwordRef = useRef<HTMLInputElement>(null);
+
+    // The form is uncontrolled, so fill the fields directly.
+    const fill = (email: string) => {
+        const login = demoLogins.find((l) => l.email === email);
+
+        if (login && emailRef.current && passwordRef.current) {
+            emailRef.current.value = login.email;
+            passwordRef.current.value = login.password;
+        }
+    };
 
     return (
         <div className="relative grid min-h-dvh bg-background lg:grid-cols-2">
@@ -119,6 +136,35 @@ export default function Login({ status, canResetPassword }: Props) {
                     >
                         {({ processing, errors }) => (
                             <>
+                                {demoLogins.length > 0 && (
+                                    <div className="grid gap-3 rounded-lg border bg-muted/50 p-4">
+                                        <Label id="quick-login">
+                                            {t('Quick login')}
+                                        </Label>
+                                        <RadioGroup
+                                            aria-labelledby="quick-login"
+                                            onValueChange={fill}
+                                        >
+                                            {demoLogins.map((login) => (
+                                                <Label
+                                                    key={login.email}
+                                                    className="flex cursor-pointer items-center gap-3 font-normal"
+                                                >
+                                                    <RadioGroupItem
+                                                        value={login.email}
+                                                    />
+                                                    <span className="font-medium">
+                                                        {t(login.name)}
+                                                    </span>
+                                                    <span className="truncate text-muted-foreground">
+                                                        {login.email}
+                                                    </span>
+                                                </Label>
+                                            ))}
+                                        </RadioGroup>
+                                    </div>
+                                )}
+
                                 <div className="grid gap-2">
                                     <Label htmlFor="email">
                                         {t('Email address')}{' '}
@@ -129,6 +175,7 @@ export default function Login({ status, canResetPassword }: Props) {
                                     <div className="relative">
                                         <Mail className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground" />
                                         <Input
+                                            ref={emailRef}
                                             id="email"
                                             type="email"
                                             name="email"
@@ -163,6 +210,7 @@ export default function Login({ status, canResetPassword }: Props) {
                                     <div className="relative">
                                         <Lock className="pointer-events-none absolute top-1/2 left-3 z-10 size-4 -translate-y-1/2 text-muted-foreground" />
                                         <PasswordInput
+                                            ref={passwordRef}
                                             id="password"
                                             name="password"
                                             tabIndex={2}

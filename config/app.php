@@ -16,6 +16,13 @@ return [
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
+    | Show the seeded demo accounts as one-click logins on the login page.
+    | Local and demo servers only: it publishes those passwords.
+    */
+
+    'demo_logins' => (bool) env('DEMO_LOGINS', false),
+
+    /*
     |--------------------------------------------------------------------------
     | Application Environment
     |--------------------------------------------------------------------------
